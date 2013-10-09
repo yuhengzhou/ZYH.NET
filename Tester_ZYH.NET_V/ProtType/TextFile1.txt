@@ -1,0 +1,824 @@
+﻿1|#||4|58609|updatePanel|ctl00_ContentPlace_panel_contact_tab|
+            <div class="tabWrapper">
+                <ul class="tab_info tabSummary" id="contact_details_tabs">
+                    <li id="ctl00_ContentPlace_li_contact_fact_sheet" class="selected"><a onclick="doMSPostBack(lbContactFactSheet_id_UID, &#39;&#39;); return false;" id="ctl00_ContentPlace_lbContactFactSheet" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lbContactFactSheet&#39;,&#39;&#39;)">Summary</a></li>
+                    <li id="ctl00_ContentPlace_li_lead_info" class=""><a onclick="doMSPostBack(lbleadinfo_id_UID, &#39;&#39;); return false;" id="ctl00_ContentPlace_lbleadinfo" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lbleadinfo&#39;,&#39;&#39;)">Lead Info</a></li>
+                    <li id="ctl00_ContentPlace_li_contact_details" class=""><a onclick="doMSPostBack(lbcontactdetails_id_UID, &#39;&#39;);  return false;" id="ctl00_ContentPlace_lbcontactdetails" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lbcontactdetails&#39;,&#39;&#39;)">Contact Details</a></li>
+                    <li id="ctl00_ContentPlace_li_properties" class=""><a onclick="doMSPostBack(lbproperties_id_UID, &#39;&#39;); return false;" id="ctl00_ContentPlace_lbproperties" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lbproperties&#39;,&#39;&#39;)">Properties</a></li>
+                    <li id="ctl00_ContentPlace_li_associates" class=""><a onclick="doMSPostBack(lbassociates_id_UID, &#39;&#39;); return false;" id="ctl00_ContentPlace_lbassociates" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lbassociates&#39;,&#39;&#39;)">Family & Friends</a></li>
+                    <li id="ctl00_ContentPlace_li_activities" class=""><a onclick="doMSPostBack(lbActivities_id_UID, &#39;&#39;); return false;" id="ctl00_ContentPlace_lbActivities" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lbActivities&#39;,&#39;&#39;)">Activities</a></li>
+                    <li id="ctl00_ContentPlace_li_listings_closings" class=""><a onclick="doMSPostBack(lblistingsclosings_id_UID, &#39;&#39;); return false;" id="ctl00_ContentPlace_lblistingsclosings" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lblistingsclosings&#39;,&#39;&#39;)">Listings/Closings</a></li>
+                    <li id="ctl00_ContentPlace_li_photos" class=""><a onclick="doMSPostBack(lbPhotos_id_UID, &#39;&#39;); return false;" id="ctl00_ContentPlace_lbPhotos" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lbPhotos&#39;,&#39;&#39;)">Photos</a></li>
+                    <li id="ctl00_ContentPlace_li_notifications" class=""><a onclick="doMSPostBack(lbNotifications_id_UID, &#39;&#39;); return false;" id="ctl00_ContentPlace_lbNotifications" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$lbNotifications&#39;,&#39;&#39;)">Notifications</a></li>
+                </ul>
+            
+                <div class="tabBody">
+                    
+                            
+
+<div name="view_view" id="contactFactSheetPanel" >
+<div class="body summaryWrapper">
+    <div class="contactRightColumn">
+    <!-- Right column -->
+    
+        <!-- place holder for user controls -->
+        <fieldset>
+        
+
+<style type="text/css">
+    .auto-style1 {
+        text-align: right;
+    }
+</style>
+
+<span id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_id1"></span> 
+
+<div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_panel_contact_tab">
+	
+    <div class="tabWrapper">
+        <ul class="tab_info" id="contact_details_tabs">
+            <li id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_liNext" class="selected"><a onclick="_g.upPassThrough=true; doMSPostBack(lbNext, &#39;&#39;); return false;" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_lbNext" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$ActivityInformation$lbNext&#39;,&#39;&#39;)">Next Call/Appt.</a></li>
+            <li id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_liIncomplete"><a onclick="_g.upPassThrough=true; doMSPostBack(lbIncomplete, &#39;&#39;); return false;" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_lbIncomplete" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$ActivityInformation$lbIncomplete&#39;,&#39;&#39;)">Incomplete</a></li>
+            <li id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_liComplete"><a onclick="_g.upPassThrough=true; doMSPostBack(lbComplete, &#39;&#39;); return false;" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_lbComplete" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$ActivityInformation$lbComplete&#39;,&#39;&#39;)">Complete</a></li>
+            <li id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_liActionPlan"><a onclick="_g.upPassThrough=true; doMSPostBack(lbActionPlan, &#39;&#39;); return false;" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_lbActionPlan" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$ActivityInformation$lbActionPlan&#39;,&#39;&#39;)">Action Plans</a></li>            
+        </ul>
+    
+        <div class="tabBody actionPlansTab">
+            
+                    <div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_ctl00">
+		
+<div id="nextCall1" >  
+    <table >
+    <tr>
+    <td class="actType" >
+        <span id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_Label3">Call </span>                            
+    </td>
+    <td class="actDetails">
+        <a href="javascript:void(0);" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_call_link" onclick="onOpenActivity(event,&#39;2&#39;);return false;"></a>                                                                                    
+    </td>
+    <td class="actIcon1">
+        <a id="calendarAnchor" href="#" onclick="showCall(this, event, 'ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity');return false;" >                     
+            <img id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_li_datebox" title="Add Call" src="../App_Layout/icons/actions/calendar.png" style="border-width:0px;" />                                
+        </a>   
+    </td>
+    <td class="actIcon2">
+                                 
+    </td>
+    </tr></table> 
+</div>
+<div class="nextAppt">
+    <table>
+    <tr>
+    <td class="actType">
+        <span id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_Label4">Appt </span>                            
+    </td>
+    <td class="actDetails" >
+        <a href="javascript:void(0);" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_appointment_link" onclick="onOpenActivity(event,&#39;1&#39;); return false;"></a>                                                                                    
+    </td>
+    <td class="actIcon1" >
+        <a id="addAppointment" href="#" onclick="showAppointment(this, event, 'ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity');return false;" >                     
+            <img id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_img_next_appointment" title="Add Appointment" src="../App_Layout/icons/actions/clock.png" style="border-width:0px;" />                                
+        </a> 
+    </td>
+    <td class="actIcon2">
+                                 
+    </td>
+    </tr></table> 
+</div>        
+<div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_divProspectList" class="nextAppt prospectList">
+    <table>
+    <tr>
+    <td class="actType">
+        <span id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_Label1">Prospect List </span>                            
+    </td>
+    <td class="actDetails" >
+        <span id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_lbProspectDetail"></span>
+    </td>
+    <td class="actIcon1" >
+        <a id="a2" href="#" onclick="loadExcludeOveryLay($get(address).value);return false;" >                     
+            <img id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_imgExclude" title="Apply Prospect Action" src="../App_Layout/icons/actions/addContact.png" style="border-width:0px;" />                                
+        </a> 
+    </td>
+    <td class="actIcon2">
+                                 
+    </td>
+    </tr></table> 
+</div>                     
+<a id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAction" title="Suggested next actions for this contact" class="nextActionLink" onclick="cancelBublingEvent(event);onNextActionClick(this,$get(address).value);$(&#39;body&#39;).click();return false;" href="javascript:void(0);">Suggested Next Action</a>
+
+<div class="hide">
+<a id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_lbRefresh" class="hide" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$lbRefresh&#39;,&#39;&#39;)">Next Call/Appt</a>
+<input name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$tbActivityId" type="text" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_tbActivityId" />
+</div>
+
+<div class="hide">
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$contact_id1" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_contact_id1" value="{a4830252-6c8e-49e2-9fc0-db595c0db2b4}" />       
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$activityId" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_activityId" />      
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$appointmentId" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_appointmentId" />       
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$nextActionCustomData" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_nextActionCustomData" value="10" />  
+</div>     
+
+	</div>
+
+
+
+<div class="hide">        
+ <div id='NextAppointment' class='warning msgBoxError' >
+    <div class="section_titlebar">
+        <div class="section_titlebarRightCorner">
+            <h2 id="AppointmentTitle">Add Appointment<span class="count"><span id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_count"></span></span></h2>
+        </div>
+    </div>
+    <div class="modalBody">        
+        <div class="body">
+        
+        <div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_ValidationGroupContainer1">
+		
+    
+            <table cellspacing="0" class="formTable modalFormTable" >
+                <tr>
+                    <th scope="row"><label for="activityDescription">Description</label></th>
+                    <td >                
+                        <span id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_scDescription_ScriptManagerProxySCombobox"></span>
+
+  <div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_scDescription_SComboboxCnt" dataBinded="0" webservicesession="0" class="companyPickWrap" imageDeleteIconURL="/TP8i/App_Layout/icons/actions/delete.png" custom_callback="" wsFunction="getCombobox" name="scomboboxRoot" imageEditIconURL="/TP8i/App_Layout/icons/actions/edit_template_name.png" pageSize="50" ComboboxReadOnly="0" comboboxCustomData="{&#39;type&#39;:&#39;descriptions_picklist&#39;,&#39;subtype&#39;:&#39;appointment_description&#39;,&#39;enum&#39;:&#39;1&#39;}" ws="Tpo.Combobox.WebService.Comboboxes" custom_behavior="" wsDllName="Tpo.Combobox.dll">
+   
+    <div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_scDescription" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$scDescription"  class="combobox_cont nowrap2"  custom_control_name="combobox" >   
+      <img  id="imOpenCombobox"  src="/TP8i/App_Layout/icons/open_combobox.gif"  onmousedown="return scombobox_getSCombobox(this).showCombobox(this.event);"   />
+      <input name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$scDescription$txtItemValue" type="text" maxlength="256" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_scDescription_txtItemValue" autocomplete="off" onchange="return scombobox_getSCombobox(this).onValueChange(this);" onkeydown="return scombobox_getSCombobox(this).onkeydownEvent(event);" ctrType="ctscDescription" style="border:0;" /> 
+    </div>
+
+    <div class="nowrap adjust" name="picklist_action_panel" >   
+    
+         <a href='#' onclick='scombobox_getSCombobox(this).addNewComboboxItem(this); return false;' >Add</a>                                                                                     
+                           
+        
+         
+    </div>    
+
+    
+    <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$scDescription$hfItemKey" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_scDescription_hfItemKey" />
+    
+    <div name="expanded_edit_panel" id="expanded_edit_panel">   
+    <div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_scDescription_options" class="options pickList hide" name="pkl_combobox" onscroll="return scombobox_getSCombobox(this).onComboboxBodyScroll(this, event);" style="width: 240px; clear: left; top: 2px;" onclick="return scombobox_getSCombobox(this).onClickSuggestions(this, event);"> 
+                  
+          
+    </div>           
+        
+        
+    <div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_scDescription_div_server_add_edit_panel">                 
+        
+        <div name="add_new_panel" id="add_new_panel"  class="nestedFormWrapper hide">   
+          <div>    
+            <h4>ADD DESCRIPTION</h4> 
+          </div>      
+          <div>                 
+            <input value="" type="text" name="add_new_value" maxlength="256"  onclick="return scombobox_getSCombobox(this).validateInput(this);" onblur="return scombobox_getSCombobox(this).validateInput(this);" onkeydown="return scombobox_getSCombobox(this).onInputKeyDown(this, event);"  onkeypress="return scombobox_getSCombobox(this).onInputKeyDown(this, event);" />
+          </div>         
+          <div class="buttonRow">
+            <input type="button" value="Save" class="button" onclick="return scombobox_getSCombobox(this).addSave(this);" />
+            <input type="button" value="Cancel" class="button" onclick="return scombobox_getSCombobox(this).addCancel(this);" />            
+          </div>
+        </div> 
+
+        <div name="edit_picklist_panel" id="edit_picklist_panel"  class="editform  hide"  >
+          <div class="nestedFormWrapper" >                                   
+              <div class="editWrap">                
+                <input value="" type="text" name="template_new_value" maxlength="256"  onclick="return scombobox_getSCombobox(this).validateInput(this);" onblur="return scombobox_getSCombobox(this).validateInput(this);" onkeydown="return scombobox_getSCombobox(this).onInputKeyDown(this, event);"  onkeypress="return scombobox_getSCombobox(this).onInputKeyDown(this, event);" /> <br/>               
+                <input value="" type="hidden" name="template_old_key" />
+                <input value="" type="hidden" name="template_old_value" />
+              </div> 
+              <div class="buttonRow">
+                <input type="button" value="Save" class="button" onclick="return scombobox_getSCombobox(this).editSave(this);" />
+                <input type="button" value="Cancel" class="button" onclick="return scombobox_getSCombobox(this).editCancel(this);" />            
+              </div>            
+          </div>         
+        </div>  
+    </div>
+    </div> 
+    
+</div>
+               
+                    </td> 
+                </tr>
+                <tr>
+                    <th scope="row"><label for="activityStartDate">Date<span class="required" title="Required field...">*</span></label></th>
+                    <td >
+                        <input name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$dtStartDate" type="text" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_dtStartDate" class="DateBox small" onfocus="Controls.CalendarControl.onFocusIn(this);" onclick="Controls.CalendarControl.onFocusIn(this);" />
+                        <span class="note">YYYY-MM-DD</span>
+                        <div name="validator" class="hide" control="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_dtStartDate" fn="Validator.requiredFn" msg="Start Date: Requires value" group="ValidGroupAppointment" Display='None'></div>                            
+                        <div name="validator" class="hide" control="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_dtStartDate" fn="Validator.ValidateDate" msg="Start Date: Requires valid date value (e.g. 2005-12-01)" group="ValidGroupAppointment"></div>
+                     </td> 
+                </tr>
+                <tr id="time_row">
+                    <th scope="row"><label for="activityStartTime">Time<span class="required" title="Required field...">*</span></label></th>
+                    <td >
+                    <div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_ValidationGroupContainer2">
+			
+                        <div class="wrapper">
+                            <div id="time_panel" class="nowrap">
+                                <input name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$tbStartTime" type="text" value="7:00 PM" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_tbStartTime" class="small" autocomplete="off" onblur="TimePickerControl.fixValue(this );" onclick="TimePickerControl.showPicker(this,15);" endtime_controlID="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_tbEndTime" />
+                                <span class="note"> to </span>
+                                <input name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$tbEndTime" type="text" value="7:00 PM" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_tbEndTime" class="small" autocomplete="off" onclick="TimePickerControl.showPicker(this,15);" onblur="TimePickerControl.fixValue(this );" />                            
+                            </div>
+                        </div>
+                        <div>
+                            <label><span class="buttonCheckbox"><input id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_cbAllDay" type="checkbox" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$cbAllDay" onclick="onAllDayChanged(this);" /></span>All day</label>
+                        </div>
+
+                        <div name="validator" class="hide" control="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_tbStartTime" fn="Validator.requiredFn" msg="Start time: Requires value" group="ValidGroupAppointment" Display='None'></div>                            
+                        <div name="validator" class="hide" control="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_tbEndTime" fn="Validator.requiredFn" msg="End time: Requires value" group="ValidGroupAppointment" Display='None'></div>                            
+                        
+                        <div name="validator" class="hide" control="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_tbStartTime" fn="Validator.customFn" msg="Start time: Requires valid time value (e.g. 12:30)" group="ValidGroupAppointmentTime" custom_fn="validateTime"></div>
+                        <div name="validator" class="hide" control="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_tbEndTime" fn="Validator.customFn" msg="End time: Requires valid time value (e.g. 12:30)" group="ValidGroupAppointmentTime" custom_fn="validateTime"></div>
+                        <div name="validator" class="hide" control="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_tbStartTime" fn="Validator.customFn" msg="the start time you have entered is later than the end time. The start time must be earlier than or the same as the end time." group="ValidGroupAppointmentTime" custom_fn="validateTimeRange"></div>              
+                         
+		</div>       
+                    </td> 
+                </tr>
+                <tr>
+                    <th scope="row"><label for="activityAssignedTo">Assigned to</label></th>
+                    <td>
+                        <select name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$ddlAssignedTo" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_ddlAssignedTo">
+			<option selected="selected" value="40e0d398-be8d-4301-ade2-34cde8c60adb">141 joe</option>
+
+		</select>
+                    </td>                                
+                </tr>
+            </table>
+        
+	</div>
+        </div>
+        <br />
+        <div id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_ButtonPanel" class="buttonRow">
+            <input type="submit" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$save" value="Save Appointment" onclick="pts.curPtsGroup=&#39;&#39;; var fnctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_save = function() {if(!ValidateClient(&#39;&#39;)) return false; onDealAppointment(&#39;2&#39;,&#39;0&#39;);}; if(delegate(this, fnctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_save)()) {pts.removeGroup(&#39;&#39;); } else { return false;};" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_save" class="button" />
+            <input id="saveview" type="button" class="button" value="Save & View Appointment" onclick="onDealAppointment('2','1');" />
+            <input id="cancel" type="button" class="button " value="Cancel" onclick="onCancelOnNextAppointment();" />
+            <a id="markdone" href="#" onclick="onMarkDone();">Mark Done</a>
+            <a id="viewdetail" href="#" onclick="onViewDetail();">View Details</a>
+            <span class="buttonRowModify">
+<img id="delete" onclick="onDelete();" src="../App_Layout/icons/actions/delete.png" title="Delete Appointment" alt="Delete Appointment"/>
+</span>
+        </div>         
+    </div>
+    <div class="section_footerbar">
+        <div class="section_footerbarRightCorner">&nbsp;</div>
+    </div>
+</div>
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$contactId" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_contactId" value="{a4830252-6c8e-49e2-9fc0-db595c0db2b4}" />
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$activity_id" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_activity_id" />
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$old_start_date" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_old_start_date" />
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$old_description" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_old_description" />
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$old_start_time" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_old_start_time" />
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$old_end_time" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_old_end_time" />
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$old_time_range" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_old_time_range" />
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$NextAppointment$old_assigned_to" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_old_assigned_to" />
+</div>
+
+
+
+    
+
+
+<div class="hide" id="nextActionOverlay" >
+
+</div>
+
+<div class="warning msgBoxError hide" id="excludeOverlay">
+<div class="section_titlebar">
+        <div class="section_titlebarRightCorner">
+                <h2 id="H1"><a alt="" id="closeIcon" class="ir icon actionCloseLight rightHeader" onclick="ModalMsgBox.hide();" ></a>Select Prospect Action</h2>  
+        </div>
+      </div>
+<div class="modalBody">
+        
+        <div id="contactInfoTooltipBody" class="removeContact" >        
+            <table>
+            <tr>
+            <td>
+                <p><label id="excludeText1">I want to remove this contact from my current Prospect List.</label></p>                
+            </td>
+            <td>
+                <input id="btnExlude1" class="button" type="button" onclick="ModalMsgBox.hide();" value="Remove" />
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <p><label id="excludeText2">I want to remove this contact from my current Prospect List.</label></p>                
+            </td>
+            <td>
+                <input id="btnExlude2" class="button" type="button" onclick="ModalMsgBox.hide();" value="Exclude" />
+            </td>
+            </tr>
+            </table>
+        </div>    
+    </div>
+     <div class="section_footerbar">
+        <div class="section_footerbarRightCorner">&nbsp;</div>
+    </div>   
+</div>
+
+
+
+                 
+         </div>
+
+        
+    </div>
+
+     <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$PanelId" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_PanelId" value="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$lbNext" />    
+     <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$ActivityInformation$hfActivityInformationType" id="ctl00_ContentPlace_ContactFactSheet_ActivityInformation_hfActivityInformationType" value="0" />   
+ 
+</div>
+
+<div class="warning msgBoxError hide" id="importantDateOverlaySummary" style="z-index:9999" >
+
+</div>
+
+
+<div class="hide" id="applyPlanOverlay">
+
+</div>
+
+
+<div class='hide'>	
+	<div id='msgBoxPrecedingActivity' class='warning msgBoxError'>
+	    <div class='section_titlebar'>
+	        <div class='section_titlebarRightCorner'>
+	            <h2 id='msgBoxReloginTitle'>Set Completion date</h2>
+	        </div>
+	    </div>
+        <div class='modalBody'>
+            Set completion date for: <span id="idActivityDescription"></span>
+            <p>
+            There are dependant activities associated with this activity that are set to occur
+            a number of days after this activity is completed. Please set the completion date of this
+            activity so the dependant activities can adjust accordingly.            
+            </p>                 
+            Completion Date:
+            <input id="dtPrecedingActivityComplete" class="DateBox" style="width:60px"  type="text" onfocus="Controls.CalendarControl.onFocusIn(this);" value="2007-03-14"/> YYYY-MM-DD
+            <div class='buttonRow'>                
+                <input type='button' value='Done' onclick="ModalMsgBox.hide(''); SaveCompletionDateForOne(); " class="button small" />
+                <input type='button' id='Cancel' value='Cancel' onclick='ModalMsgBox.hide("");if (m_caller == 0) { ModalMsgBox.show("NextAppointment"); }return false;' class='small button' />
+            </div>            
+        </div>
+        
+        <div class='section_footerbar'>
+            <div class='section_footerbarRightCorner'>&nbsp;</div>
+        </div>
+    </div>            		
+    <div id='msgBoxPrecedingActivities' class='warning msgBoxError'>
+	    <div class='section_titlebar'>
+	        <div class='section_titlebarRightCorner'>
+	            <h2>Set Completion date      <span class="count"><span id="activityCounter"></span><span id="activityTotal"></span></span></h2>
+	        </div>
+	    </div>
+        <div class='modalBody'>                        
+            Set completion date for: <span id="activityDescription"></span>
+            <p><span id="activityTitle">
+            There are dependant activities associated with this activity that is set to occur after this activity is completed. Set the completion date of this activity so the dependant activities can adjust accordingly.        
+            </span></p>
+            Completion Date:
+            <input id="dtPrecedingActivitiesComplete" class="DateBox" style="width:60px"  type="text" onfocus="Controls.CalendarControl.onFocusIn(this);" onblur="Controls.CalendarControl.onFocusOut(this);" onfocusout="Controls.CalendarControl.onFocusOut(this);"/> YYYY-MM-DD           
+            <div class='buttonRow hide' id='singleActivity'>                
+                <input type='button' value='Done' onclick="ModalMsgBox.hide(''); onSaveCompletionDateForSingle(); " class="button small" />
+                <!--input type='button' id='Cancel' value='Cancel' onclick='ModalMsgBox.hide("");' class='small button' /-->
+            </div>            
+            <div class='buttonRow hide' id='multipleActivities'>                
+                <input type='button' id='btNext' value='Next' onclick="onSaveCompletionDateForSingle(); " class="button small" />
+                <input type='button' id='btRemain' value='Use This Date for all Remaining' onclick="ModalMsgBox.hide('');onSaveCompletionDateForMass(); " class="button large" />
+                <!--input type='button' id='btcancel' value='Cancel' onclick='ModalMsgBox.hide("");' class='small button' /-->
+            </div>            
+        </div>
+        <div class='section_footerbar'>
+            <div class='section_footerbarRightCorner'>&nbsp;</div>
+        </div>
+    </div>
+</div>
+</fieldset>
+        <fieldset>
+        </fieldset>
+        <fieldset>
+            
+
+<script type="text/javascript">
+    function emailDocuments(emailBody) {
+        var hasRecipients = '1' === '1';
+        document.getElementById('ctl00_ContentPlace_ContactFactSheet_DocumentStorage_activeView').value = getActiveView();
+        //below line is for debug purpose
+        //emailBody = "<a href=&quot;https://docs.google.com/document/d/1LsE7r5U3-vIyhSCiItHZdFylvRUVg1imjhLdz_04xdw/preview&quot;>Rich-Del Exec Meeting Agenda Sept 11, 07</a>"; //for testing purpose
+        document.getElementById('ctl00_ContentPlace_ContactFactSheet_DocumentStorage_emailBody').value = emailBody;
+
+        var emailIt = function () {
+            __doPostBack('ctl00$ContentPlace$ContactFactSheet$DocumentStorage$EmailDocument', '');
+        }
+        if (hasRecipients) {
+            emailIt();
+        }else{
+            showNoEmailMsgBox(emailIt);
+        }
+    }
+
+    function showNoEmailMsgBox(cbYesClicked) {
+            var onConfirm=function(action) {
+                if (action == "Yes") {
+                    if (cbYesClicked) { cbYesClicked(); }
+                }
+            }
+            ModalMsgBox.showAlert("msgBoxConfirm",
+            "No Email Addresses",
+            "Oops, there are no email addresses for the selected contact(s). Do you still want to compose an email?",
+            onConfirm,
+            ["Yes", "No"]);
+    }
+
+
+</script>
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$DocumentStorage$activeView" id="ctl00_ContentPlace_ContactFactSheet_DocumentStorage_activeView" />
+<input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$DocumentStorage$emailBody" id="ctl00_ContentPlace_ContactFactSheet_DocumentStorage_emailBody" />
+<div class="widgetColumn">
+<div class="linkDocsHeader">
+    Attachments (<span id="NumberOfDocument">0</span>)
+    <a id="lkOpenFilePicker" class="lkOpenFilePicker docPick" href="javascript:void DocumentStorage1.OpenFilePicker();">Attach</a>
+    <a id="ctl00_ContentPlace_ContactFactSheet_DocumentStorage_EmailDocument" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$DocumentStorage$EmailDocument&#39;,&#39;&#39;)"></a>
+    <a id="emailAllLink" class="docEmail" href="javascript:emailDocuments(DocumentStorage1.docLinks4EmailAll)" style="display:none;">Email All</a>
+    <div id="FilePickerSelector" class="FilePickerSelector" style="display: none; z-index: 98;">
+        <div class="pickerHead">
+            <span>Attach From...</span>
+            <a class="icon pickerClose" href="javascript:void DocumentStorage1.HideFilePicker();"></a>
+        </div>
+        <div class="pickerSource">
+            <a id="lkDropboxChooser" href="javascript:void DocumentStorage1.IEWraning_Dropbox();" class="icon source dBox">Dropbox</a>
+            <a id="lkGooglePicker" href="javascript:void DocumentStorage1.IEWraning_GooglePicker();" class="icon source gDrive">Google Drive</a>
+        </div>
+        <div class="pickerSource pickerDivider">
+            
+        </div>
+    </div>
+</div>
+<div id="ConfirmUnlink" style="display: none; position: absolute; background-color: White; z-index: 99;">
+    <div class="pickerHead">
+        <span>UNLINK ATTACHMENT</span>
+        <a class="icon pickerClose" href="javascript:void">X</a>
+    </div>
+    This attachment will be unlinked. Do you want to continue?
+        <br />
+    <a id="ConfirmUnlinkYes">Yes</a>
+    <a href="javascript:void">No</a>
+</div>
+<div id="DocumentList" class="tabBody linkDocs">
+</div>
+<div id="toggleBox">
+    <a id="lkShowMoreDocuments" class="toggle" href="javascript:void DocumentStorage1.ShowMoreLess();" style="display: none;"><span class="icon more"></span>more</a>
+</div>
+    </div>
+
+</fieldset>
+        <fieldset>
+            <span id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_TPScriptManagerForSocialMedia"></span>
+<div id="hiddenValues">
+    <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$SocialMediaDashboard$FacebookLink" id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_FacebookLink" />
+    <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$SocialMediaDashboard$TwitterLink" id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_TwitterLink" />
+    <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$SocialMediaDashboard$LinkedIdLink" id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_LinkedIdLink" />
+    <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$SocialMediaDashboard$ClientPersonId" id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_ClientPersonId" />
+    <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$SocialMediaDashboard$HelpURL" id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_HelpURL" />
+    <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$SocialMediaDashboard$PostID" id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_PostID" />
+    <input type="hidden" name="ctl00$ContentPlace$ContactFactSheet$SocialMediaDashboard$FBCanPost" id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_FBCanPost" />
+</div>
+<div id="socialmedia" class="tabWrapper ">
+    <ul class="tab_info tabSummary" id="socialmedia_tabs">
+        <li class="selected "><a href="#"
+            onclick="ClosePostInline();CleanupActionLinks();cleanupReplyToPost();toggleSocMedia('1'); return false;"
+            class=""><em class="ir icon actionFacebookTab">
+                Facebook</em>Facebook</a> </li>
+        <li class=""><a href="#" onclick="ClosePostInline();CleanupActionLinks();cleanupReplyToPost();toggleSocMedia('2');return false;"
+            class=""><em class="ir icon actionTwitterTab">
+                Twitter</em>Twitter</a> </li>
+    </ul>
+    <div id="FBSocstatuses" class="statusWrap">
+        <div class="tabBody">
+            
+            <div id="FBPosts">
+                <div id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_noSetupFB">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a id="hplprofileURL" href="#" onclick="redirectPref();" class="widgetLink">Set up to
+                                        get updates</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="TWSocstatuses" class="statusWrap hide">
+        <div class="tabBody">
+            
+            <div id="TWTweets">
+                <div id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_noSetupTW">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a id="hplprofileURL2" href="#" onclick="redirectPref();" class="widgetLink">Set up
+                                        to get updates</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="dvSearchSocialMedia" class="hide warning msgBoxError gridContainer" style="width: 850px;">
+
+    <div id="ovLay">
+        <div class="section_titlebar">
+            <div class="section_titlebarRightCorner">
+                <h2>
+                    Search Results</h2>
+            </div>
+        </div>
+        <div class="modalBody">
+            
+            
+            
+            <div id="close">
+                <input type="button" value="Cancel" class="button" onclick="ModalMsgBox.hide();" />
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="dvPost" class="hide">
+    <div class="postBox">
+        <div id="ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_ValidationGroupContainer2">
+	
+            <span class="hide">
+            <input type="hidden" id="hdnSocPostCounter" value="1" />
+            </span>
+            <label>
+                <textarea id="txtSocMessage" cols="20" rows="3" onkeyup="updateSocPostCounter();"></textarea>
+            </label>
+            <div name="validator" class="hide" control="txtSocMessage" fn="Validator.requiredFn"
+                msg="Text is required." group="ValidGroup">
+            </div>
+            <div id="lengthSocValidator" name="validator" class="hide" control='txtSocMessage'
+                fn="Validator.maxLengthFn" maxlen="140" msg="Text can not be longer than 140 characters"
+                group="ValidGroup">
+            </div>
+            <div class="buttonWrap">
+                <span id="socPostCounter" class="counter">140</span>
+                <input type="button" class="button" id="submitToFacebook" value="Post" onclick="if(Validator.pageValidate('ValidGroupPost')) {PostToClient('1',this);} else return false;" />
+                <input type="button" class="button" id="submitToTwitter" value="Tweet" onclick="if(Validator.pageValidate('ValidGroupPost')) {PostToClient('2',this); } else return false;" />
+                <a onclick="ClosePostInline(this);CleanupActionLinks();cleanupReplyToPost();return false;" class="nextActionLink" href="#">
+                    Cancel </a><span id="socRepolyToPost"></span>
+            </div>
+            <div class="legalText">
+                Please be aware that you must at all times comply with the applicable Twitter terms
+
+                of use. To view such terms of use, please visit <a href="http://www.twitter.com"
+                    target="_blank">www.twitter.com</a>.
+            </div>
+        
+</div>
+    </div>
+</div>
+<div id="RetweetDialog" class="hide">
+    <div class="postBox">
+        <h4>
+            Retweet this to your followers?</h4>
+        <div id="RTWMessage">
+        </div>
+        <div class="buttonWrap">
+            <input type="button" class="button" id="RTWYes" value="Retweet" onclick="RetweetConfirmed();return false;" />
+            <a href="#" class="nextActionLink" onclick="CleanupReTweet();  return false;">Cancel
+            </a>
+        </div>
+        <div class="legalText">
+            Please be aware that you must at all times comply with the applicable Twitter terms
+            of use. To view such terms of use, please visit <a href="http://www.twitter.com"
+                target="_blank">www.twitter.com</a>.
+        </div>
+    </div>
+</div>
+<div id="inviteToConnect" class="hide warning msgBoxError" style="width: 800px;">
+    <div class="section_titlebar">
+        <div class="section_titlebarRightCorner">
+            <h2>
+                Invite To Connect</h2>
+        </div>
+    </div>
+    <div class="modalBody">
+        <div id="connectToBody">
+        </div>
+        <div class="buttonRow modalBody">
+            <input type="button" class="button" value="Close" onclick="ModalMsgBox.hide();" /></div>
+    </div>
+</div>
+<div id="confirmationSMDialog" class="postBox postConfirm hide">
+<span>Your post is complete</span>
+</div>
+
+<script type="text/javascript">
+    DynamicResizing.subscribeObj('connectToBody', '100');  
+</script>
+
+</fieldset>
+        <fieldset>
+        <div id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_msWidget" class="msWidgetWrap">
+<div class="section_titlebar">
+    <h2>Market Snapshot Summary</h2>
+</div>
+    <table cellspacing="0" class="formTable">
+        <tr id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_statusFrequency">
+	<td colspan="2"><span id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_lblActive" class="msActive">Active</span> <span id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_lblFrequency"></span></td>
+</tr>
+
+        <tr>
+            <th># of Snapshot Sent</th>
+            <td><span id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_lblNumOfSent">15</span></td>
+        </tr>
+        <tr>
+            <th># of Snapshot Viewed</th>
+            <td><span id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_lblNumOfViewed">3</span></td>
+        </tr>
+        <tr id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_trLastViewed">
+	<th>Last Viewed</th>
+	<td><span id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_lblLastViewed">2012-06-29 01:01PM</span></td>
+</tr>
+
+        <tr>
+            <td colspan="2">
+                <a onclick="window_open(&#39;http://tmkdevnsrv01.tpolab.com/RTMS/RTMSMain.aspx?cnsmr=0&amp;reportId=EF96E19144584C81BB7F1FD679E36C51&#39;,&#39;&#39;,&#39;scrollbars=yes,resizable=yes,width=880,height=850&#39;);return false;" id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_lbViewSnapshot" class="addPipe" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$marketSnapshotWidget$lbViewSnapshot&#39;,&#39;&#39;)">View Snapshot</a>
+                <a onclick="window_open(&#39;http://tmkdevnsrv01.tpolab.com/ControlPanel/ControlPanelMain.aspx?cF5saW1sQGM6X183NF0vMi0nLywsNyouXDYvJWBbM2AoKV1jMzEyYzEuYS4tIE5danJmaWdRcllwbTkuKikpLi8qKjEeKS4zMCo1KC8fTUcfU3FdcEJgNy8oPC9BLTI2KzpDMUAnLysnMCo7PUMwJTEtPz5AMDo1LTs9QA==&#39;,&#39;&#39;,&#39;scrollbars=yes,resizable=yes,width=880,height=850&#39;);return false;" id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_lbViewDetails" class="addPipe" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$marketSnapshotWidget$lbViewDetails&#39;,&#39;&#39;)">View Details</a>
+                <a onclick="window_open(&#39;http://tmkdevnsrv01.tpolab.com/RTMS/MSCriteria.aspx?agent_id={40E0D398-BE8D-4301-ADE2-34CDE8C60ADB}&amp;contact_id={a4830252-6c8e-49e2-9fc0-db595c0db2b4}&amp;server_lead_id={7AA53685-D461-45F8-99F4-E20C4726C84E}&#39;,&#39;&#39;,&#39;scrollbars=yes,resizable=yes,width=880,height=850&#39;);return false;" id="ctl00_ContentPlace_ContactFactSheet_marketSnapshotWidget_lbCreateNewSnapshot" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$marketSnapshotWidget$lbCreateNewSnapshot&#39;,&#39;&#39;)">Create New Snapshot</a>
+            </td>
+        </tr>
+    </table>
+
+
+</div></fieldset>
+    
+</div>
+     <!-- Left column -->
+    <div class="contactLeftColumn">
+        <div id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_NoteContainer">
+	
+    <div class="tabWrapper">
+        
+        <div class="tabBody">
+            
+                    <span id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_TPScriptManager"></span>
+
+<div id="NotePadContainer" class="withNestedGrid">
+    <span id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_TPScriptManagerForNoteContent"></span>
+
+<a href="#" class="closeNotes" onclick="toggleNotes(); return false;" title="Close full screen notes">Close notes</a>
+<div id="NoteCSTitle"> 
+
+<div class="hide" group="vgEdit" msg="Date: Requires valid date format (e.g. YYYY-MM-DD)" fn="Validator.ValidateDate" control="created_note_date" name="validator"></div>
+<div class="hide" group="vgEdit" msg="Time: Requires valid time value (e.g. 10:00 am)" fn="Validator.ValidateTimeFortimePicker" control="created_note_time" name="validator"></div>
+<div class='hide' control='created_note_time' group='vgEdit' msg='Time: Requires value' fn='Validator.requiredFn'  name='validator'></div>	
+<div class='hide' control='created_note_date' group='vgEdit' msg='Date: Requires value' fn='Validator.requiredFn'  name='validator'></div>	
+
+<div class="hide" group="vgAdd" msg="Date: Requires valid date format (e.g. YYYY-MM-DD)" fn="Validator.ValidateDate" control="created_note_date_add" name="validator"></div>
+<div class="hide" group="vgAdd" msg="Time: Requires valid time value (e.g. 10:00 am)" fn="Validator.ValidateTimeFortimePicker" control="created_note_time_add" name="validator"></div>
+<div class='hide' control='created_note_date_add' group='vgAdd' msg='Date: Requires value' fn='Validator.requiredFn'  name='validator'></div>	
+<div class='hide' control='created_note_time_add' group='vgAdd' msg='Time: Requires value' fn='Validator.requiredFn'  name='validator'></div>	
+
+
+<div id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilterPanel">
+    <div id="contact_note_filter_panel" class="formTable nestedFilter">
+        <label for='note_text' class="columnHead filterName ">Show:</label>
+     
+        <table id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter" class="radioButtonList aspGeneratedWrapper" border="0">
+		<tr>
+			<td><input id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_0" type="radio" name="ctl00$ContentPlace$ContactFactSheet$NotesInTab$ContactNotes$NotePadContent$ContactNoteFilter" value="8" onclick="contactNoteFilter.onClickRadioButton(8);" /><label for="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_0">Contact Only</label></td><td><input id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_1" type="radio" name="ctl00$ContentPlace$ContactFactSheet$NotesInTab$ContactNotes$NotePadContent$ContactNoteFilter" value="4" onclick="contactNoteFilter.onClickRadioButton(4);" /><label for="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_1">Listing</label></td><td><input id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_2" type="radio" name="ctl00$ContentPlace$ContactFactSheet$NotesInTab$ContactNotes$NotePadContent$ContactNoteFilter" value="2" onclick="contactNoteFilter.onClickRadioButton(2);" /><label for="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_2">Closing</label></td><td><input id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_3" type="radio" name="ctl00$ContentPlace$ContactFactSheet$NotesInTab$ContactNotes$NotePadContent$ContactNoteFilter" value="1" onclick="contactNoteFilter.onClickRadioButton(1);" /><label for="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_3">Activity</label></td><td><input id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_4" type="radio" name="ctl00$ContentPlace$ContactFactSheet$NotesInTab$ContactNotes$NotePadContent$ContactNoteFilter" value="15" checked="checked" onclick="contactNoteFilter.onClickRadioButton(15);" /><label for="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_ContactNoteFilter_4">All</label></td>
+		</tr>
+	</table>
+            
+    </div>
+</div>
+		 
+	<div id="noteGrid" class="grid noteUniqueId" webService="Tpo.Notes.WebService.NoteWebService" assemblyName="Tpo.Notes.dll" maxRows="100000" chunkSize="100000" useXFilterAsDefault="false" noDataMessage="There are no notes on file." customInit="onNoteInit">
+
+		<input name="_state" type="hidden" value="({})"/><input id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_noteGrid" name="ctl00$ContentPlace$ContactFactSheet$NotesInTab$ContactNotes$NotePadContent$noteGrid" type="hidden" class="private" value=""/><div class="filter"><div class="filter1"><div class="actionLinks"><ul><li class="firstItem hide"><a href="#" onclick="showAddNoteForm(); hideNoteDetailsPanel(); return false;">Add Note </a></li><li class="firstItem hide"  id="_aPrintNotesUp"><a href="#" onkeypress="PreventSubmitOnKeyPress(this);" onclick="printNotes(); return false;">Print Notes</a></li></ul></div><select name="filter_id" id="filter_id" class="hide" ><option value="{a4830252-6c8e-49e2-9fc0-db595c0db2b4}">Owner</option></select><input name="note_owner_id" id="note_owner_id" type="hidden" value="{a4830252-6c8e-49e2-9fc0-db595c0db2b4}"><input name="note_type" id="note_type" type="hidden" value="7"><input name="agent_name" id="agent_name" type="hidden" value="141 joe"><input name="note_read_only" id="note_read_only" type="hidden" value="false"><input name="time_difference" id="time_difference" type="hidden" value="-240"><input name="need_rerender" id="need_rerender" type="hidden" value="false"><input name="note_screen_mode" id="note_screen_mode" type="hidden" value="full"><input name="note_time" id="note_time" type="hidden" value=""><input name="contact_note_filter" id="contact_note_filter" type="hidden" value="15"></div></div><div id='addNote' class='hide'><fieldset><div class='legend hide'><span>Add Note</span></div><table cellspacing='0' class='formTable'><tr class='hide'><th><label for='note_title'>Title</label></th><td><input type='text'class='large' id='note_title' name='note_title' maxlength='64' alwaysEnableFirstUpper='true' /></td></tr><tr><th><label for='note_text'>New Note<span class='required' title='Required field...'>*</span></label></th><td><div id='add_note_text_div'><textarea id='add_note_text' class='notesView' onkeypress='PreventSubmitOnKeyPress(this);' onfocus='onBodyFocus();' name='add_note_text' rows='2'></textarea><div class='hide' control='add_note_text' group='vgAdd' msg='Note text: Requires value' fn='Validator.requiredFn'  name='validator'></div><div class='hide' control='add_note_text' group='vgAdd' msg='Note text: Maximum allowed is 2800 characters' fn='Validator.maxLengthFn' name='validator' isvalid maxlen='2800'></div><div class='notePickListWrap' id='notePickListWrap'><span class='notePickList'><a class='buttonRowModify' onclick='onAddNewNotePickNoteFromPickList(this); return false;' onkeypress='PreventSubmitOnKeyPress(this);' href='javascript:void()'>Select Note from List</a></span></div></div></td></tr><tr id='noteSubjectRow' class='hide'><th><label for='note_subject' id='note_subject_title'>Type</label></th><td><select name='note_subject' id='note_subject' /></td></tr><tr id='noteDateRow' class='hide'><th><label for='note_date'>Date<span class='required' title='Required field...'>*</span></label></th><td><span><input type='text' id='created_note_date_add' name='created_note_date_add' class='medium' value='' onfocus='Controls.CalendarControl.onFocusIn(this);' onchange='return showingValidator(this, 1);' /> <em>YYYY-MM-DD</em><label>Time<span class='required' title='Required field...'>*</span></label> <input type='text' id='created_note_time_add' name='created_note_time_add' class='medium' onclick='TimePickerControl.showPicker(this,15);showingValidator(this, 2);' onblur='TimePickerControl.fixValue(this, 1);showingValidator(this, 2);' onfocusout='TimePickerControl.fixValue(this, 1);showingValidator(this, 2);'/><label>By</label> <span id='select_agent_span' /></span></td></tr><tr id='noteButtonRow' class='hide'><th></th><td><div class='buttonRowInline'><input type='button' value='Save Note' class='small button' onkeypress='PreventSubmitOnKeyPress(this);' onclick='if(!ValidateClient("vgAdd")) return false; AddNewNote(); return false;' /><a  href='javascript:void()' id='btClear' onkeypress='PreventSubmitOnKeyPress(this);' onclick='clearAddNoteForm(); return false;' class='buttonRowModify'>Clear</a></div></td></tr></table></fieldset></div><div class="xfilter" style="display:none"></div><div class="gridDataWrapper">
+			<div class="refreshCover hide">
+
+			</div><div class="header hide">
+				<table cellspacing="0" class="dataTable">
+					<th width="100%" _w="100%"></th>
+				</table><input name="sortedby" type="hidden" value=""/><input name="sortdir" type="hidden" value=""/>
+			</div><div class="body">
+				<div class="body1">
+					<table cellspacing="0" class="dataTable">
+						<tbody>
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+		</div>
+	</div>
+		
+
+    <div class="actionLinks noteGridButtons" id="noteActionBar">
+    	<div style="float:right">
+        <input type="button" value="View All Notes" id="viewAllNotesBtn" class=" hide" onclick="getAllNotes(); return false;" />
+    </div>	
+    
+	<ul>
+	<li id="_aPrintNotes" ><a href="../8iUserControls/#" id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_aPrintNote" onkeypress="PreventSubmitOnKeyPress(this);" onclick="printNotes(); return false;">Print All Notes</a></li>
+	
+	</ul>
+	</div>
+	
+	<div class='section_footerbar'>
+        <div class='section_footerbarRightCorner'>&nbsp;</div>
+    </div>
+
+	<input name="ctl00$ContentPlace$ContactFactSheet$NotesInTab$ContactNotes$NotePadContent$noteType" type="hidden" id="ctl00_ContentPlace_ContactFactSheet_NotesInTab_ContactNotes_NotePadContent_noteType" value="7" />	
+
+<div id="noteDetailsPanel"><div id="noteDetailsPanel1"><div id="noteDetailsPanel2">
+    <h4 id="noteTitle">&nbsp;</h4>
+		<h5 id="noteSubject">&nbsp;</h5>
+		<div id="noteText">&nbsp;</div>
+		<div class="buttons">
+			<a href="#" onclick="gotoEditMode(); return false">Edit Note</a>
+			<a href="#" onclick="deleteNoteFromDetailsPanel(); return false">Delete</a>								
+		</div>
+		
+		<span class="close" onclick="hideNoteDetailsPanel()"><a href="#" onclick="hideNoteDetailsPanel(); return false;">[close]</a></span>
+		<input type="hidden" id="_noteInfo" />
+		</div>
+		</div>
+</div>
+    
+<div class="hide" id="PopupPickListComboboxOverlay">
+</div>		
+
+<script type="text/javascript">
+    
+    var groupName = 'vgAdd';
+//    var noteParentId = document.getElementById("filter_id");
+//    if (noteParentId)
+//        //document.getElementById("_aPrintNotes").disabled = true;
+//        hide(document.getElementById("_aPrintNotes"));
+        
+    function getOwnerId() {
+      var noteOwnerId = "";
+      if (('{a4830252-6c8e-49e2-9fc0-db595c0db2b4}')!=null) {
+        noteOwnerId = '{a4830252-6c8e-49e2-9fc0-db595c0db2b4}';
+      }
+      return noteOwnerId;
+  }
+</script>
+
+</div>
+</div>   
+                 
+         </div>
+    </div>   
+
+</div>
+    </div>
+
+</div>
+</div>
+
+
+<div class="hide">
+<div id="activity_indicator_full" class="activity_indicator_full" title="Loading...">
+  <span id="span_full_indicator_msg">Please wait while your request is being processed...</span>
+</div>
+</div>
+<div id="ctl00_ContentPlace_ContactFactSheet_LeadInfo" class="actionLinks">
+    <ul class="rightAction"> 
+        <li><a onclick="javascript:_g.upLongIndicator = true;OnDelete(this);return false;" id="ctl00_ContentPlace_ContactFactSheet_lb_delete_contact" class="linkAdd" href="javascript:__doPostBack(&#39;ctl00$ContentPlace$ContactFactSheet$lb_delete_contact&#39;,&#39;&#39;)">Delete Contact</a></li>  
+    </ul>
+</div>
+<div class="footerbar">
+	<div class="footerbarRightCorner">&nbsp;</div>
+</div>
+
+                         
+                 </div>
+            </div>
+             <input type="hidden" name="ctl00$ContentPlace$page_title" id="ctl00_ContentPlace_page_title" value="one time - townhouse 136 (Contact)" />       
+
+         |0|hiddenField|__LASTFOCUS||0|hiddenField|__EVENTTARGET||0|hiddenField|__EVENTARGUMENT||10688|hiddenField|__VIEWSTATE|/wEPDwUKMTkzNjc0NDI4NA8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgJmD2QWAgIBD2QWBgIKD2QWAgIBDw8WAh4HVmlzaWJsZWhkFgwCAg9kFgJmD2QWAgIJDxYCHgVWYWx1ZQUBMGQCAw8PFgQeBFRleHQFBjwgUHJldh4NT25DbGllbnRDbGljawXmAXNhdmVOb3RlSW5NYXNzT3Blbih0aGlzKTtBY3RpdmVMaXN0LmNoZWNrU3RhdGUoJ2N0bDAwX0l0ZW1IZWFkaW5nUGxhY2VfQ29udGFjdFN1bU1PX21hc3Nfb3Blbl9zdGF0ZScsJzEnLCdjdGwwMCRJdGVtSGVhZGluZ1BsYWNlJENvbnRhY3RTdW1NTyRsaW5rUHJldmlvdXMnLCdjdGwwMF9JdGVtSGVhZGluZ1BsYWNlX0NvbnRhY3RTdW1NT19oQnV0dG9uQ2xpY2tlZCcsJzEnLCcnKTtyZXR1cm4gZmFsc2U7ZGQCBA9kFgJmDw8WAh8DBQ1Db250YWN0cyBMaXN0ZGQCBQ8WAh8BaGQCBg8PFgQfAwUGTmV4dCA+HwQF4gFzYXZlTm90ZUluTWFzc09wZW4odGhpcyk7QWN0aXZlTGlzdC5jaGVja1N0YXRlKCdjdGwwMF9JdGVtSGVhZGluZ1BsYWNlX0NvbnRhY3RTdW1NT19tYXNzX29wZW5fc3RhdGUnLCcxJywnY3RsMDAkSXRlbUhlYWRpbmdQbGFjZSRDb250YWN0U3VtTU8kbGlua05leHQnLCdjdGwwMF9JdGVtSGVhZGluZ1BsYWNlX0NvbnRhY3RTdW1NT19oQnV0dG9uQ2xpY2tlZCcsJzInLCcnKTtyZXR1cm4gZmFsc2U7ZGQCBw8PFgIfBAVoaWYgKCBjaGVja0NoYW5nZXMoKSApIHsgX19kb1Bvc3RCYWNrKCdjdGwwMCRJdGVtSGVhZGluZ1BsYWNlJENvbnRhY3RTdW1NTyRMaW5rQ2xvc2UnLCcnKTt9IHJldHVybiBmYWxzZTtkZAIMD2QWBAICD2QWAmYPZBYUAgEPFgIeBWNsYXNzBQhzZWxlY3RlZGQCAw8WAh8FZWQCBQ8WAh8FZWQCBw8WAh8FZWQCCQ8WAh8FZWQCCw8WAh8FZWQCDQ8WAh8FZWQCDw8WAh8FZWQCEQ8WAh8FZWQCEw9kFhBmD2QWAgIBDw8WAh8BZ2QWCgIBD2QWAgIDD2QWAmYPZBYGAgEPFgIfBQUIc2VsZWN0ZWRkAgkPZBYIZg9kFgICAQ9kFgRmD2QWAmYPZBYOAgEPFgQeBXRpdGxlZB4JaW5uZXJodG1sZWQCAg8PFgIeB1Rvb2xUaXAFCEFkZCBDYWxsZGQCAw8WAh8DZWQCBQ8WBB8GZB8HZWQCBg8PFgIfCAUPQWRkIEFwcG9pbnRtZW50ZGQCBw8WAh8DZWQCCA9kFgQCAw8PFgIfA2VkZAIFDw8WAh4ISW1hZ2VVcmwFKX4vQXBwX0xheW91dC9pY29ucy9hY3Rpb25zL2FkZENvbnRhY3QucG5nZGQCAg9kFgQCAw9kFgQCCQ9kFgQCAQ8PFgIfAwUHNzowMCBQTWRkAgMPDxYCHwMFBzc6MDAgUE1kZAILDxAPFgIeC18hRGF0YUJvdW5kZ2QQFQEHMTQxIGpvZRUBJDQwZTBkMzk4LWJlOGQtNDMwMS1hZGUyLTM0Y2RlOGM2MGFkYhQrAwFnZGQCBQ9kFgICAQ8PFgIfBAXlAnB0cy5jdXJQdHNHcm91cD0nJzsgdmFyIGZuY3RsMDBfQ29udGVudFBsYWNlX0NvbnRhY3RGYWN0U2hlZXRfQWN0aXZpdHlJbmZvcm1hdGlvbl9OZXh0QWN0aXZpdHlfTmV4dEFwcG9pbnRtZW50X3NhdmUgPSBmdW5jdGlvbigpIHtpZighVmFsaWRhdGVDbGllbnQoJycpKSByZXR1cm4gZmFsc2U7IG9uRGVhbEFwcG9pbnRtZW50KCcyJywnMCcpO307IGlmKGRlbGVnYXRlKHRoaXMsIGZuY3RsMDBfQ29udGVudFBsYWNlX0NvbnRhY3RGYWN0U2hlZXRfQWN0aXZpdHlJbmZvcm1hdGlvbl9OZXh0QWN0aXZpdHlfTmV4dEFwcG9pbnRtZW50X3NhdmUpKCkpIHtwdHMucmVtb3ZlR3JvdXAoJycpOyB9IGVsc2UgeyByZXR1cm4gZmFsc2U7fWRkAgEPZBYCAgEPZBYCZg88KwAJAGQCAg9kFgICAQ9kFgJmDzwrAAkAZAIDD2QWAgIBD2QWAmYPFgIfBwVAPHRhYmxlIGNlbGxzcGFjaW5nPSIwIiBjbGFzcz0iZm9ybVRhYmxlIG1vZGFsRm9ybVRhYmxlIj48L3RhYmxlPmQCCw8WAh8BaGQCAw9kFgICAg9kFgRmD2QWAgIBD2QWBAIBDw8WAh8DZWRkAgMPDxYCHwNlZGQCAQ8WAh8BZxYCAgEPZBYCAgEPDxYCHwMFqgI8YSBocmVmPScjJyBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb249Jy4uL0VtYWlsL0NvbXBvc2UuYXNweD9yZXR1cm5Vcmw9JTJmVFA4aSUyZkNvbnRhY3RzJTJmVmlld0VkaXRDb250YWN0LmFzcHglM2Zjb250YWN0X2lkJTNkJTI1N2JhNDgzMDI1Mi02YzhlLTQ5ZTItOWZjMC1kYjU5NWMwZGIyYjQlMjU3ZCUyNmFjdGl2ZVZpZXclM2QwJnRvPXpob3V5dWhlbmdAaG90bWFpbC5jb20nOyByZXR1cm4gZmFsc2U7Ij56aG91eXVoZW5nQGhvdG1haWwuY29tPC9hPiAgPHNwYW4gY2xhc3M9J3ByaW1hcnknPlByaW1hcnk8L3NwYW4+ZGQCBw9kFggCCA8WAh8BaBYCZg8PFgIfAWhkZAIJDxYCHwFnZAIKDxYCHwFoFgJmDw8WAh8BaGRkAgsPFgIfAWdkAgkPZBYCZg9kFg4CAQ9kFgJmD2QWAmYPDxYGHwMFBkFjdGl2ZR4IQ3NzQ2xhc3MFCG1zQWN0aXZlHgRfIVNCAgJkZAIDDw8WAh8DBQIxNWRkAgUPDxYCHwMFATNkZAIHDxYCHwFnFgICAQ9kFgJmDw8WAh8DBRIyMDEyLTA2LTI5IDAxOjAxUE1kZAIJDw8WBB8EBbcBd2luZG93X29wZW4oJ2h0dHA6Ly90bWtkZXZuc3J2MDEudHBvbGFiLmNvbS9SVE1TL1JUTVNNYWluLmFzcHg/Y25zbXI9MCZyZXBvcnRJZD1FRjk2RTE5MTQ0NTg0QzgxQkI3RjFGRDY3OUUzNkM1MScsJycsJ3Njcm9sbGJhcnM9eWVzLHJlc2l6YWJsZT15ZXMsd2lkdGg9ODgwLGhlaWdodD04NTAnKTtyZXR1cm4gZmFsc2U7HwFnZGQCCw8PFgQfBAW+AndpbmRvd19vcGVuKCdodHRwOi8vdG1rZGV2bnNydjAxLnRwb2xhYi5jb20vQ29udHJvbFBhbmVsL0NvbnRyb2xQYW5lbE1haW4uYXNweD9jRjVzYVcxc1FHTTZYMTgzTkYwdk1pMG5MeXdzTnlvdVhEWXZKV0JiTTJBb0tWMWpNekV5WXpFdVlTNHRJRTVkYW5KbWFXZFJjbGx3YlRrdUtpa3BMaThxS2pFZUtTNHpNQ28xS0M4ZlRVY2ZVM0ZkY0VKZ055OG9QQzlCTFRJMkt6cERNVUFuTHlzbk1DbzdQVU13SlRFdFB6NUFNRG8xTFRzOVFBPT0nLCcnLCdzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzLHdpZHRoPTg4MCxoZWlnaHQ9ODUwJyk7cmV0dXJuIGZhbHNlOx8BZ2RkAg0PDxYCHwQFnwJ3aW5kb3dfb3BlbignaHR0cDovL3Rta2Rldm5zcnYwMS50cG9sYWIuY29tL1JUTVMvTVNDcml0ZXJpYS5hc3B4P2FnZW50X2lkPXs0MEUwRDM5OC1CRThELTQzMDEtQURFMi0zNENERThDNjBBREJ9JmNvbnRhY3RfaWQ9e2E0ODMwMjUyLTZjOGUtNDllMi05ZmMwLWRiNTk1YzBkYjJiNH0mc2VydmVyX2xlYWRfaWQ9ezdBQTUzNjg1LUQ0NjEtNDVGOC05OUY0LUUyMEM0NzI2Qzg0RX0nLCcnLCdzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzLHdpZHRoPTg4MCxoZWlnaHQ9ODUwJyk7cmV0dXJuIGZhbHNlO2RkAgsPZBYCZg9kFgJmD2QWBAIBD2QWBgIBDxYEHwUFCHNlbGVjdGVkHwFoZAIDDxYEHwVlHwFoZAIFDxYEHwVlHwFoZAIDD2QWBmYPZBYCAgEPZBYCAgIPZBYIAgEPFgIfAWhkAgIPZBYCAgEPEGQQFQUMQ29udGFjdCBPbmx5B0xpc3RpbmcHQ2xvc2luZwhBY3Rpdml0eQNBbGwVBQE4ATQBMgExAjE1FCsDBWdnZ2dnZGQCBQ8WAh8HBQ9QcmludCBBbGwgTm90ZXNkAgYPFgIfAWhkAgEPZBYCAgEPZBYCAgIPZBYKAgEPFgIfAWhkAgIPFgIfAWgWAgIBDxBkZBYAZAIFDxYCHwcFC1ByaW50IE5vdGVzZAIGDxYCHwFoZAIHDxYCHgV2YWx1ZQUBOGQCAg9kFgICAQ9kFgICAg9kFgoCAQ8WAh8BaGQCAg8WAh8BaBYCAgEPEGRkFgBkAgUPFgIfBwULUHJpbnQgTm90ZXNkAgYPFgIfAWhkAgcPFgIfDQUBOWQCAQ9kFgICAQ8PFgIfAWhkFgICBA8PZBYEHgRuYW1lBQllZGl0X3ZpZXcfBQUEaGlkZRYCAgEPZBYIAgEPZBYEAhYPFQEEaGlkZWQCFw8QDxYCHwpnZGQWAGQCAw9kFgYCAQ8QDxYCHwpnZGQWAWZkAgMPEA8WAh8KZ2RkFgFmZAIFDxAPFgIfCmdkZBYBZmQCBQ9kFgwCAQ8PFgIfAwUEMC4wMGRkAgUPDxYCHwMFCjEwMDAwMDAuMDBkZAIPDw8WAh8DBQM4MDBkZAITDw8WAh8DBQEzZGQCFw8PFgIfAwUDMS41ZGQCIw8PFgIfA2VkZAIHDw8WAh8DBQoyMDEzLTA0LTEyZGQCAg9kFgICAQ9kFhoCAQ9kFgICAQ9kFgICAQ9kFgoCAQ9kFgoCAw8WAh8CBQVCdXllcmQCBQ9kFgICAw8PFgIfAwUkNWFjNzdlMWYtNmQ1Mi00NWNhLThlZmYtYTU5NDkxYTcwNzFhZGQCCw8PFgIfA2VkZAIPDxAPFgIfCmdkZBYBZmQCEw8PFgIfAwUkODE4YzdkMTEtMmM2Yi00MWM1LWI3MDUtOGE5NzczNmFjZWE2ZGQCAw9kFgICAw8QDxYCHgdDaGVja2VkaGRkZGQCBQ8PFgIfAWhkZAIHD2QWAgICDxAPFgIfCmdkZBYBZmQCCw9kFhQCCA8PFgIfA2VkZAIQDw8WAh8DZWRkAhgPDxYCHwNlZGQCIA8PFgIfA2VkZAIoDw8WAh8DZWRkAioPZBYCZg9kFgJmDzwrABEDAA8WBB8KZx4LXyFJdGVtQ291bnRmZAEQFgAWABYADBQrAABkAjIPDxYCHwMFJDk0M2I4YWI3LWRiNzctNDEyZS1hM2UxLWVmZGNiODQzNjE3NmRkAjQPZBYCZg9kFgRmDzwrABEDAA8WBB8KZx8QZmQBEBYAFgAWAAwUKwAAZAIBDxUBBFRydWVkAjgPDxYCHwNlZGQCOg9kFgJmD2QWBGYPPCsAEQMADxYEHwpnHxBmZAEQFgAWABYADBQrAABkAgEPFQEFRmFsc2VkAgMPFgIfAgUme2E0ODMwMjUyLTZjOGUtNDllMi05ZmMwLWRiNTk1YzBkYjJiNH1kAgQPFgIfAgUkNWFjNzdlMWYtNmQ1Mi00NWNhLThlZmYtYTU5NDkxYTcwNzFhZAIFDxYCHwIFJDY2NGY5MjFhLWVmODktNDFjZi1iZjllLWFhM2M1YzdjZDkzYmQCBg8WAh8CBSZ7N0FBNTM2ODUtRDQ2MS00NUY4LTk5RjQtRTIwQzQ3MjZDODRFfWQCBw8WAh8CBQE2ZAIIDxYCHwIFATBkAgkPFgIfAmVkAgoPFgIfAgUBMGQCCw8WAh8CZWQCDA8WAh8CBRhvbmUgdGltZSAtIHRvd25ob3VzZSAxMzZkAg0PFgIfAgUaRGVhciBvbmUgdGltZSAtIHRvd25ob3VzZSxkAg4PFgIfAmVkAgMPZBYCAgEPZBYCAgIPZBYCZg9kFgQCBw8WAh8FBQRoaWRlFgICAQ9kFgJmD2QWBgIFDxYCHwIFJnthNDgzMDI1Mi02YzhlLTQ5ZTItOWZjMC1kYjU5NWMwZGIyYjR9ZAIdDw8WAh8BaGQWCgIBDxYCHwFoZAIDDw8WBB8DBQkmbHQ7IFByZXYfBAXcAUFjdGl2ZUxpc3QuY2hlY2tTdGF0ZSgnY3RsMDBfQ29udGVudFBsYWNlX1Byb3BlcnRpZXNfbW9Qcm9wZXJ0eV9tYXNzX29wZW5fc3RhdGUnLCcwJywnY3RsMDAkQ29udGVudFBsYWNlJFByb3BlcnRpZXMkbW9Qcm9wZXJ0eSRsaW5rUHJldmlvdXMnLCdjdGwwMF9Db250ZW50UGxhY2VfUHJvcGVydGllc19tb1Byb3BlcnR5X2hCdXR0b25DbGlja2VkJywnMScsJycpO3JldHVybiBmYWxzZTtkZAIEDxYCHwFoFgJmDw8WBB8DBQtBY3RpdmUgTGlzdB8BaGRkAgYPDxYEHwMFCU5leHQgJmd0Ox8EBdgBQWN0aXZlTGlzdC5jaGVja1N0YXRlKCdjdGwwMF9Db250ZW50UGxhY2VfUHJvcGVydGllc19tb1Byb3BlcnR5X21hc3Nfb3Blbl9zdGF0ZScsJzAnLCdjdGwwMCRDb250ZW50UGxhY2UkUHJvcGVydGllcyRtb1Byb3BlcnR5JGxpbmtOZXh0JywnY3RsMDBfQ29udGVudFBsYWNlX1Byb3BlcnRpZXNfbW9Qcm9wZXJ0eV9oQnV0dG9uQ2xpY2tlZCcsJzInLCcnKTtyZXR1cm4gZmFsc2U7ZGQCBw8PFgIfBAUjamF2YXNjcmlwdDpvdmVyd3JpdGUoKTtyZXR1cm4gdHJ1ZTtkZAIlD2QWBGYPZBYCAgEPZBYCZg9kFgICAQ9kFgICAQ9kFgICAQ9kFgoCBA8QZGQWAWZkAgcPEGRkFgFmZAIIDxBkZBYBZmQCDQ8QZGQWAWZkAg8PEGRkFgEC5wFkAgEPZBYCAgEPZBYCZg9kFgICBA9kFgICAQ9kFgICBQ9kFgICBQ9kFgJmDxBkZBYBZmQCCQ9kFgICAQ9kFgICAQ8WAh8FBQRoaWRlFgICAQ9kFgICAQ9kFg5mDxBkZBYBAgFkAgQPEGRkFgFmZAIHDxBkZBYBZmQCCA8QZGQWAWZkAg0PEGRkFgFmZAIPDxBkZBYBAucBZAIRDxBkZBYBAgFkAgQPZBYCAgEPZBYEAgMPFgIfAgUme2E0ODMwMjUyLTZjOGUtNDllMi05ZmMwLWRiNTk1YzBkYjJiNH1kAgQPZBYCZg9kFgICAQ9kFgICAQ9kFgICFw9kFgICAQ9kFgICAQ9kFgQCAw8QZGQWAGQCHQ8QZGQWAGQCBQ9kFgICAQ9kFgYCAg9kFgICBg8WAh8NBQEwZAIKDxYCHwIFKDE6e2E0ODMwMjUyLTZjOGUtNDllMi05ZmMwLWRiNTk1YzBkYjJiNH1kAgwPFgIfAgUme2E0ODMwMjUyLTZjOGUtNDllMi05ZmMwLWRiNTk1YzBkYjJiNH1kAgYPZBYCAgEPZBYCAgkPZBYCAgUPZBYCAgEPZBYEAgEPDxYCHwQFV2NyZWF0ZUxpc3RpbmdDbG9zaW5nX0FkZENsb3NpbmcoJ3thNDgzMDI1Mi02YzhlLTQ5ZTItOWZjMC1kYjU5NWMwZGIyYjR9Jyk7cmV0dXJuIGZhbHNlO2RkAgMPDxYCHwQFXGNyZWF0ZUxpc3RpbmdDbG9zaW5nX0Zyb21Db250YWN0KCdjbG9zaW5nJyk7IGNyZWF0ZUxpc3RpbmdDbG9zaW5nX2hpZGVEaWFsb2coKTtyZXR1cm4gZmFsc2U7ZGQCBw9kFgICAQ9kFgYCAQ9kFgQCAw8QZGQWAGQCBQ8QZGQWAGQCEQ8WAh8CBSZ7YTQ4MzAyNTItNmM4ZS00OWUyLTlmYzAtZGI1OTVjMGRiMmI0fWQCGw8WAh8CBUpDOlxfd29ya1xUUE9ubGluZVxUUDhpXGEuMV9NYWluXFRQOGlXZWJSb290XGNhY2hleG1sXFBpY3R1cmVNZXJnZUNvZGVzLnhtbGQCCA9kFgQCBw9kFgpmDxYCHgdvbkNsaWNrBZ8Cd2luZG93X29wZW4oJ2h0dHA6Ly90bWtkZXZuc3J2MDEudHBvbGFiLmNvbS9SVE1TL01TQ3JpdGVyaWEuYXNweD9hZ2VudF9pZD17NDBFMEQzOTgtQkU4RC00MzAxLUFERTItMzRDREU4QzYwQURCfSZjb250YWN0X2lkPXthNDgzMDI1Mi02YzhlLTQ5ZTItOWZjMC1kYjU5NWMwZGIyYjR9JnNlcnZlcl9sZWFkX2lkPXs3QUE1MzY4NS1ENDYxLTQ1RjgtOTlGNC1FMjBDNDcyNkM4NEV9JywnJywnc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyx3aWR0aD04ODAsaGVpZ2h0PTg1MCcpO3JldHVybiBmYWxzZTtkAgEPFgIfAWdkAgIPFgQeBXNldHVwBQEwHwFnFgJmDxYCHwMFGnJlYWx0b3IuY29tJnJlZyBNb2JpbGUgQXBwZAIDDxYCHwFoZAIHDxYEHxEFgwF3aW5kb3dfb3BlbignaHR0cDovL3RvcHByb2R1Y2VyaWR4c3RhZ2UuZS1uZXQuY29tL1RXUy9hZG1pbi8nLCcnLCdzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzLHdpZHRoPTc5MCxoZWlnaHQ9NTQwJyk7cmV0dXJuIGZhbHNlOx8BaGQCCQ9kFgICAQ8QZGQWAGQCDg8PZBYCHgNzcmMFMC4uLzhpQmFzaWNDb250cm9scy9VcGxvYWQvSUZyYW1lUGhvdG9VcGxvYWQuYXNweGQYEAUpY3RsMDAkQ29udGVudFBsYWNlJFByb3BlcnRpZXMkbGlzdGluZ190YWIPD2RmZAU9Y3RsMDAkQ29udGVudFBsYWNlJENvbnRhY3REZXRhaWxzJG12X1RhYkJ1dHRvbkNvbnRyb2xzX0JvdHRvbQ8PZGZkBTNjdGwwMCRDb250ZW50UGxhY2UkQ29udGFjdERldGFpbHMkZ3JpZF9PdGhlcndlYnNpdGUPPCsADAEIZmQFRWN0bDAwJENvbnRlbnRQbGFjZSRDb250YWN0RmFjdFNoZWV0JEFjdGl2aXR5SW5mb3JtYXRpb24kbXZJbmZvcm1hdGlvbg8PZGZkBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQVdY3RsMDAkQ29udGVudFBsYWNlJENvbnRhY3RGYWN0U2hlZXQkQWN0aXZpdHlJbmZvcm1hdGlvbiROZXh0QWN0aXZpdHkkTmV4dEFwcG9pbnRtZW50JGNiQWxsRGF5BTRjdGwwMCRDb250ZW50UGxhY2UkQ29udGFjdERldGFpbHMkZ3JpZF9tb3JlX3JlYWRvbmx5DzwrAAwBCGZkBTFjdGwwMCRDb250ZW50UGxhY2UkQ29udGFjdERldGFpbHMkZ3JpZF9PdGhlclBob25lDzwrAAwBCGZkBTpjdGwwMCRDb250ZW50UGxhY2UkQ29udGFjdERldGFpbHMkZ3JpZF9PdGhlclBob25lX3JlYWRvbmx5DzwrAAwBCGZkBStjdGwwMCRDb250ZW50UGxhY2UkQ29udGFjdERldGFpbHMkZ3JpZF9tb3JlDzwrAAwBCGZkBTpjdGwwMCRDb250ZW50UGxhY2UkQ29udGFjdERldGFpbHMkZ3JpZF9PdGhlckVtYWlsX3JlYWRvbmx5DzwrAAwBCGZkBTxjdGwwMCRDb250ZW50UGxhY2UkQ29udGFjdERldGFpbHMkZ3JpZF9PdGhlcldlYnNpdGVfcmVhZG9ubHkPPCsADAEIZmQFQGN0bDAwJENvbnRlbnRQbGFjZSRDb250YWN0RmFjdFNoZWV0JE5vdGVzSW5UYWIkY29udGFjdF9ub3Rlc190YWIPD2RmZAU5Y3RsMDAkQ29udGVudFBsYWNlJEFzc29jaWF0ZXMkbXZfVGFiQnV0dG9uQ29udHJvbHNfQm90dG9tDw9kZmQFOWN0bDAwJENvbnRlbnRQbGFjZSRQcm9wZXJ0aWVzJG12X1RhYkJ1dHRvbkNvbnRyb2xzX0JvdHRvbQ8PZGZkBR5jdGwwMCRDb250ZW50UGxhY2UkY29udGFjdF90YWIPD2RmZAUxY3RsMDAkQ29udGVudFBsYWNlJENvbnRhY3REZXRhaWxzJGdyaWRfT3RoZXJFbWFpbA88KwAMAQhmZLKAwk4Uw/JOpE7RjVqFF6FoTrBZx6Si5akb1RalQyJL|0|asyncPostBackControlIDs|||0|postBackControlIDs|||300|updatePanelIDs||tctl00$ItemHeadingPlace$panel_contact_header,,tctl00$ContentPlace$panel_contact_tab,,tctl00$ContentPlace$ContactFactSheet$ActivityInformation$panel_contact_tab,,tctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$ctl00,,tctl00$ContentPlace$ContactFactSheet$NotesInTab$NoteContainer,|209|childUpdatePanelIDs||ctl00$ContentPlace$ContactFactSheet$ActivityInformation$panel_contact_tab,ctl00$ContentPlace$ContactFactSheet$ActivityInformation$NextActivity$ctl00,ctl00$ContentPlace$ContactFactSheet$NotesInTab$NoteContainer|37|panelsToRefreshIDs||ctl00$ContentPlace$panel_contact_tab,|4|asyncPostBackTimeout||3600|74|formAction||ViewEditContact.aspx?contact_id=%7ba4830252-6c8e-49e2-9fc0-db595c0db2b4%7d|34|pageTitle||one time - townhouse 136 (Contact)|47|scriptBlock|ScriptPath|https://www.dropbox.com/static/api/1/dropbox.js|28|scriptBlock|ScriptPath|https://www.google.com/jsapi|36|scriptBlock|ScriptPath|/TP8i/Contacts/UC/DocumentStorage.js|11|scriptBlock|ScriptPath|LeadInfo.js|37|scriptBlock|ScriptPath|/TP8i/Framework/ScriptLibrary/grid.js|811|scriptStartupBlock|ScriptContentNoTags|var facebookLinkID = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_FacebookLink'
+var twitterLinkID = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_TwitterLink'
+var LinkedIdLinkID = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_LinkedIdLink'
+var clientPersonCID = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_ClientPersonId'
+var lnkFBLink = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_lnkSearch'
+var lnkTWLink = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_lnkSearchTwitter'
+var helpURLID = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_HelpURL'
+var FBCanPostID = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_FBCanPost'
+var postIdCID = 'ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_PostID'
+|20|scriptStartupBlock|ScriptContentNoTags|toggleSocMedia('1');|131|scriptStartupBlock|ScriptContentNoTags|Validator.onload('ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_ValidationGroupContainer1');|131|scriptStartupBlock|ScriptContentNoTags|Validator.onload('ctl00_ContentPlace_ContactFactSheet_ActivityInformation_NextActivity_NextAppointment_ValidationGroupContainer2');|308|scriptStartupBlock|ScriptContentNoTags|Dropbox.init({appKey:"rz55bjfnjk0agz0"});if (typeof $('#DocumentList')[0] !== 'undefined') {var DocumentStorage1 = new DocumentStorage(2, 4, 'a4830252-6c8e-49e2-9fc0-db595c0db2b4','{D0CC91E7-C802-44A5-BC5B-C479E7C4BD67}',true,true,'http://dev.topproducer.com/campus/top-producer/'); DocumentStorage1.Init();}|103|scriptStartupBlock|ScriptContentNoTags|Validator.onload('ctl00_ContentPlace_ContactFactSheet_SocialMediaDashboard_ValidationGroupContainer2');|23|scriptStartupBlock|ScriptContentNoTags|Grid._init('noteGrid');|

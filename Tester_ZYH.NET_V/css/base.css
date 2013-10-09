@@ -1,0 +1,122 @@
+/* ----------------------------------------------------------
+
+	Title: base.css
+	
+	Description: Within this file, you will find our site(s)-
+	wide reset, typography, base widget styling, 
+	
+	Versions:
+	 - 0.1 - 2011-03-08 - Initial Creation and Development
+	
+	Author(s)/Editor(s):
+	 - Eric Ritchey <eric.ritchey@move.com>
+	 - Nick Cairns <nick.cairns@move.com>
+	 - Jason Burachenski <jason.burchenski@move.com>
+	
+	Table of Contents:
+	1. Reset
+	2. Helper Classes
+
+---------------------------------------------------------- */
+
+
+/* 1. Reset ------------- */
+
+
+/* http://maxvoltar.com/archive/-webkit-font-smoothing */
+html { -webkit-font-smoothing: antialiased; }
+
+body, div, 
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, pre, code,
+form, fieldset, legend, input, button, textarea, blockquote,
+table, thead, tfoot, tbody, th, td, caption {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	color: #444;
+}
+iframe { background-color: transparent; }
+p       { margin: 0 0 1em 0; }
+a       { text-decoration: none; }
+.fauxLink:hover,
+a:hover { text-decoration: underline; }
+
+/* 2. Helper Classes ---- */
+.fauxLink   { cursor: pointer; }
+.offStage   { position: absolute; left: -9999px; }
+.hide,.mvDN { display: none;     }
+.blocker    { display: block;    }
+.clearer    { clear: both;       }
+.highlight  { font-weight: bold; }
+.nowrap     { float: left;       }
+.quiet      { color: #acacac;    }
+.microcopy  { font-size: 85%;    }
+
+/* this is a hack and doesn't work in FF. USE SPARINGLY. */
+.ellipsis   {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+.disabled,
+.disabled a       { color: #666; }
+.disabled span    { opacity: .4; }
+.disabled a:hover { text-decoration: none; cursor: default; }
+
+/* Clearfix Method */
+.aol .group:after, /* AOL isn't structured the same as RDC, and they don't have the classes on the <html> tag */
+.W3C .group:after,
+.IE8 .group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+.IE67 .group { zoom: 1; }
+
+/* Icon Replacement Method */
+.ir { height: 0; overflow: hidden; text-indent: -9999px; }
+
+/* Message Declarations */
+.msg {
+	margin: 1em 0;
+	padding: 1em;
+	font-weight: bold;
+	border: 1px solid #fff;
+}
+.msg p { margin-bottom: 0; }
+.error {
+	color: rgb(255,255,255); /* white as fallback */
+	color: rgba(128,0,0,1);
+
+	background: rgb(128,0,0);
+	background: rgba(128,0,0,.3);
+
+	border-color: rgb(128,0,0);
+}
+.warning {
+	color: rgb(204,153,0);
+	color: rgba(204,153,0,1);
+
+	background: rgb(255,255,51);
+	background: rgba(255,255,51,.3);
+
+	border-color: #c90;
+}
+.success {
+	color: rgb(255,255,255); /* white as fallback */
+	color: rgba(51,102,0,1);
+
+	background: rgb(33,103,12);
+	background: rgba(33,103,12,.3);
+
+	border-color: rgb(51,102,0);
+}

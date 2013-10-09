@@ -1,0 +1,6 @@
+﻿1. use Jquery Ajax
+2. Callback data uses XML with nested Json.
+3. history 
+4. if not IsPostback, register script on page
+5. option to set whether update ViewState/ControlState on after call (add to beforeCall EventArg)
+6. add javascript register ready client event

@@ -1,0 +1,88 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Runtime.Serialization.Json;
+using System.IO;
+using System.Text;
+using System.Web.Script.Serialization;
+
+public partial class Prottype_JsonObject : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+    }
+
+    public static string JsSerialize<T>(T obj)
+    {
+        JavaScriptSerializer serializer = new JavaScriptSerializer();
+        string Json = serializer.Serialize(obj);
+        return Json;
+    }
+
+    public static T JsDeserialize<T>(string json)
+    {
+        JavaScriptSerializer serializer = new JavaScriptSerializer();
+        T o = serializer.Deserialize<T>(json);
+        return o;
+    }
+
+    public static string Serialize<T>(T obj)
+    {
+        DataContractJsonSerializer serializer = new DataContractJsonSerializer(obj.GetType());
+
+        MemoryStream ms = new MemoryStream();
+        serializer.WriteObject(ms, obj);
+        string retVal = Encoding.UTF8.GetString(ms.ToArray()); 
+        return retVal;
+    }
+
+    public static T Deserialize<T>(string json)
+    {
+        T obj = Activator.CreateInstance<T>();
+        MemoryStream ms = new MemoryStream(Encoding.Unicode.GetBytes(json));
+        DataContractJsonSerializer serializer = new DataContractJsonSerializer(obj.GetType());
+        obj = (T)serializer.ReadObject(ms);
+        ms.Close();
+        return obj;
+    }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        JsonObject t = new JsonObject();
+        t.ID = "c1";
+        t.Text = "mmx";
+        t.Expire = DateTime.Now.AddHours(-1);
+        t.IsSomething = true;
+        t.Cost = 5.1m;
+        t.Scripts.Add(new Script("sss", true, ScriptTypes.Include));
+        t.Scripts.Add(new Script("56", false, ScriptTypes.Startup));
+
+
+        string j = Serialize<JsonObject>(t);
+        //string j = Serialize<HttpRequest>(this.Request);
+
+        JsonObject t2 = Deserialize<JsonObject>(j);
+    }
+
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        JsonObject t = new JsonObject();
+        t.ID = "c1";
+        t.Text = "mmx";
+        t.Expire = DateTime.Now.AddHours(-1);
+        t.IsSomething = true;
+        t.Cost = 5.1m;
+        t.Scripts.Add(new Script("sss", true, ScriptTypes.Include));
+        t.Scripts.Add(new Script("56", false, ScriptTypes.Startup));
+
+
+        string j = JsSerialize<JsonObject>(t);
+
+        JsonObject t2 = JsDeserialize<JsonObject>(j);
+
+    }
+}
+

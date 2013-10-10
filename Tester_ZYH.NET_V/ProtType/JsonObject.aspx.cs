@@ -86,3 +86,50 @@ public partial class Prottype_JsonObject : System.Web.UI.Page
     }
 }
 
+[Serializable()]
+public class JsonObject
+{
+    public string ID { get; set; }
+    public string Text { get; set; }
+    public DateTime Expire { get; set; }
+    public bool IsSomething { get; set; }
+    public decimal Cost { get; set; }
+    private ScriptCollection _Scripts = new ScriptCollection();
+    public ScriptCollection Scripts { get { return _Scripts; } }
+}
+
+public enum ScriptTypes
+{
+    Include = 1,
+    Block = 2,
+    Startup = 3
+}
+
+[Serializable()]
+public class Script
+{
+    public Script() { }
+    public Script(string key, bool isValid, ScriptTypes type)
+    {
+        Key = key;
+        IsValid = isValid;
+        Type = type;
+    }
+    public string Key { get; set; }
+    public bool IsValid { get; set; }
+    public ScriptTypes Type { get; set; }
+}
+
+[Serializable()]
+public class ScriptCollection : List<Script>
+{
+    public Script this[string Key]
+    {
+        get
+        {
+            var q = this.Where(x => x.Key == Key);
+            return q.FirstOrDefault();
+        }
+    }
+}
+

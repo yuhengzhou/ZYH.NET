@@ -538,7 +538,7 @@ function ShowStudentPerGrade() {
 }
 
 function getLocalDate(argDate) {
-    var monthArray = new Array("January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+    var monthArray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
     var AMPM = " AM";
     var dtUTC = new Date(argDate);
     var dtLocal = new Date(dtUTC.getTime() - (dtUTC.getTimezoneOffset() * 60000));

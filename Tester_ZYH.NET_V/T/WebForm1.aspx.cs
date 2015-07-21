@@ -13,5 +13,14 @@ namespace Tester_ZYH.NET_V.T
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+           // var to = "joe@joemosher.com;joe.mosher@fivestreet.me";
+            var to = "joe@joemosher.com;joe.mosher@fivestreet.me";
+            char[] separator = new char[] { ';', ',' };
+            string[] toList = to.Split(separator);
+
+        }
     }
 }

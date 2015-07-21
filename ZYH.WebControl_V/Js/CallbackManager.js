@@ -626,7 +626,7 @@ function Class_CallbackManager(ClientID, Settings) {
             if (Context.e_BeforeCall.OverrideCallbackManagerSettings.ClientEvent_OnCallTimeOut != '')
             { eval(Context.e_BeforeCall.OverrideCallbackManagerSettings.ClientEvent_OnCallTimeOut)(Context.SenderClientID, Context); }
             else
-            { alert('Processing time out! Please press "Ctrl + F5" to refresh your brower and try again later.'); }
+            { alert('Sorry, we couldn’t complete your request. Wait a minute and then refresh your browser.'); }
         }
         else {
             switch (Context.e_BeforeCall.OverrideCallbackManagerSettings.OnExceptionActions) {
@@ -810,10 +810,10 @@ function Class_CallbackManager(ClientID, Settings) {
         try { document.body.removeChild(ProcessingIcon); } catch (err) { }
     }
 
-    Self.LoadCover = function (Context) {
+    Self.LoadCover = function (Context, zIndex) {
         var ContextHasVaule = true;
-        if (typeof Context === 'undefined') { ContextHasVaule = false; }
-        Cover.style.zIndex = 9990;
+        if (typeof Context === 'undefined' || Context == null) { ContextHasVaule = false; }
+        if (typeof zIndex === 'undefined') { Cover.style.zIndex = 9990; } else { Cover.style.zIndex = zIndex; }
         Cover.style.top = '0px';
         Cover.style.left = '0px';
         Cover.style.background = ContextHasVaule ? Context.e_BeforeCall.OverrideCallbackManagerSettings.CallWaitingCoverColor : Self.Settings.CallWaitingCoverColor;

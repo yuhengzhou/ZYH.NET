@@ -101,6 +101,7 @@
         e_BeforeCall.Ctrl = e.ctrlKey;
         e_BeforeCall.Alt = e.altKey;
         e_BeforeCall.Shift = e.shiftKey;
+        e_BeforeCall.e = e;
         if (Self.Settings.ClientEvent_BeforeCallback_KeyDown != '') { FunBeforeCall = eval(Self.Settings.ClientEvent_BeforeCallback_KeyDown); }
         if (Self.Settings.ClientEvent_AfterCallback_KeyDown != '') { FunAfterCall = eval(Self.Settings.ClientEvent_AfterCallback_KeyDown); }
         eval(Self.Settings.CallbackManagerClientInstance).CallServer(Self.Settings.UniqueID, ClientID, '6', FunBeforeCall, e_BeforeCall, Self.AfterCallProcessing, FunAfterCall);
@@ -114,6 +115,7 @@
         TextBoxLastKeyUp_e_BeforeCall.Ctrl = e.ctrlKey;
         TextBoxLastKeyUp_e_BeforeCall.Alt = e.altKey;
         TextBoxLastKeyUp_e_BeforeCall.Shift = e.shiftKey;
+        TextBoxLastKeyUp_e_BeforeCall.e = e;
 
         TextBoxLastKeyUp_Time = new Date();
         setTimeout(Self.OnKeyUpDeply, Self.Settings.KeyUpEventDelay + 50);

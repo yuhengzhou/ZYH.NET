@@ -15,7 +15,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <iframe id="xxx" height="400" src="../Demo/Default.aspx" width="600" ></iframe>
+    <asp:Button ID="Button1" runat="server" Text="Button" onclick="Button1_Click" />
+    <iframe id="xxx" height="400" src="../Demo/Default.aspx" width="600"></iframe>
     </form>
 </body>
 </html>

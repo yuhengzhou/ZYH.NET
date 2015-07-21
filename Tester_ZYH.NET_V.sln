@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester_ZYH.NET_V", "Tester_ZYH.NET_V\Tester_ZYH.NET_V.csproj", "{85282737-C4FF-4E67-BD7D-B30EC29D2D4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZYH.WebControl_V", "ZYH.WebControl_V\ZYH.WebControl_V.csproj", "{402424FC-2AB9-4AD2-ABC4-53EE768F0F61}"

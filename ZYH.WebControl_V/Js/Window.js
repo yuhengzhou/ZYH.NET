@@ -42,6 +42,13 @@ function Class_Window(ClientID, CallbackOptions, Settings) {
         }
     }
 
+    Self.InnerHtml = $('#' + ClientID + 'InnerHtml').html();
+    Self.Show = function (Title, Html) {
+        if (typeof (Title) === 'undefined') { Title = Self.Settings.Title; }
+        if (typeof (Html) === 'undefined') { Html = Self.InnerHtml; }
+        RenderWindow(Title, Html);
+    }
+
     function RenderWindow(Title, Html) {
         //        var div_Frame = document.createElement('div');
         Self.Control.empty();
@@ -114,7 +121,7 @@ function Class_Window(ClientID, CallbackOptions, Settings) {
             }
             ResetZindex();
             if (Self.Settings.IsModelWindow) {
-                eval(Self.Settings.CallbackManagerClientInstance).LoadCover();
+                eval(Self.Settings.CallbackManagerClientInstance).LoadCover(null, 5000);
             }
             ZYH_WebControl_IV_ActiveWindows.push(Self.Control);
         } else {

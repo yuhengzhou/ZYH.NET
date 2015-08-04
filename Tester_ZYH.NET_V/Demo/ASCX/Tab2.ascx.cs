@@ -11,7 +11,10 @@ namespace Tester_ZYH.NET_V.Demo.ASCX
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            var x = 0;
+            x++;
+            x++;
+            Label1.Text = x.ToString();
         }
     }
 }

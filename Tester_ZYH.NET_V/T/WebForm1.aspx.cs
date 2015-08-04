@@ -22,10 +22,5 @@ namespace Tester_ZYH.NET_V.T
             string[] toList = to.Split(separator);
 
         }
-
-        protected void LinkButton1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

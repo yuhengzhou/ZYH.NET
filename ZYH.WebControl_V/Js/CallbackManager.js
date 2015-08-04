@@ -626,7 +626,7 @@ function Class_CallbackManager(ClientID, Settings) {
             if (Context.e_BeforeCall.OverrideCallbackManagerSettings.ClientEvent_OnCallTimeOut != '')
             { eval(Context.e_BeforeCall.OverrideCallbackManagerSettings.ClientEvent_OnCallTimeOut)(Context.SenderClientID, Context); }
             else
-            { alert('Sorry, we couldn’t complete your request. Please press "Ctrl + F5" to refresh your brower and try again later.'); }
+            { alert('Sorry, we couldn’t complete your request. Wait a minute and then refresh your browser.'); }
         }
         else {
             switch (Context.e_BeforeCall.OverrideCallbackManagerSettings.OnExceptionActions) {
@@ -641,7 +641,6 @@ function Class_CallbackManager(ClientID, Settings) {
                     break;
                 case 2: //'DebugDetail'
                     var w = window.open();
-                    if (w == null) { alert("In order to view debug error message, please set Pop-Up option to \"Always allow pop-ups from localhost\". And try again."); return; }
                     var doc = w.document; //If "w" is null, set Pop-Up option to "Always allow pop-ups from localhost".
                     doc.open();
                     doc.write("Status: " + Status + "<br/>");

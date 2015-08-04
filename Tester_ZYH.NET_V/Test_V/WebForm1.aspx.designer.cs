@@ -49,21 +49,12 @@ namespace Tester_ZYH.NET_V.Test_V {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ZYH.WebControl_V.DropDownList DropDownList1;
-        
-        /// <summary>
-        /// CallbackManager1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZYH.WebControl_V.CallbackManager CallbackManager1;
+        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

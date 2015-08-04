@@ -13,5 +13,11 @@ namespace Tester_ZYH.NET_V.Test_V
         {
 
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            var d = new DateTime(2015, 9, 30);
+            var d2 = d.AddDays(180);
+        }
     }
 }

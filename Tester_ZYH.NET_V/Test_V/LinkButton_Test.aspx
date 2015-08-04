@@ -24,7 +24,7 @@
         </cc1:CallbackManager>
     </div>
     <cc1:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" UpdateViewState="True"
-        CommandArg="xxx" UpdateControlState="True"></cc1:LinkButton>
+        CommandArg="xxx" UpdateControlState="True" ClientIDMode="Static"></cc1:LinkButton>
     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" 
         onselectedindexchanged="DropDownList1_SelectedIndexChanged">
     </asp:DropDownList>

@@ -131,6 +131,7 @@ namespace ZYH.WebControl_V
         public string CssClass_CloseBotton = "";
         public string CssClass_MinimalBotton = "";
 
+        public string Title = "";
     }
     #endregion
 

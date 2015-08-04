@@ -39,6 +39,7 @@ namespace ZYH.WebControl_V
                 this.ControlStyle.AddAttributesToRender(writer, this);
                 if (!this.Enabled) writer.AddAttribute(System.Web.UI.HtmlTextWriterAttribute.Disabled, "disabled");
                 writer.RenderBeginTag(HtmlTextWriterTag.Span);
+                if (this.Height.Value > 0 || this.Width.Value > 0) { writer.AddStyleAttribute(HtmlTextWriterStyle.Height, this.Height.Value + "px"); writer.AddStyleAttribute(HtmlTextWriterStyle.Width, this.Width.Value + "px"); writer.AddStyleAttribute(HtmlTextWriterStyle.OverflowY, "auto"); writer.AddStyleAttribute(HtmlTextWriterStyle.OverflowX, "hidden"); writer.RenderBeginTag(HtmlTextWriterTag.Div); }
                 writer.AddAttribute(HtmlTextWriterAttribute.Id, ClientID);
                 if (CellPadding != -1) writer.AddAttribute(HtmlTextWriterAttribute.Cellpadding, CellPadding.ToString());
                 if (CellSpacing != -1) writer.AddAttribute(HtmlTextWriterAttribute.Cellspacing, CellSpacing.ToString());
@@ -48,6 +49,7 @@ namespace ZYH.WebControl_V
                 _Data.Items.ResolveImgUrl(Page);
                 _HiddenField.Value = Convert.ToBase64String(new System.Text.UTF8Encoding().GetBytes(_Data.ToXML()));
                 writer.Write(RenderControl(_HiddenField));
+                if (this.Height.Value > 0 || this.Width.Value > 0) writer.RenderEndTag();
                 writer.RenderEndTag();
             }
         }

@@ -222,12 +222,11 @@ namespace ZYH.WebControl_V
             set { _Settings.CssClass_Frame = value; }
         }
 
-        private string _Title = "";
         [DefaultValue(""), Description(""), Browsable(true), Category("Appearance")]
         public new string Title
         {
-            get { return _Title; }
-            set { _Title = value; }
+            get { return _Settings.Title; }
+            set { _Settings.Title = value; }
         }
         #endregion
 
@@ -305,7 +304,14 @@ namespace ZYH.WebControl_V
             }
             else
             {
-                writer.Write("<div id='" + this.ClientID + "' style='display:none;'></div>");
+                writer.Write("<div id='" + this.ClientID + "' style='display:none;'>");
+                writer.Write("</div>");
+                if (this.HasControls())
+                {
+                    writer.Write("<div id='" + this.ClientID + "InnerHtml' style='display:none;'>");
+                    base.RenderContents(writer);
+                    writer.Write("</div>");
+                }
             }
         }
 

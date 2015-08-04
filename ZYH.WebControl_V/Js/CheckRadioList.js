@@ -9,8 +9,9 @@ function Class_CheckRadioList(ClientID, CallbackOptions, Settings) {
 
     Self.Serialize = function () {
         var xml = '<ListControl>';
+        var cc = $('#' + ClientID);
         for (var i = 0; i < Self.Items.length; i++) {
-            var Control = $('#' + ClientID + ' input[_Position=' + i + ']');
+            var Control = $('input[_Position=' + i + ']', cc);
             xml += '<IT>';
             if (Self.Items[i].ImgUrl != '') xml += '<I>' + Self.Items[i].ImgUrl + '</I>';
             if (Self.Items[i].Text != '') xml += '<T>' + htmlEncode(Self.Items[i].Text) + '</T>';

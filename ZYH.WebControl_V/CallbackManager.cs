@@ -377,7 +377,7 @@ namespace ZYH.WebControl_V
 #if DEBUG
                 JsUrl = Page.ClientScript.GetWebResourceUrl(this.GetType(), "ZYH.WebControl_V.Js.CallbackManager.js");
 #else
-               JsUrl = Page.ClientScript.GetWebResourceUrl(this.GetType(), "ZYH.WebControl_V.Js.CallbackManager.min.js");
+               JsUrl = Page.ClientScript.GetWebResourceUrl(this.GetType(), "ZYH.WebControl_V.Js.CallbackManager.js");
 #endif
                 Page.ClientScript.RegisterClientScriptInclude("CallbackManager", JsUrl);
             }

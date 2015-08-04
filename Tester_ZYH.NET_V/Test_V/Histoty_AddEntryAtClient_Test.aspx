@@ -37,6 +37,8 @@
         &nbsp;
         <cc1:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" ClientEvent_AfterCallback="LinkButton_AfterCall"
             UpdateViewState="True">Load Tab 3</cc1:LinkButton>
+        <br />
+        <a href="#4">4</a>
         <div id="PlaceHolder" runat="server">
         </div>
     </div>

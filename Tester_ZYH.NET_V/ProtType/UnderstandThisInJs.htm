@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="jquery-1.8.3.js" type="text/javascript"></script>
+</head>
+<body>
+    <input id="Button1" type="button" value="button1" />
+    <input id="Button2" type="button" value="button2" onclick="button2Click();" />
+    <input id="Button3" type="button" value="button3" onclick="button3Click.call(this);" />
+    <script type="text/javascript">
+        $("#Button1").click(function (event) {
+            alert('x');
+            console.log($(this).prop("name"));
+        })
+
+        function button2Click() {
+            console.log($(this).prop("name"));
+        }
+        function button3Click() {
+            callCb(function () {
+                console.log($(this).prop("name"));
+            });
+        }
+            function callCb(cb) {
+                cb();
+            }
+
+
+        var myObject = {
+            firstName: "John",
+            lastName: "Doe",
+            fullName: function () {
+                return this;
+            }
+        }
+        myObject.fullName();   
+    </script>
+</body>
+</html>

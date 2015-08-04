@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .main
+        {
+            font: 100% Verdana, Arial, Helvetica, sans-serif;
+            background: #4c5462;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #000000;
+        }
+        .main #container
+        {
+            height: auto;
+            width: 46em;
+            background: #4c5462;
+            margin: 0 auto;
+            border: 0px solid #000000;
+            text-align: left;
+        }
+        
+        .main #main_content
+        {
+            padding: 5px;
+            margin: 0px;
+        }
+        #items_list
+        {
+            width: 400px;
+            float: left;
+        }
+        
+        .items_list
+        {
+            width: 400px;
+            float: left;
+        }
+        .item_details
+        {
+            margin-top: 3px;
+            margin-bottom: 3px;
+            padding: 3px;
+            float: left;
+            border-bottom: 0.5px solid blue;
+        }
+        .clear
+        {
+            clear: both;
+        }
+        
+        .arrow-right
+        {
+            width: 0;
+            height: 0;
+            border-top: 60px solid transparent;
+            border-bottom: 60px solid transparent;
+            border-left: 60px solid green;
+        }
+    </style>
+</head>
+<body class="main">
+    <div class="arrow-right">
+    </div>
+    <div id="container">
+        <div id="header">
+            <!--series of divs in here, graphic banner etc. -->
+        </div>
+        <div id="main_content">
+            <!-- this DIV _should_ stretch to accomodate inner divs -->
+            <div id="items_list" class="items_list ui-sortable">
+                <div id="item_35" class="item_details">
+                    sdfsdfsdgsdf<br />
+                    098205803945
+                </div>
+                <div id="item_36" class="item_details">
+                </div>
+                <div id="item_37" class="item_details">
+                </div>
+                <!-- this list of DIVs "item_xx" goes on for a while
+             each one representing a photo with name, caption etcetc -->
+            </div>
+            <br class="clear" />
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+</body>
+</html>

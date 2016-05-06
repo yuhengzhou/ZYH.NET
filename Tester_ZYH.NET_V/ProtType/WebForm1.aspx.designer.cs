@@ -31,12 +31,12 @@ namespace Tester_ZYH.NET_V.ProtType {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// FileUpload1 control.
+        /// CheckBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
     }
 }

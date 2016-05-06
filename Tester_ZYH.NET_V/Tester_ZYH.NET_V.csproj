@@ -75,6 +75,8 @@
     <Content Include="bin\Telerik.Web.UI.Skins.dll" />
     <Content Include="css\base.css" />
     <Content Include="css\quickSetup.css" />
+    <Content Include="css\SpeechBubble.aspx" />
+    <Content Include="css\SpeechBubble2.aspx" />
     <Content Include="Demo\ASCX\EditPerson.ascx" />
     <Content Include="Demo\ASCX\Tab1.ascx" />
     <Content Include="Demo\ASCX\Tab2.ascx" />
@@ -97,6 +99,14 @@
     <Content Include="Demo\Main.css" />
     <Content Include="DirectCallPageBehind.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="HTML5\Canvas3DCube.html" />
+    <Content Include="HTML5\Cube3D.js" />
+    <Content Include="HTML5\HtmlPage1.html" />
+    <Content Include="HTML5\PlayMp3.aspx" />
+    <Content Include="HTML5\RecordAudio.aspx" />
+    <Content Include="HTML5\WebGL.html" />
+    <Content Include="HTML5\阿兰 - 霸道天下.mp3" />
+    <Content Include="Inv\BinaryTree.aspx" />
     <Content Include="ProtType\DefaultButtonTest.aspx" />
     <Content Include="ProtType\DetectMobileDevice.aspx" />
     <Content Include="ProtType\EmailLead_RDC.txt" />
@@ -145,11 +155,28 @@
     <Content Include="Test_V\WebForm1.aspx" />
     <Content Include="Test_V\WebForm2.aspx" />
     <Content Include="Test_V\Window_Test.aspx" />
+    <Content Include="T\bindMultipleFunctions.aspx" />
+    <Content Include="T\css\base.css" />
+    <Content Include="T\css\quickSteup.css" />
+    <Content Include="T\css\report-base.css" />
+    <Content Include="T\css\screen.css" />
     <Content Include="T\fileDownload.aspx" />
     <Content Include="ProtType\GoogleChart.aspx" />
     <Content Include="T\HTMLPage1.htm" />
+    <Content Include="T\HtmlPage1.html" />
+    <Content Include="T\JavaScript.js" />
+    <Content Include="T\JavaScript1.js" />
+    <Content Include="T\JavaScript2.js" />
+    <Content Include="T\JavaScript3.js" />
     <Content Include="T\JquerySlider.aspx" />
     <Content Include="T\JsRegularExpression.aspx" />
+    <Content Include="T\css\Theme.css" />
+    <Content Include="T\MSRT_2016Apr26.js" />
+    <Content Include="T\OopJs.aspx" />
+    <Content Include="T\TextSelected.html" />
+    <Content Include="T\TMK Data\JavaScript.js" />
+    <Content Include="T\TMK Data\JScript1.js" />
+    <Content Include="T\TMK Data\JScript2.js" />
     <Content Include="T\UrlEncoding.aspx" />
     <Content Include="T\WebForm1.aspx" />
     <Content Include="Web.config">
@@ -169,6 +196,20 @@
     </Compile>
     <Compile Include="AngularJs\Animation.aspx.designer.cs">
       <DependentUpon>Animation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="css\SpeechBubble.aspx.cs">
+      <DependentUpon>SpeechBubble.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="css\SpeechBubble.aspx.designer.cs">
+      <DependentUpon>SpeechBubble.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="css\SpeechBubble2.aspx.cs">
+      <DependentUpon>SpeechBubble2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="css\SpeechBubble2.aspx.designer.cs">
+      <DependentUpon>SpeechBubble2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Demo\ASCX\EditPerson.ascx.cs">
       <DependentUpon>EditPerson.ascx</DependentUpon>
@@ -243,6 +284,27 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HTML5\PlayMp3.aspx.cs">
+      <DependentUpon>PlayMp3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML5\PlayMp3.aspx.designer.cs">
+      <DependentUpon>PlayMp3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML5\RecordAudio.aspx.cs">
+      <DependentUpon>RecordAudio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML5\RecordAudio.aspx.designer.cs">
+      <DependentUpon>RecordAudio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inv\BinaryTree.aspx.cs">
+      <DependentUpon>BinaryTree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inv\BinaryTree.aspx.designer.cs">
+      <DependentUpon>BinaryTree.aspx</DependentUpon>
     </Compile>
     <Compile Include="MSAjax Test\UpdatePanel.aspx.cs">
       <DependentUpon>UpdatePanel.aspx</DependentUpon>
@@ -514,6 +576,13 @@
     <Compile Include="Test_V\Window_Test.aspx.designer.cs">
       <DependentUpon>Window_Test.aspx</DependentUpon>
     </Compile>
+    <Compile Include="T\bindMultipleFunctions.aspx.cs">
+      <DependentUpon>bindMultipleFunctions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T\bindMultipleFunctions.aspx.designer.cs">
+      <DependentUpon>bindMultipleFunctions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="T\fileDownload.aspx.cs">
       <DependentUpon>fileDownload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -541,6 +610,13 @@
     </Compile>
     <Compile Include="T\JsRegularExpression.aspx.designer.cs">
       <DependentUpon>JsRegularExpression.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="T\OopJs.aspx.cs">
+      <DependentUpon>OopJs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T\OopJs.aspx.designer.cs">
+      <DependentUpon>OopJs.aspx</DependentUpon>
     </Compile>
     <Compile Include="T\UrlEncoding.aspx.cs">
       <DependentUpon>UrlEncoding.aspx</DependentUpon>

@@ -1,0 +1,505 @@
+﻿
+.odd, .schoolDetails .subjects th {
+    background-color: #dde1e5;
+}
+.even {
+    background-color: #ebeff2;
+}
+.listings a, .detailsTable a, .popup .dataRow a, .largeChart .small a {
+    color: #006790;
+}
+.listings tr:hover, .listings tr.thisRow {
+    background-color: #baced6;
+}
+.schoolDetails h4 {
+    background-color: #006790;
+}
+.detailsNav li a:hover, .detailsNav li a.sel {
+    background-color: #dde1e5;
+}
+.gray a, .gray .paginate_active, .gray .msReport .msReportTab, .gray .communityReport .communityReportTab, .gray .schoolReport .schoolReportTab {
+    color: #427b9b;
+}
+.gray .iconTheme {
+    background-image: url("../assets/icon-sprite-gray.png");
+}
+.gray .bg {
+    background-image: url("../assets/bg-sprite-black.png");
+}
+.gray .header, .gray .btnTheme, .gray .brandTop li a, .gray .agentInfo a, .gray .agentWeb, #contentGrid .wizard .gray .preview a {
+    color: #fff;
+}
+.gray .header, .gray .schedule, .gray .title, .gray .popup .title, .gray .schoolDetails h4, .gray .aboveHeader, .gray .agentBranding, .gray #Popup_EmailMe .title {
+    background-color: #999;
+}
+.gray .agentLegal, .gray .belowBrand .tagLine, #contentGrid .wizard .gray .preview .belowBrand a {
+    color: #e5e5e5;
+}
+.gray .main {
+    background-color: #797979;
+}
+.gray .msReport-2, h3, .gray .nav, .gray .paging {
+    background-color: #dedede;
+}
+.profile-wrap .gray .msReport-2 {
+    background: #fff none repeat scroll 0 0;
+}
+.gray .msReport-2, h3, .gray .nav ul li, .gray .panelInner, .gray .gridContent, gray .listings, .gray .map, .gray .paging, .gray .paging .this {
+    border-color: #b2b2b2;
+}
+.gray .nav li a:hover {
+    background-color: #d7e0e5;
+}
+.gray .nav a, .gray h3, .gray .chartDetails h4 {
+    color: #777;
+}
+.gray .tabs .this {
+    border-top-color: #000;
+}
+.gray .odd, .gray .schoolDetails .subjects th {
+    background-color: #e8f2f7;
+}
+.gray .even, .gray .communityReport .panelInner, .gray .emailMe .formRow, .gray .emailMe .formRow, .gray .chartDetails, .gray .details div.sidebar, .gray .popup .dataRow, .gray .detailsNav li a:hover, .gray .detailsNav li a.sel {
+    background-color: #ccdce5;
+}
+.gray .listings tr:hover {
+    background-color: #cccdce;
+}
+.gray .listings a, .gray .detailsTable a, .gray .popup .dataRow a, .gray .largeChart .small a {
+    color: #427b9b;
+}
+.gray .title, .gray .popup .title {
+    background-color: #427b9b;
+}
+.beige a, .beige .paginate_active, .beige .msReport .msReportTab, .beige .communityReport .communityReportTab, .beige .schoolReport .schoolReportTab, .beige .listings a, .beige .detailsTable a, .beige .popup .dataRow a, .beige .largeChart .small a {
+    color: #a39666;
+}
+.beige .iconTheme {
+    background-image: url("../assets/icon-sprite-beige.png");
+}
+.beige .bg {
+    background-image: url("../assets/bg-sprite-beige.png");
+}
+.beige .header, .beige .brandTop li a, .beige .agentInfo a, .beige .schedule, .beige .contactInfo .agentWeb, #contentGrid .wizard .beige .preview a {
+    color: #333;
+}
+.beige .btnTheme {
+    color: #fff;
+}
+.beige .header, .beige .schedule {
+    background-color: #d7cead;
+}
+.beige .aboveHeader, .beige .agentBranding {
+    background-color: #a39763;
+}
+.beige .title, .beige .popup .title, .beige .schoolDetails h4, .beige #Popup_EmailMe .title, .beige #Popup_EmailMe .title {
+    background-color: #a39666;
+}
+.beige .contactInfo .agentWeb span {
+    background-position: 0 -1149px;
+}
+.beige .agentLegal, .beige .belowBrand .tagLine, #contentGrid .wizard .beige .preview .belowBrand a {
+    color: #545252;
+}
+.beige .belowBrand .msLogo {
+    background-position: 0 -1117px;
+}
+.beige h3, .beige .nav, .beige .paging {
+    background-color: #fbf7e4;
+}
+.beige .msReport-2, .beige h3, .beige .nav, .beige .nav ul li, .beige .panelInner, .beige .gridContent, .beige .listings, .beige .map, .beige .paging, .beige .paging .this {
+    border-color: #999;
+}
+.beige .nav li a:hover {
+    background-color: #fbf7e4;
+}
+.beige .nav a, .beige h3, .beige .chartDetails h4 {
+    color: #595959;
+}
+.beige .tabs .this {
+    border-top-color: #333;
+}
+.beige .odd, .beige .schoolDetails .subjects th {
+    background-color: #eae3cc;
+}
+.beige .even, .beige .communityReport .panelInner, .beige .emailMe .formRow, .beige .chartDetails, .beige .details div.sidebar, .beige .popup .dataRow, .beige .detailsNav li a:hover, .beige .detailsNav li a.sel {
+    background-color: #f4efdc;
+}
+.beige .listings tr:hover {
+    background-color: #d6cfb8;
+}
+.beige .listings a, .beige .detailsTable a, .beige .popup .dataRow a, .beige .largeChart .small a {
+    color: #827753;
+}
+.beige .agentMessage .msgPointer {
+    background-position: 0 -100px;
+}
+.beige .msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #624932;
+}
+.brown a, .brown .paginate_active, .brown .msReport .msReportTab, .brown .communityReport .communityReportTab, .brown .schoolReport .schoolReportTab, .brown .listings a, .brown .detailsTable a, .brown .popup .dataRow a, .brown .largeChart .small a {
+    color: #614934;
+}
+.brown .iconTheme {
+    background-image: url("../assets/icon-sprite-brown.png");
+}
+.brown .bg {
+    background-image: url("../assets/bg-sprite-red.png");
+}
+.brown .header, .brown .btnTheme, .brown .brandTop li a, .brown .agentInfo a, #contentGrid .wizard .brown .preview a {
+    color: #fff;
+}
+.brown .header, .brown .schedule, .brown .title, .brown .popup .title, .brown .schoolDetails h4, .brown .aboveHeader, .brown .agentBranding, .brown #Popup_EmailMe .title {
+    background-color: #614934;
+}
+.brown .agentLegal, .brown .belowBrand .tagLine, #contentGrid .wizard .brown .preview .belowBrand a {
+    color: #ededed;
+}
+.brown h3, .brown .nav, .brown .paging {
+    background-color: #eae5d7;
+}
+.brown .msReport-2, .brown h3, .brown .nav, .brown .nav ul li, .brown .panelInner, .brown .gridContent, .brown .listings, .brown .map, .brown .paging, .brown .paging .this {
+    border-color: #999;
+}
+.brown .nav li a:hover {
+    background-color: #eae5d7;
+}
+.brown .nav a, .brown h3, .brown .chartDetails h4 {
+    color: #595959;
+}
+.brown .tabs .this {
+    border-top-color: #302316;
+}
+.brown .odd, .brown .schoolDetails .subjects th {
+    background-color: #eae5d7;
+}
+.brown .even, .brown .communityReport .panelInner, .brown .emailMe .formRow, .brown .emailMe .formRow, .brown .chartDetails, .brown .details div.sidebar, .brown .popup .dataRow, .brown .detailsNav li a:hover, .brown .detailsNav li a.sel {
+    background-color: #f4f2e1;
+}
+.brown .listings tr:hover {
+    background-color: #dbd3ba;
+}
+.brown .agentMessage .msgPointer {
+    background-position: 0 -50px;
+}
+.brown .msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #a39763;
+}
+.dblue a, .dblue .paginate_active, .dblue .msReport .msReportTab, .dblue .communityReport .communityReportTab, .dblue .schoolReport .schoolReportTab {
+    color: #27538c;
+}
+.dblue .iconTheme {
+    background-image: url("../assets/icon-sprite-dblue.png");
+}
+.dblue .bg {
+    background-image: url("../assets/bg-sprite-lblue.png");
+}
+.dblue .header, .dblue .btnTheme, .dblue .brandTop li a, .dblue .agentInfo a, #contentGrid .wizard .dblue .preview a {
+    color: #fff;
+}
+.dblue .header, .dblue .schedule, .dblue .title, .dblue .popup .title, .dblue .schoolDetails h4, .dblue .aboveHeader, .dblue .agentBranding, .dblue #Popup_EmailMe .title {
+    background-color: #27538c;
+}
+.dblue .agentLegal, .dblue .belowBrand .tagLine, #contentGrid .wizard .dblue .preview .belowBrand a {
+    color: #d7e0ef;
+}
+.dblue h3, .dblue .nav, .dblue .paging {
+    background-color: #d7e0e5;
+}
+.dblue .msReport-2, .dblue h3, .dblue .nav, .dblue .nav ul li, .dblue .panelInner, .dblue .gridContent, .dblue .listings, .dblue .map, .dblue .paging, .dblue .paging .this {
+    border-color: #999;
+}
+.dblue .nav li a:hover {
+    background-color: #dae3ed;
+}
+.dblue .nav a, .dblue h3, .dblue .chartDetails h4 {
+    color: #595959;
+}
+.dblue .tabs .this {
+    border-top-color: #6d9dcd;
+}
+.dblue .odd, .dblue .emailMe .formRow, .dblue .emailMe .formRow, .dblue .chartDetails, .dblue .details div.sidebar, .dblue .popup .dataRow, .dblue .schoolDetails .subjects th, .dblue .detailsNav li a:hover, .dblue .detailsNav li a.sel {
+    background-color: #dae3ed;
+}
+.dblue .even, .dblue .communityReport .panelInner {
+    background-color: #e5f0f9;
+}
+.dblue .listings tr:hover {
+    background-color: #bccfe0;
+}
+.dblue .listings a, .dblue .detailsTable a, .dblue .popup .dataRow a, .dblue .largeChart .small a {
+    color: #27538c;
+}
+.dblue .agentMessage .msgPointer {
+    background-position: 0 -350px;
+}
+.dblue .msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #6d9dcd;
+}
+.dgreen a, .dgreen .paginate_active, .dgreen .msReport .msReportTab, .dgreen .communityReport .communityReportTab, .dgreen .schoolReport .schoolReportTab, .dgreen .listings a, .dgreen .detailsTable a, .dgreen .popup .dataRow a, .dgreen .largeChart .small a {
+    color: #5a7c45;
+}
+.dgreen .iconTheme {
+    background-image: url("../assets/icon-sprite-dgreen.png");
+}
+.dgreen .bg {
+    background-image: url("../assets/bg-sprite-lgreen.png");
+}
+.dgreen .header, .dgreen .btnTheme, .dgreen .brandTop li a, .dgreen .agentInfo a, #contentGrid .wizard .dgreen .preview a {
+    color: #fff;
+}
+.dgreen .contactInfo .agentWeb {
+    color: #c2db72;
+}
+.dgreen .header, .dgreen .schedule, .dgreen .title, .dgreen .popup .title, .dgreen .schoolDetails h4, .dgreen .aboveHeader, .dgreen .agentBranding, .dgreen #Popup_EmailMe .title {
+    background-color: #4a623d;
+}
+.dgreen .agentLegal, .dgreen .belowBrand .tagLine, #contentGrid .wizard .dgreen .preview .belowBrand a {
+    color: #ededed;
+}
+.dgreen h3, .dgreen .nav, .dgreen .paging {
+    background-color: #ecf4eb;
+}
+.dgreen .msReport-2, .dgreen h3, .dgreen .nav, .dgreen .nav ul li, .dgreen .panelInner, .dgreen .gridContent, .dgreen .listings, .dgreen .map, .dgreen .paging, .dgreen .paging .this {
+    border-color: #999;
+}
+.dgreen .nav li a:hover {
+    background-color: #c9d6c7;
+}
+.dgreen .nav a, .dgreen h3, .dgreen .chartDetails h4 {
+    color: #595959;
+}
+.dgreen .tabs .this {
+    border-top-color: #85a57d;
+}
+.dgreen .odd, .dgreen .schoolDetails .subjects th {
+    background-color: #dbe5d9;
+}
+.dgreen .even, .dgreen .communityReport .panelInner, .dgreen .emailMe .formRow, .dgreen .emailMe .formRow, .dgreen .chartDetails, .dgreen .details div.sidebar, .dgreen .popup .dataRow, .dgreen .detailsNav li a:hover, .dgreen .detailsNav li a.sel {
+    background-color: #ecf4eb;
+}
+.dgreen .listings tr:hover {
+    background-color: #c9d6c7;
+}
+.dgreen .agentMessage .msgPointer {
+    background-position: 0 -250px;
+}
+.dgreen .msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #85a57d;
+}
+.lblue a, .lblue .paginate_active, .lblue .msReport .msReportTab, .lblue .communityReport .communityReportTab, .lblue .schoolReport .schoolReportTab {
+    color: #6d9dcd;
+}
+.lblue .iconTheme {
+    background-image: url("../assets/icon-sprite-lblue.png");
+}
+.lblue .bg {
+    background-image: url("../assets/bg-sprite-lblue.png");
+}
+.lblue .header, .lblue .btnTheme, .lblue .brandTop li a, .lblue .agentInfo a, .lblue .contactInfo .agentWeb, #contentGrid .wizard .lblue .preview a {
+    color: #fff;
+}
+.lblue .header, .lblue .schedule, .lblue .title, .lblue .popup .title, .lblue .schoolDetails h4, .lblue .aboveHeader, .lblue .agentBranding, .lblue #Popup_EmailMe .title {
+    background-color: #6d9dcd;
+}
+.lblue .agentLegal, .lblue .belowBrand .tagLine, #contentGrid .wizard .lblue .preview .belowBrand a {
+    color: #d7e0ef;
+}
+.lblue h3, .lblue .nav, .lblue .paging {
+    background-color: #d7e0e5;
+}
+.lblue .msReport-2, .lblue h3, .lblue .nav, .lblue .nav ul li, .lblue .panelInner, .lblue .gridContent, .lblue .listings, .lblue .map, .lblue .paging, .lblue .paging .this {
+    border-color: #999;
+}
+.lblue .nav li a:hover {
+    background-color: #d7e0e5;
+}
+.lblue .nav a, .lblue h3, .lblue .chartDetails h4 {
+    color: #595959;
+}
+.lblue .tabs .this {
+    border-top-color: #003366;
+}
+.lblue .odd, .lblue .emailMe .formRow, .lblue .emailMe .formRow, .lblue .chartDetails, .lblue .details div.sidebar, .lblue .popup .dataRow, .lblue .schoolDetails .subjects th, .lblue .detailsNav li a:hover, .lblue .detailsNav li a.sel {
+    background-color: #dae3ed;
+}
+.lblue .even, .lblue .communityReport .panelInner {
+    background-color: #e5f0f9;
+}
+.lblue .listings tr:hover {
+    background-color: #bccfe0;
+}
+.lblue .listings a, .lblue .detailsTable a, .lblue .popup .dataRow a, .lblue .largeChart .small a {
+    color: #003366;
+}
+.lblue .footer {
+    background-color: #e0e7eb;
+}
+.lblue .agentMessage .msgPointer {
+    background-position: 0 -300px;
+}
+.lblue .msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #194879;
+}
+.lgreen a, .lgreen .paginate_active, .lgreen .msReport .msReportTab, .lgreen .communityReport .communityReportTab, .lgreen .schoolReport .schoolReportTab, .lgreen .listings a, .lgreen .detailsTable a, .lgreen .popup .dataRow a, .lgreen .largeChart .small a {
+    color: #30592a;
+}
+.lgreen .iconTheme {
+    background-image: url("../assets/icon-sprite-lgreen.png");
+}
+.lgreen .bg {
+    background-image: url("../assets/bg-sprite-lgreen.png");
+}
+.lgreen .header, .lgreen .btnTheme, .lgreen .brandTop li a, .lgreen .agentInfo a, .lgreen .contactInfo .agentWeb, #contentGrid .wizard .lgreen .preview a {
+    color: #fff;
+}
+.lgreen .header, .lgreen .schedule, .lgreen .title, .lgreen .popup .title, .lgreen .schoolDetails h4, .lgreen .aboveHeader, .lgreen .agentBranding, .lgreen #Popup_EmailMe .title {
+    background-color: #85a57d;
+}
+.lgreen .agentLegal, .lgreen .belowBrand .tagLine, #contentGrid .wizard .lgreen .preview .belowBrand a {
+    color: #ededed;
+}
+.lgreen h3, .lgreen .nav, .lgreen .paging {
+    background-color: #ecf4eb;
+}
+.lgreen .msReport-2, .lgreen h3, .lgreen .nav, .lgreen .nav ul li, .lgreen .panelInner, .lgreen .gridContent, .lgreen .listings, .lgreen .map, .lgreen .paging, .lgreen .paging .this {
+    border-color: #999;
+}
+.lgreen .nav li a:hover {
+    background-color: #c9d6c7;
+}
+.lgreen .nav a, .lgreen h3, .lgreen .chartDetails h4 {
+    color: #595959;
+}
+.lgreen .tabs .this {
+    border-top-color: #30592a;
+}
+.lgreen .odd, .lgreen .schoolDetails .subjects th {
+    background-color: #dbe5d9;
+}
+.lgreen .even, .lgreen .communityReport .panelInner, .lgreen .emailMe .formRow, .lgreen .emailMe .formRow, .lgreen .chartDetails, .lgreen .details div.sidebar, .lgreen .popup .dataRow, .lgreen .detailsNav li a:hover, .lgreen .detailsNav li a.sel {
+    background-color: #ecf4eb;
+}
+.lgreen .listings tr:hover {
+    background-color: #c9d6c7;
+}
+.lgreen .agentMessage .msgPointer {
+    background-position: 0 -200px;
+}
+.lgreen .msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #30592a;
+}
+.red a, .red .paginate_active, .red .msReport .msReportTab, .red .communityReport .communityReportTab, .red .schoolReport .schoolReportTab, .red .detailsTable a, .red .popup .dataRow a, .red .largeChart .small a {
+    color: #b30101;
+}
+.red .iconTheme {
+    background-image: url("../assets/icon-sprite-red.png");
+}
+.red .bg {
+    background-image: url("../assets/bg-sprite-red.png");
+}
+.red .header, .red .btnTheme, .red .brandTop li a, .red .agentInfo a, .red .nav .faqLink em, .red .trendNumber, .red .contactInfo .agentWeb, #contentGrid .wizard .red .preview a {
+    color: #fff;
+}
+.red .header, .red .schedule, .red .title, .red .popup .title, .red .schoolDetails h4, .red .aboveHeader, .red .agentBranding, .red #Popup_EmailMe .title {
+    background-color: #b30101;
+}
+.red .agentLegal, .red .belowBrand .tagLine, #contentGrid .wizard .red .preview .belowBrand a {
+    color: #e8e8d9;
+}
+.red h3, .red .nav, .red .paging {
+    background-color: #d8d8c0;
+}
+.red .msReport-2, .red h3, .red .nav, .red .nav ul li, .red .panelInner, .red .gridContent, .red .listings, .red .paginate_active, .red .map, .red .paging, .red .paging .this {
+    border-color: #a38f61;
+}
+.red .nav li a:hover {
+    background-color: #d8d8c0;
+}
+.red .nav a, .red h3, .red .chartDetails h4 {
+    color: #736347;
+}
+.red .tabs .this {
+    border-top-color: #a38f61;
+}
+.red .odd, .red .schoolDetails .subjects th {
+    background-color: #e8e8d9;
+}
+.red .even, .red .communityReport .panelInner, .red .communityReport .panelInner, .red .emailMe .formRow, .red .emailMe .formRow, .red .chartDetails, .red .details div.sidebar, .red .popup .dataRow, .red .detailsNav li a:hover, .red .detailsNav li a.sel {
+    background-color: #f7f7ef;
+}
+.red .listings tr:hover {
+    background-color: #d8d8c0;
+}
+.red .agentMessage .msgPointer {
+    background-position: 0 -400px;
+}
+.red .msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #a38f61;
+}
+.yellow a, .yellow .paginate_active, .yellow .msReport .msReportTab, .yellow .communityReport .communityReportTab, .yellow .schoolReport .schoolReportTab, .yellow .listings a, .yellow .detailsTable a, .yellow .popup .dataRow a, .yellow .largeChart .small a {
+    color: #7c5e22;
+}
+.yellow .iconTheme {
+    background-image: url("../assets/icon-sprite-yellow.png");
+}
+.yellow .bg {
+    background-image: url("../assets/bg-sprite-red.png");
+}
+.yellow .header, .yellow .btnTheme, .yellow .brandTop li a, .yellow .agentInfo a, .yellow .contactInfo .agentWeb, #contentGrid .wizard .yellow .preview a {
+    color: #fff;
+}
+.yellow .header, .yellow .schedule, .yellow .title, .yellow .popup .title, .yellow .schoolDetails h4, .yellow .aboveHeader, .yellow .agentBranding, .yellow #Popup_EmailMe .title {
+    background-color: #d59501;
+}
+.yellow .agentLegal, .yellow .belowBrand .tagLine, #contentGrid .wizard .yellow .preview .belowBrand a {
+    color: #ededed;
+}
+.yellow h3, .yellow .nav, .yellow .paging {
+    background-color: #e7e8d1;
+}
+.yellow .pageWrap, .yellow h3, .yellow .nav, .yellow .nav ul li, .yellow .panelInner, .yellow .gridContent, .yellow .listings, .yellow .map, .yellow .paging, .yellow .paging .this {
+    border-color: #999;
+}
+.yellow .nav li a:hover {
+    background-color: #f4f4e1;
+}
+.yellow .nav a, .yellow h3, .yellow .chartDetails h4 {
+    color: #595959;
+}
+.yellow .tabs .this {
+    border-top-color: #7c5e22;
+}
+.yellow .odd, .yellow .schoolDetails .subjects th {
+    background-color: #f4f4e1;
+}
+.yellow .even, .yellow .communityReport .panelInner, .yellow .communityReport .panelInner, .yellow .emailMe .formRow, .yellow .emailMe .formRow, .yellow .chartDetails, .yellow .details div.sidebar, .yellow .popup .dataRow, .yellow .detailsNav li a:hover, .yellow .detailsNav li a.sel {
+    background-color: #e5e2c9;
+}
+.yellow .listings tr:hover {
+    background-color: #e0dbb5;
+}
+.yellow .agentMessage .msgPointer {
+    background-position: 0 -150px;
+}
+.yellow .msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #7c5e22;
+}
+.msReport-2 .nav li a.this:hover {
+    background-color: #fff;
+}
+.schoolDetails .tabs .this {
+    border-top-color: #fff;
+}
+.themeWrap .editSchedule a.btnTheme {
+    color: #fff !important;
+}
+.ms .main {
+    background-color: #fff;
+}
+.nav {
+    border-top: 1px solid;
+}
+.styled-select select {
+    background-color: #fff;
+}

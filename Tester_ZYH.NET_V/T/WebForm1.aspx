@@ -17,6 +17,7 @@
     <form id="form1" runat="server">
     <asp:Button ID="Button1" runat="server" Text="Button" onclick="Button1_Click" />
     <iframe id="xxx" height="400" src="../Demo/Default.aspx" width="600"></iframe>
+        <asp:HiddenField ID="HiddenField1" runat="server" Value="5" />
     </form>
 </body>
 </html>

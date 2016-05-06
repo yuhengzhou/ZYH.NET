@@ -1,0 +1,336 @@
+﻿
+body {
+    font-family: Arial,Helvetica,sans-serif;
+}
+.selected img {
+    opacity: 0.5;
+}
+.container {
+    background-color: #fff;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+.IE8 .container {
+    width: 991px;
+}
+.col-md-12 {
+    width: 100%;
+}
+.aboveHeader {
+    background-color: #343434;
+    color: #fff;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 6px;
+}
+.aboveHeader .agentName {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.aboveHeader i {
+    font-size: 80%;
+}
+.aboveHeader .email {
+    margin-left: 12px;
+}
+.top-brand {
+    float: left;
+}
+.top-actions {
+    float: right;
+    width: 268px;
+}
+.IE .top-actions {
+    width: 280px;
+}
+.top-actions .action {
+    float: left;
+}
+.actionSettings {
+    background: rgba(0, 0, 0, 0) url("../assets/report-sprite.png") no-repeat scroll right -19px;
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 5px 18px 5px 0;
+}
+.actionSettings:hover {
+    text-decoration: none;
+}
+.agentMessage {
+    margin-bottom: 30px;
+    padding: 20px 20px 0;
+}
+.agentMessage .btn-small {
+    float: right;
+}
+.agentPhoto {
+    display: inline;
+    float: left;
+    width: 79px;
+}
+.msgBoxWrap {
+    overflow: hidden;
+}
+.msgBoxWrap .msgBox .msgBoxInner {
+    background-color: #3385bc;
+    color: #fff;
+    font-size: 20px;
+    line-height: 180%;
+    margin-left: 30px;
+    min-height: 80px;
+    padding: 10px 10px 5px;
+    position: relative;
+}
+.msgBoxWrap .msgBox .msgBoxInner span {
+    font-weight: bold;
+}
+.msgBoxWrap .msgBox .msgBoxInner em {
+    font-size: 120%;
+    font-style: normal;
+}
+.agentMessage .msgPointer {
+    background-image: url("../assets/point-sprite.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 80px;
+    width: 30px;
+}
+.note {
+    clear: both;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    margin-left: 30px;
+    padding: 5px 0;
+}
+.msgBoxWrap .actionSettings {
+    float: right;
+    line-height: 180%;
+    margin: -4px -4px 0 0;
+}
+.msgBoxWrap .actionSettings i {
+    background-position: 1px -526px;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+.subHeader {
+    clear: both;
+    padding: 10px 20px;
+}
+.actions ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.actions ul li a {
+    float: left;
+    list-style: outside none none;
+}
+.actions ul li a {
+    padding: 4px 14px 0 0;
+}
+.agentBranding .actions ul li {
+    float: left;
+}
+.agentBranding .actions {
+    padding-top: 10px;
+}
+.styled-select select {
+    -moz-appearance: none;
+    background: #fff url("../assets/report-sprite.png") no-repeat scroll 98% 5px;
+    border: 0 none !important;
+    border-radius: 2px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 8px 15px 0 0;
+    padding: 2px 4px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    width: 138px;
+}
+.IE .styled-select select {
+    background-color: #fff;
+    color: #000;
+    margin: 5px 15px 0 0;
+    width: 146px;
+}
+.main {
+    background-color: #fff;
+}
+.selectReport {
+    display: none;
+}
+.msReport-2 .schedule {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #000;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.msReport-2 .schedule .textLink {
+    font-weight: bold;
+}
+.footer {
+    background-color: #dbdbdb;
+}
+.agentBranding {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px;
+}
+.agentBranding .companyLogo {
+    float: right;
+}
+.agentBranding .companyLogo img {
+    width: 110px;
+}
+.agentDisclaimer {
+    clear: left;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 5px 0 0;
+}
+.poweredBy {
+    padding-right: 20px;
+    text-align: right;
+}
+.agentBranding .infoList {
+    padding-bottom: 6px;
+}
+.agentBranding .agentName {
+    font-size: 140%;
+    font-weight: bold;
+    padding-right: 8px;
+}
+.microText {
+    font-size: 10px;
+}
+.agentBranding a, .aboveHeader a {
+    color: #ffffff !important;
+}
+.agentBranding .cityState {
+    padding-right: 10px;
+}
+.agentBranding .infoRow.infoList span {
+    border-left: 1px solid #fff;
+    padding: 0 8px;
+    white-space: nowrap;
+}
+.agentBranding .infoRow.infoList span:first-child, .profile-wrap .agentBranding .infoRow.infoList .agentName, .profile-wrap .agentBranding .infoRow.infoList .website {
+    border-left: medium none;
+    padding: 0 2px 0 0;
+}
+.below-footer {
+    background-color: #ccc;
+    color: #666;
+    font-size: 9px;
+    line-height: 11px;
+    margin: auto;
+    overflow: hidden;
+    padding: 6px;
+}
+.disclaimer {
+    clear: both;
+    padding: 4px 0;
+}
+.disclaimer img {
+    float: left;
+    padding: 0 6px 0 0;
+}
+.legalGroup {
+    clear: both;
+}
+.agentBranding .website img {
+    margin-left: 5px;
+}
+.agentBranding img {
+    border: 0 none;
+}
+.IE9 .gradient {
+    filter: none;
+}
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.btn:focus {
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+.btn:hover, .btn:focus {
+    color: #333333;
+    text-decoration: none;
+}
+.btn:active, .btn.active {
+    background-image: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+}
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #ffffff;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    background-color: #47a447;
+    border-color: #398439;
+    color: #ffffff;
+}
+.btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    background-image: none;
+}
+a.btn-large {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+}
+.btn-primary {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.activ {
+    background-color: #47a447;
+    border-color: #398439;
+    color: #ffffff;
+}
+.btn-secondary {
+    background-color: #f95e28;
+    border-color: #ef4907;
+    color: #fff;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.activ {
+    background-color: #ef4907;
+    border-color: #cc3300;
+    color: #fff;
+}
+.btn-small {
+    background-color: #fff;
+    color: #339933;
+    font-size: 60%;
+    opacity: 0.4;
+    padding: 2px 4px;
+}
+.btn-small:hover {
+    opacity: 0.8;
+}

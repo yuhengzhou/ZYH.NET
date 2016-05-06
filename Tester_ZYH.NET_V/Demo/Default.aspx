@@ -8,266 +8,70 @@
     <link href="Main.css" rel="stylesheet" type="text/css" />
 
     <style type="text/css">
-
- p.MsoNormal
-	{margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	        margin-left: 0in;
-            margin-right: 0in;
-            margin-top: 0in;
+        .frame {
+            padding: 15px;
         }
-p.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	}
+
+        .firstRow {
+            /*line-height:250%;*/
+            padding-bottom: 8px;
+        }
+
+        .txt {
+            font: 400 14px arial;
+            color: #18308e;
+            line-height: 150%;
+            margin-left: 20px;
+        }
+
+        .feed {
+            margin-left: 30px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div style="font-size: xx-large">
-    
-        Introduction<br />
-        <br />
-        <p class="MsoNormal">
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">This UI framework provides following capabilities.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">1.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Supports all browsers and mobile device.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">2.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            <a href="DynamicLoading_Demo.aspx">Incremental dynamic loading.</a><o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">a.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">Whole web app can be built in one page without initial loading pressure. 
-            Resources (HTML, Js and Css) will be automatically loaded to client only before 
-            they will be used.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">b.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">Any piece of UI part can be loaded into any position of any page.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">c.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">A same piece of UI part can be used for both desktop version app and mobile 
-            version app.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">d.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">Any piece of UI part can be provided as UI service to 3<sup>rd</sup> party.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">3.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Automatic resource (Js and Css) registration management.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">a.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">Will not register same piece of resource repeatedly.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">4.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Automatic state persistence.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">5.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Error handling.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">6.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            <a href="AsyncCallOptions_Demo.aspx">Handle multiple asynchronous calls conflict.</a><o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">a.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">Options including, AbortPreviousCalls, BlockLaterCalls, QueueCalls, 
-            MultipleCalls, and CanBeAborted.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">7.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Maintain pending call status.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">8.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Maintain browser history in AJAX mode.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">9.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Provide client event and server event.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">10.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span>
-            </span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Developer is able to choose client side render or server side render.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">11.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span>
-            </span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Support powerful UED without compromise. <o:p></o:p></span>
-        </p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">12.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span>
-            </span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Typical user action completion time spend is 200ms. (under 7Mbps home internet 
-            condition)<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">13.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span>
-            </span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            OOP UI rendering.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">a.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">Able to render any part of an UI object.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">b.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">Automatically register required resources when render.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="margin-left:1.0in;text-indent:-.25in;
-mso-list:l0 level2 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
-Calibri;color:#1F497D"><span style="mso-list:Ignore">c.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span></span></span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:#1F497D">Can handle complicated UI situation without special treatment. For example, a 
-            piece of UI loads itself (contains itself) repeatedly.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">14.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span>
-            </span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Automatically collect all or partial user input data on post call.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">15.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span>
-            </span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Code is shorter than using other solution (not including auto-generated code).<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">16.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span>
-            </span><![endif]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">
-            Compiler error check normally covers 90% of total code.<o:p></o:p></span></p>
-        <p class="MsoListParagraph" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
-            <![if !supportLists]>
-            <span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
-Calibri;mso-bidi-font-family:Calibri;color:#1F497D"><span style="mso-list:Ignore">17.<span 
-                style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;</span></span></span><![endif]><span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">Directly call static method (web service).<o:p></o:p></span></p>
-    </div>
+        <div class="frame">
+            <h2>ZYH.NET_V UI Framework Introduction</h2>
+            <div class="txt">
+                <div class="firstRow">
+                    This is a powerful UI framework capable to build large scale single page web application with unique advantages. It provides following capabilities.
+                </div>
+                1. Works in all major browsers and mobile device.<br />
+                2. Support large scale single page web application development.<br />
+                <div class="feed">
+                    a. 
+                    One or multiple UI objects can be loaded in one AJAX call. Multiple page areas can be rendered / updated in one ajax call. Capable render and update any part(s) of an UI object.<br />
+                    b. <a href="DynamicLoading_Demo.aspx">Incremental dynamic loading</a>. A large scale web application can be built on a single page without initial loading pressure. Resources in a UI object (HTML, javascript, image, and CSS) can be incrementally loaded later depend on user&#39;s operation. When a fUI object is first time requested to be present on the client side by an AJAX call, it will automatically register all required resources to the client via the same AJAX call when the UI object is rendered and sent to the client.<br />
+                    b. Automatic resource registration management. Same resource will be only register once.<br />
+                    c. <a href="AsyncCallOptions_Demo.aspx">Semi-automatic handle multiple asynchronous calls conflict.</a> Options: AbortPreviousCalls, BlockLaterCalls, QueueCalls, MultipleCalls, and CanBeAborted.<br />
+                    d. Developer is free to choose client side render or server side render.<br />
+                </div>
+                3. Highly abstracted object oriented UI rendering, build powerful UED without compromise using very little code.
+                <div class="feed">
+                    a. Object oriented UI elements can be 100% self-contain, automatically register required resources to client side.<br />
+                    b. Any AJAX control can be added into the frame work.<br />
+                    c. Any piece of UI part can be loaded into any position of any page.<br />
+                    d. A same piece of UI part can be used for both desktop browser and mobile browser.<br />
+                    e. Any piece of UI part can be provided as UI service to 3rd party.<br />
+                    f. Can handle complicated UI loading combination natrually. For example, a piece of UI loads itself (contains itself repeatedly).<br />
+                </div>
+                4. Maintain browser history in AJAX mode. Browser Back button and Add to Favorite can work 
+                correctly with the AJAX page.<br />
+                5. Automatic states persistence. Or can be set to Off for state less web application<br />
+                5. Error handling.<br />
+                <div class="feed">
+                    a. Built in general error handler function, shows friendly general error message in a popup layer.<br />
+                    b. Built in debug mode error handler function, shows detail of server side error message in a browser new tab.<br />
+                    c. Custom error event, allows developer to write custom javascript functions to handle specified error types.<br />
+                </div>7. Maintain pending call status, including multiple pending calls. Developer can choose pending call behaviors. The Default behaviors is that show an waiting icon to user. At same time, framework will automatically coordinate all related functions working correctly. Such as AbortPreviousCalls, BlockLaterCalls, QueueCalls, MultipleCalls, and CanBeAborted calls.<br />
+                9. Provide client (before and after call server) events and server events. Developer can easily add delegate functions to handle every detail of an user action.<br />
+                12. High performance, minimize bandwidth useage, a typical user action can complet in 100ms. (under 7Mbps home internet connection)<br />
+                14. Automatically collect all or partial user input data into a Post method AJAX call. By set PostDataContainer option, Framework will automatically collect values in &quot;Input&quot; tags in those specified areas and includ these values into a Post method AJAX call. All posted values will automatically restored on server side into a corresponding control if that &quot;Input&quot; tag was generated be the server control.<br />
+                16. Compiler error check.<br />
+                17. Directly call static page method (equivalent to call web service).<br />
+            </div>
+        </div>
     </form>
 </body>
 </html>

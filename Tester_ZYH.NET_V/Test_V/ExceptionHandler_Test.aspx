@@ -25,13 +25,13 @@
         </cc1:CallbackManager>
     </div>
     <br />
-    <p>
+    
         <cc1:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">ClientEvent_OnCallTimeOut</cc1:LinkButton>
     </p>
-    <p>
+    
         <cc1:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Error in Event handler</cc1:LinkButton>
     </p>
-    <p>
+    
         <cc1:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Error in PageLoad</cc1:LinkButton>
     </p>
     <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">Error in Postback</asp:LinkButton>
@@ -43,7 +43,7 @@
     <br />
     <asp:PlaceHolder ID="PlaceHolder_ExceptionEventTrigerControlNotLoaded" 
         runat="server"></asp:PlaceHolder>
-    <p>
+    
         <asp:PlaceHolder ID="PlaceHolder_ExceptionEventTrigerControlNotLoaded_postback" 
             runat="server"></asp:PlaceHolder>
     </p>

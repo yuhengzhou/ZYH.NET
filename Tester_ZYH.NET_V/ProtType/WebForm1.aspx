@@ -10,6 +10,7 @@
     <form id="form1" runat="server">
     <div>
     <asp:Button ID="Button1" runat="server" Text="Button" onclick="Button1_Click" />
+        <asp:CheckBox ID="CheckBox1" runat="server" Font-Strikeout="True" Text="sfsdsvsdvxc" />
     </div>
     
     </form>

@@ -25,27 +25,28 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <cc1:CallbackManager ID="CallbackManager1" runat="server" EnableHistory="True" OnNavigate="CallbackManager1_Navigate"
-            ClientEvent_AfterCall_Navigate="Navigate_afterCall">
-        </cc1:CallbackManager>
-        <cc1:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ClientEvent_AfterCallback="LinkButton_AfterCall"
-            UpdateViewState="True">Load Tab 1</cc1:LinkButton>
-        &nbsp;
+        <div>
+            <%--<a href="javascript:CallbackManagerInstance.AddHistoryPoint('2','Jump to 2');">Jump to 2</a>--%>
+            <cc1:CallbackManager ID="CallbackManager1" runat="server" EnableHistory="True" OnNavigate="CallbackManager1_Navigate"
+                ClientEvent_AfterCall_Navigate="Navigate_afterCall">
+            </cc1:CallbackManager>
+            <cc1:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ClientEvent_AfterCallback="LinkButton_AfterCall"
+                UpdateViewState="True">Load Tab 1</cc1:LinkButton>
+            &nbsp;
         <cc1:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" ClientEvent_AfterCallback="LinkButton_AfterCall"
             UpdateViewState="True">Load Tab 2</cc1:LinkButton>
-        &nbsp;
+            &nbsp;
         <cc1:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" ClientEvent_AfterCallback="LinkButton_AfterCall"
             UpdateViewState="True">Load Tab 3</cc1:LinkButton>
-        <br />
-        <a href="#4">4</a>
-        <div id="PlaceHolder" runat="server">
+            <br />
+            <a href="#4">4</a>
+            <div id="PlaceHolder" runat="server">
+            </div>
         </div>
-    </div>
-    <asp:Button ID="Button1" runat="server" Text="Button" />
-    <br />
-    <br />
-    <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">LinkButton</asp:LinkButton>
+        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <br />
+        <br />
+        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">LinkButton</asp:LinkButton>
     </form>
 </body>
 </html>

@@ -135,6 +135,11 @@ function Class_Window(ClientID, CallbackOptions, Settings) {
         var scrollTop = $(window).scrollTop();
         var top = ($(window).height() / 2) - (Self.Control.height() / 2);
         var left = ($(window).width() / 2) - (Self.Control.width() / 2);
+        if (Self.Control.offsetParent().length > 0) {
+            var offP = Self.Control.offsetParent().offset();
+            top -= offP.top;
+            left -= offP.left;
+        }
         if (top < 0) top = 0;
         if (left < 0) left = 0;
         Self.Control[0].style.top = top + scrollTop + 'px';

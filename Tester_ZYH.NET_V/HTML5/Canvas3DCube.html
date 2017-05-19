@@ -1,0 +1,124 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fascinating - HTML5 CANVAS 3D CUBES demo</title>
+    <style>
+        html {
+            overflow: hidden;
+        }
+
+        body {
+            position: absolute;
+            margin: 0px;
+            padding: 0px;
+            background: #000;
+            width: 100%;
+            height: 100%;
+        }
+
+        #screen {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            overflow: hidden;
+            font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+            color: #fff;
+            font-size: 13px;
+        }
+
+            #screen canvas {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #000;
+            }
+
+        #info {
+            position: absolute;
+            text-align: left;
+            top: 19%;
+            left: 2%;
+            width: 180px;
+            height: 340px;
+            color: #666;
+            font-size: 1em;
+        }
+
+            #info .background {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #000;
+                opacity: 0.3;
+            }
+
+            #info .content {
+                position: absolute;
+                padding: 3px;
+                width: 100%;
+                height: 100%;
+            }
+
+            #info .w {
+                color: #fff;
+            }
+
+            #info hr {
+                width: 90%;
+                border: none;
+                background-color: #666;
+                height: 1px;
+            }
+
+            #info h1 {
+                color: #fff;
+                text-align: center;
+            }
+
+        .button {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: #ffffff;
+            padding: 10px 20px;
+            background: -moz-linear-gradient( top, #333333 0%, #000000);
+            background: -webkit-gradient( linear, left top, left bottom, from(#333333), to(#000000));
+            -moz-border-radius: 1px;
+            -webkit-border-radius: 1px;
+            border-radius: 1px;
+            border: 1px solid #000000;
+            -moz-box-shadow: 0px 1px 1px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,1);
+            -webkit-box-shadow: 0px 1px 1px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,1);
+            box-shadow: 0px 1px 1px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,1);
+            text-shadow: 0px -1px 0px rgba(000,000,000,0.7), 0px 1px 0px rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <canvas id="canvas">HTML5 CANVAS</canvas>
+        <div id="info">
+            <div class="background"></div>
+            <div class="content">
+                <h1>3D Cubes</h1>
+                <table>
+                    <tr><td class="w">drag</td><td>→ rotate X,Y axis</td></tr>
+                    <tr><td class="w">wheel</td><td>→ rotate Z axis</td></tr>
+                    <tr><td class="w">click</td><td>→ create cube</td></tr>
+                </table>
+                <hr>
+                <input type="checkbox" id="white"><label for="white"> white background</label><br>
+                <input type="checkbox" id="alpha"><label for="alpha"> transparency</label><br>
+                <input type="checkbox" id="autor"><label for="autor"> auto rotation</label><br>
+                <input type="checkbox" id="destroy"><label for="destroy"> destroy cubes</label><br>
+                <hr>
+                - <span id="fps" class="w">00</span> FPS<br>
+                - <span id="npoly" class="w">00</span> Faces<br>
+                <p align="center"><input type="button" value="RESET" id="reset" class="button"></input><input type="button" value="STOP" id="stopgo" class="button"></input></p>
+            </div>
+        </div>
+    </div>
+    <script src="Cube3D.js"></script>
+</body>
+</html>

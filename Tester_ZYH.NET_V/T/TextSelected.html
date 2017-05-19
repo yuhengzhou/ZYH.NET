@@ -1,0 +1,1173 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script type="text/javascript">
+        function getSelectionText() {
+            var text = "";
+            if (window.getSelection) {
+                text = window.getSelection().toString();
+            } else if (document.selection && document.selection.type != "Control") {
+                text = document.selection.createRange().text;
+            }
+            return text;
+        }
+
+        function SelText() {
+            var s = getSelectionText();
+            alert(s);
+        }
+    </script>
+    <a href="javascript:SelText();" style="font:800 16px Arial ;">Detect Selected Text</a>
+
+    <div itemscope="" itemtype="http://schema.org/Question">
+        <link itemprop="image" href="//cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+
+        <div id="herobox">
+            <div id="hero-content">
+                <div id="close"><a title="click to minimize">_</a></div>
+                <div id="blurb">
+                    Stack Overflow is a community of 4.7 million programmers, just like you, helping each other.
+                    <br>
+                    <br>Join them; it only takes a minute:<br>
+                    <br>
+                    <a href="/users/signup?ssrc=hero&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f5379120%2fget-the-highlighted-selected-text" id="tell-me-more" class="button">Sign up</a>
+                </div>
+                <div id="desc">
+                    <b>Join the Stack Overflow community to:</b>
+                    <ol id="hiw">
+                        <li id="q">
+                            Ask programming questions
+                        </li>
+                        <li id="an">
+                            Answer and help your peers
+                        </li>
+                        <li id="b">
+                            Get recognized for your expertise
+                        </li>
+                    </ol>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+        <div id="question-header">
+            <h1 itemprop="name"><a href="/questions/5379120/get-the-highlighted-selected-text" class="question-hyperlink">Get the Highlighted/Selected text</a></h1>
+        </div>
+        <div id="mainbar">
+
+
+
+            <div class="question" data-questionid="5379120" id="question">
+
+                <script>
+                    var ados = ados || {}; ados.run = ados.run || [];
+                    ados.run.push(function () { ados_add_placement(22, 8277, "adzerk765608919", 4).setZone(43); });
+                </script>
+                <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk765608919"><a href="http://engine.adzerk.net/r?e=eyJhdiI6NDE0LCJhdCI6NCwiYnQiOjAsImNtIjozMjI1MTQsImNoIjoxMTc4LCJjayI6e30sImNyIjoxMTk1Nzc4LCJkaSI6Ijc0MzIwY2Y1OGI5ZjRiNzc4ZDQ0ZTUyZGYwNmM1ZTNhIiwiZG0iOjEsImZjIjoxMjY5MTM3LCJmbCI6ODY0MjI1LCJpcCI6IjEzNS4wLjE3NS4yMzkiLCJrdyI6ImphdmFzY3JpcHQsanF1ZXJ5LHRleHRzZWxlY3Rpb24iLCJudyI6MjIsInBjIjowLCJlYyI6MCwicHIiOjE2MDQsInJ0IjoxLCJzdCI6ODI3NywidWsiOiJ1ZTEtNWEwMzI0MTNiNzQ4NDRiYWIxY2FhNDUwMmZlMjUzMzEiLCJ6biI6NDMsInRzIjoxNDUzOTE1NzA5NTYyLCJiZiI6dHJ1ZSwicG4iOiJhZHplcms3NjU2MDg5MTkiLCJ1ciI6Imh0dHA6Ly9jYXJlZXJzLnN0YWNrb3ZlcmZsb3cuY29tL3Byb2R1Y3RzP3V0bV9zb3VyY2U9c3RhY2tvdmVyZmxvdy5jb20mdXRtX21lZGl1bT1hZCZ1dG1fY2FtcGFpZ249ZW1wbG95ZXJzLWJlc3Qtd2F5JnV0bV9jb250ZW50PWxiLXVzZSJ9&amp;s=gHb0TZJGw0fcu275RhtabCsJfMY" rel="nofollow" target="_blank" title=""><img src="http://static.adzerk.net/Advertisers/5fa811fa1a3e40f1a3435478bd1364a0.png" title="" alt="" border="0" width="728" height="90"></a><div class="adzerk-vote-controls" style="display: none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input type="radio" value="12" name="downvoteReason">Uninteresting</label></li><li><label><input type="radio" value="13" name="downvoteReason">Misleading</label></li><li><label><input type="radio" value="14" name="downvoteReason">Offensive</label></li><li><label><input type="radio" value="15" name="downvoteReason">Repetitive</label></li><li><label><input type="radio" value="16" name="downvoteReason">Other</label></li></ul><a href="#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div><img height="0px" width="0px" border="0" style="position:absolute;" src="http://engine.adzerk.net/i.gif?e=eyJhdiI6NDE0LCJhdCI6NCwiYnQiOjAsImNtIjozMjI1MTQsImNoIjoxMTc4LCJjayI6e30sImNyIjoxMTk1Nzc4LCJkaSI6Ijc0MzIwY2Y1OGI5ZjRiNzc4ZDQ0ZTUyZGYwNmM1ZTNhIiwiZG0iOjEsImZjIjoxMjY5MTM3LCJmbCI6ODY0MjI1LCJpcCI6IjEzNS4wLjE3NS4yMzkiLCJrdyI6ImphdmFzY3JpcHQsanF1ZXJ5LHRleHRzZWxlY3Rpb24iLCJudyI6MjIsInBjIjowLCJlYyI6MCwicHIiOjE2MDQsInJ0IjoxLCJzdCI6ODI3NywidWsiOiJ1ZTEtNWEwMzI0MTNiNzQ4NDRiYWIxY2FhNDUwMmZlMjUzMzEiLCJ6biI6NDMsInRzIjoxNDUzOTE1NzA5NTYzLCJiZiI6dHJ1ZSwicG4iOiJhZHplcms3NjU2MDg5MTkifQ&amp;s=9UlwgX3Zn78_Vli96Ftw-Mj6Jto"></div>    <table>
+                    <tbody>
+                        <tr>
+                            <td class="votecell">
+
+
+                                <div class="vote">
+                                    <input type="hidden" name="_id_" value="5379120">
+                                    <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+                                    <span itemprop="upvoteCount" class="vote-count-post ">155</span>
+                                    <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+                                    <a class="star-off" href="#" title="This is a favorite question (click again to undo)">favorite</a>
+                                    <div class="favoritecount"><b>70</b></div>
+
+
+                                </div>
+
+                            </td>
+
+                            <td class="postcell">
+                                <div>
+                                    <div class="post-text" itemprop="text">
+
+                                        <p>Is it possible to get the highlighted text in a paragraph of a website e.g. by using jQuery?</p>
+                                    </div>
+                                    <div class="post-taglist">
+                                        <a href="/questions/tagged/javascript" class="post-tag js-gps-track" title="show questions tagged 'javascript'" rel="tag">javascript</a> <a href="/questions/tagged/jquery" class="post-tag js-gps-track" title="show questions tagged 'jquery'" rel="tag">jquery</a> <a href="/questions/tagged/textselection" class="post-tag js-gps-track" title="" rel="tag">textselection</a>
+                                    </div>
+                                    <table class="fw">
+                                        <tbody>
+                                            <tr>
+                                                <td class="vt">
+                                                    <div class="post-menu"><a href="/q/5379120" title="short permalink to this question" class="short-link" id="link-post-5379120">share</a><span class="lsep">|</span><a href="/posts/5379120/edit" class="suggest-edit-post" title="">improve this question</a></div>
+                                                </td>
+                                                <td align="right" class="post-signature">
+                                                    <div class="user-info ">
+                                                        <div class="user-action-time">
+                                                            <a href="/posts/5379120/revisions" title="show all edits to this post">edited <span title="2015-10-23 09:46:41Z" class="relativetime">Oct 23 '15 at 9:46</span></a>
+                                                        </div>
+                                                        <div class="user-gravatar32">
+                                                            <a href="/users/3576214/damjan-pavlica"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d2c5a0f2653e7d11d518b584f4c46536?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+                                                        </div>
+                                                        <div class="user-details">
+                                                            <a href="/users/3576214/damjan-pavlica">Damjan Pavlica</a>
+                                                            <div class="-flair">
+                                                                <span class="reputation-score" title="reputation score " dir="ltr">824</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="24 bronze badges"><span class="badge3"></span><span class="badgecount">24</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="post-signature owner">
+                                                    <div class="user-info ">
+                                                        <div class="user-action-time">
+                                                            asked <span title="2011-03-21 14:33:58Z" class="relativetime">Mar 21 '11 at 14:33</span>
+                                                        </div>
+                                                        <div class="user-gravatar32">
+                                                            <a href="/users/669600/dan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6f85ade0303a2be26b6b6c276319583b?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+                                                        </div>
+                                                        <div class="user-details">
+                                                            <a href="/users/669600/dan">Dan</a>
+                                                            <div class="-flair">
+                                                                <span class="reputation-score" title="reputation score " dir="ltr">788</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="votecell"></td>
+                            <td>
+                                <div id="comments-5379120" class="comments ">
+                                    <table>
+                                        <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+                                            <tr id="comment-6080827" class="comment ">
+                                                <td class="comment-actions">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class=" comment-score">
+                                                                    <span title="number of 'useful comment' votes received" class="cool">3</span>
+                                                                </td>
+                                                                <td>
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td class="comment-text">
+                                                    <div style="display: block;" class="comment-body">
+                                                        <span class="comment-copy">duplicate of <a href="http://stackoverflow.com/questions/985272/jquery-selecting-text-in-an-element-akin-to-highlighting-with-your-mouse" title="jquery selecting text in an element akin to highlighting with your mouse">stackoverflow.com/questions/985272/…</a></span>
+                                                        –&nbsp;<a href="/users/125981/mark-schultheiss" title="15715 reputation" class="comment-user">Mark Schultheiss</a>
+                                                        <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment6080827_5379120"><span title="2011-03-21 14:43:27Z" class="relativetime-clean">Mar 21 '11 at 14:43</span></a></span>
+                                                        <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr id="comment-17208595" class="comment ">
+                                                <td class="comment-actions">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class=" comment-score">
+                                                                    <span title="number of 'useful comment' votes received" class="supernova">36</span>
+                                                                </td>
+                                                                <td>
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td class="comment-text">
+                                                    <div style="display: block;" class="comment-body">
+                                                        <span class="comment-copy">Not a duplicate. It's asking how to get the sected text, not how to select it.</span>
+                                                        –&nbsp;<a href="/users/16454/lorddev" title="1827 reputation" class="comment-user">lorddev</a>
+                                                        <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment17208595_5379120"><span title="2012-10-05 04:25:05Z" class="relativetime-clean">Oct 5 '12 at 4:25</span></a></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr id="comment-42873851" class="comment ">
+                                                <td>
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class=" comment-score">
+                                                                    &nbsp;&nbsp;
+                                                                </td>
+                                                                <td>
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td class="comment-text">
+                                                    <div style="display: block;" class="comment-body">
+                                                        <span class="comment-copy">Here's a working solution <a href="http://dipaksblogonline.blogspot.in/2014/11/javascript-text-selection-popover.html" rel="nofollow">dipaksblogonline.blogspot.in/2014/11/…</a></span>
+                                                        –&nbsp;<a href="/users/795961/dipak" title="7677 reputation" class="comment-user">Dipak</a>
+                                                        <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment42873851_5379120"><span title="2014-11-28 18:30:15Z" class="relativetime-clean">Nov 28 '14 at 18:30</span></a></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div id="comments-link-5379120" data-rep="50" data-anon="true">
+
+                                    <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+                                    <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="answers">
+
+                <a name="tab-top"></a>
+                <div id="answers-header">
+                    <div class="subheader answers-subheader">
+                        <h2>
+                            3 Answers
+                            <span style="display:none;" itemprop="answerCount">3</span>
+                        </h2>
+                        <div>
+                            <div id="tabs">
+                                <a href="/questions/5379120/get-the-highlighted-selected-text?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active">
+                                    active
+                                </a>
+                                <a href="/questions/5379120/get-the-highlighted-selected-text?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest">
+                                    oldest
+                                </a>
+                                <a class="youarehere" href="/questions/5379120/get-the-highlighted-selected-text?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes">
+                                    votes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <a name="5379408"></a>
+                <div id="answer-5379408" class="answer" data-answerid="5379408" itemscope="" itemtype="http://schema.org/Answer">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="votecell">
+
+
+                                    <div class="vote">
+                                        <input type="hidden" name="_id_" value="5379408">
+                                        <a class="vote-up-off" title="This answer is useful">up vote</a>
+                                        <span itemprop="upvoteCount" class="vote-count-post ">194</span>
+                                        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+                                    </div>
+
+                                </td>
+
+
+
+                                <td class="answercell">
+                                    <div class="post-text" itemprop="text">
+                                        <p>Getting the text the user has selected is relatively simple. There's no benefit to be gained by involving jQuery since you need nothing other than the <code>window</code> and <code>document</code> objects.</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="kwd">function</span><span class="pln"> getSelectionText</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">var</span><span class="pln"> text </span><span class="pun">=</span><span class="pln"> </span><span class="str">""</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">window</span><span class="pun">.</span><span class="pln">getSelection</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        text </span><span class="pun">=</span><span class="pln"> window</span><span class="pun">.</span><span class="pln">getSelection</span><span class="pun">().</span><span class="pln">toString</span><span class="pun">();</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln"> </span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">document</span><span class="pun">.</span><span class="pln">selection </span><span class="pun">&amp;&amp;</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">selection</span><span class="pun">.</span><span class="pln">type </span><span class="pun">!=</span><span class="pln"> </span><span class="str">"Control"</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        text </span><span class="pun">=</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">selection</span><span class="pun">.</span><span class="pln">createRange</span><span class="pun">().</span><span class="pln">text</span><span class="pun">;</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+    </span><span class="kwd">return</span><span class="pln"> text</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+                                    </div>
+                                    <table class="fw">
+                                        <tbody>
+                                            <tr>
+                                                <td class="vt">
+                                                    <div class="post-menu"><a href="/a/5379408" title="short permalink to this answer" class="short-link" id="link-post-5379408">share</a><span class="lsep">|</span><a href="/posts/5379408/edit" class="suggest-edit-post" title="">improve this answer</a></div>
+                                                </td>
+                                                <td align="right" class="post-signature">
+                                                    <div class="user-info ">
+                                                        <div class="user-action-time">
+                                                            <a href="/posts/5379408/revisions" title="show all edits to this post">edited <span title="2011-03-21 15:06:24Z" class="relativetime">Mar 21 '11 at 15:06</span></a>
+                                                        </div>
+                                                        <div class="user-gravatar32">
+
+                                                        </div>
+                                                        <div class="user-details">
+
+                                                            <div class="-flair">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+
+
+                                                <td align="right" class="post-signature">
+
+
+                                                    <div class="user-info user-hover">
+                                                        <div class="user-action-time">
+                                                            answered <span title="2011-03-21 14:57:23Z" class="relativetime">Mar 21 '11 at 14:57</span>
+                                                        </div>
+                                                        <div class="user-gravatar32">
+                                                            <a href="/users/96100/tim-down"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f7b22b86b0da570ddb5d1d4923b0f4f4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+                                                        </div>
+                                                        <div class="user-details">
+                                                            <a href="/users/96100/tim-down">Tim Down</a>
+                                                            <div class="-flair">
+                                                                <span class="reputation-score" title="reputation score 170229" dir="ltr">170k</span><span title="34 gold badges"><span class="badge1"></span><span class="badgecount">34</span></span><span title="270 silver badges"><span class="badge2"></span><span class="badgecount">270</span></span><span title="361 bronze badges"><span class="badge3"></span><span class="badgecount">361</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="votecell"></td>
+                                <td>
+                                    <div id="comments-5379408" class="comments ">
+                                        <table>
+                                            <tbody data-remaining-comments-count="10" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+                                                <tr id="comment-6174866" class="comment ">
+                                                    <td class="comment-actions">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class=" comment-score">
+                                                                        <span title="number of 'useful comment' votes received" class="cool">4</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        &nbsp;
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    <td class="comment-text">
+                                                        <div style="display: block;" class="comment-body">
+                                                            <span class="comment-copy">What is the else if {} -fork good for? what is "Control" about?</span>
+                                                            –&nbsp;<a href="/users/678820/dan" title="11 reputation" class="comment-user">Dan</a>
+                                                            <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment6174866_5379408"><span title="2011-03-27 10:30:08Z" class="relativetime-clean">Mar 27 '11 at 10:30</span></a></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr id="comment-6225886" class="comment ">
+                                                    <td class="comment-actions">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class=" comment-score">
+                                                                        <span title="number of 'useful comment' votes received" class="hot">19</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        &nbsp;
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    <td class="comment-text">
+                                                        <div style="display: block;" class="comment-body">
+                                                            <span class="comment-copy">@Dan: Sorry, I missed this question (don't think SO alerted me to it). The second branch is for IE &lt;= 8 (IE 9 implements <code>window.getSelection()</code>). The <code>document.selection.type</code> check is testing that the selection is a text selection rather than a control selection. In IE, a control selection is a selection inside an editable element containing one or more elements (such as images and form controls) with outlines and resize handles. If you call <code>.createRange()</code> on such a selection, you get a <code>ControlRange</code> rather than a <code>TextRange</code>, and <code>ControlRange</code>s have no <code>text</code> property.</span>
+                                                            –&nbsp;<a href="/users/96100/tim-down" title="170229 reputation" class="comment-user">Tim Down</a>
+                                                            <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment6225886_5379408"><span title="2011-03-30 15:30:58Z" class="relativetime-clean">Mar 30 '11 at 15:30</span></a></span>
+                                                            <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr id="comment-37015049" class="comment ">
+                                                    <td>
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class=" comment-score">
+                                                                        &nbsp;&nbsp;
+                                                                    </td>
+                                                                    <td>
+                                                                        &nbsp;
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    <td class="comment-text">
+                                                        <div style="display: block;" class="comment-body">
+                                                            <span class="comment-copy">Can this function be called after any event? It doesn't seem to work for me on a textarea</span>
+                                                            –&nbsp;<a href="/users/1679865/rafael-diaz" title="350 reputation" class="comment-user">Rafael Diaz</a>
+                                                            <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment37015049_5379408"><span title="2014-06-03 12:28:50Z" class="relativetime-clean">Jun 3 '14 at 12:28</span></a></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr id="comment-45375411" class="comment ">
+                                                    <td class="comment-actions">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class=" comment-score">
+                                                                        <span title="number of 'useful comment' votes received" class="cool">1</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        &nbsp;
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    <td class="comment-text">
+                                                        <div style="display: block;" class="comment-body">
+                                                            <span class="comment-copy">@TimDown It's very thin ice to ever say "jQuery doesn't have X", because of course, with the right plugin, it can do anything you can do in the browser with javascript. In this case, we have jquery.selection (<a href="http://madapaja.github.io/jquery.selection/" rel="nofollow">madapaja.github.io/jquery.selection</a>). It's equally wrong to say "nor should it". I arrived here because I was looking for exactly this. I have a use case, and jQuery is the right solution.</span>
+                                                            –&nbsp;<a href="/users/334719/auspex" title="1667 reputation" class="comment-user">Auspex</a>
+                                                            <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment45375411_5379408"><span title="2015-02-15 19:33:59Z" class="relativetime-clean">Feb 15 '15 at 19:33</span></a></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr id="comment-45381028" class="comment ">
+                                                    <td class="comment-actions">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class=" comment-score">
+                                                                        <span title="number of 'useful comment' votes received" class="cool">3</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        &nbsp;
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    <td class="comment-text">
+                                                        <div style="display: block;" class="comment-body">
+                                                            <span class="comment-copy">@Auspex: I kind of see your point but I disagree. A jQuery plugin is a library that has a dependency on jQuery; it is not itself jQuery. In the case of selection handling, jQuery itself provides precisely nothing (which is as it should be because selection handling is not what jQuery is for), so any solution that uses jQuery is using it incidentally.</span>
+                                                            –&nbsp;<a href="/users/96100/tim-down" title="170229 reputation" class="comment-user">Tim Down</a>
+                                                            <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment45381028_5379408"><span title="2015-02-16 00:58:39Z" class="relativetime-clean">Feb 16 '15 at 0:58</span></a></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div id="comments-link-5379408" data-rep="50" data-anon="true">
+
+                                        <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+                                        <a class="js-show-link comments-link " title="expand to show all comments on this post" href="#" onclick="">show <b>10</b> more comments</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <script>
+                    var ados = ados || {}; ados.run = ados.run || [];
+                    ados.run.push(function () { ados_add_placement(22, 8277, "adzerk1698667658", 4).setZone(44); });
+                </script>
+                <div class="everyonelovesstackoverflow" id="adzerk1698667658">
+                </div>
+
+                <a name="24309486"></a>
+                <div id="answer-24309486" class="answer" data-answerid="24309486" itemscope="" itemtype="http://schema.org/Answer">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="votecell">
+
+
+                                    <div class="vote">
+                                        <input type="hidden" name="_id_" value="24309486">
+                                        <a class="vote-up-off" title="This answer is useful">up vote</a>
+                                        <span itemprop="upvoteCount" class="vote-count-post ">31</span>
+                                        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+                                    </div>
+
+                                </td>
+
+
+
+                                <td class="answercell">
+                                    <div class="post-text" itemprop="text">
+                                        <p>Get highlighted text this way:</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="pln">window</span><span class="pun">.</span><span class="pln">getSelection</span><span class="pun">().</span><span class="pln">toString</span><span class="pun">()</span></code></pre>
+
+                                        <p>and of course a special treatment for ie:</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="pln">document</span><span class="pun">.</span><span class="pln">selection</span><span class="pun">.</span><span class="pln">createRange</span><span class="pun">().</span><span class="pln">htmlText</span></code></pre>
+                                    </div>
+                                    <table class="fw">
+                                        <tbody>
+                                            <tr>
+                                                <td class="vt">
+                                                    <div class="post-menu"><a href="/a/24309486" title="short permalink to this answer" class="short-link" id="link-post-24309486">share</a><span class="lsep">|</span><a href="/posts/24309486/edit" class="suggest-edit-post" title="">improve this answer</a></div>
+                                                </td>
+
+
+
+                                                <td align="right" class="post-signature">
+
+
+                                                    <div class="user-info ">
+                                                        <div class="user-action-time">
+                                                            answered <span title="2014-06-19 14:47:28Z" class="relativetime">Jun 19 '14 at 14:47</span>
+                                                        </div>
+                                                        <div class="user-gravatar32">
+                                                            <a href="/users/944867/parpar"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ef69891008cee8ddde81d4361a4320ee?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+                                                        </div>
+                                                        <div class="user-details">
+                                                            <a href="/users/944867/parpar">ParPar</a>
+                                                            <div class="-flair">
+                                                                <span class="reputation-score" title="reputation score " dir="ltr">2,637</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="19 silver badges"><span class="badge2"></span><span class="badgecount">19</span></span><span title="30 bronze badges"><span class="badge3"></span><span class="badgecount">30</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="votecell"></td>
+                                <td>
+                                    <div id="comments-24309486" class="comments ">
+                                        <table>
+                                            <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+                                                <tr id="comment-53138604" class="comment ">
+                                                    <td class="comment-actions">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class=" comment-score">
+                                                                        <span title="number of 'useful comment' votes received" class="warm">6</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        &nbsp;
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    <td class="comment-text">
+                                                        <div style="display: block;" class="comment-body">
+                                                            <span class="comment-copy">Upvote for <code>special treatment for ie</code>!!!😂😂😂</span>
+                                                            –&nbsp;<a href="/users/4935297/arjun" title="603 reputation" class="comment-user">Arjun</a>
+                                                            <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53138604_24309486"><span title="2015-09-18 06:44:14Z" class="relativetime-clean">Sep 18 '15 at 6:44</span></a></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div id="comments-link-24309486" data-rep="50" data-anon="true">
+
+                                        <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+                                        <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <a name="9794040"></a>
+                <div id="answer-9794040" class="answer" data-answerid="9794040" itemscope="" itemtype="http://schema.org/Answer">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="votecell">
+
+
+                                    <div class="vote">
+                                        <input type="hidden" name="_id_" value="9794040">
+                                        <a class="vote-up-off" title="This answer is useful">up vote</a>
+                                        <span itemprop="upvoteCount" class="vote-count-post ">5</span>
+                                        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+                                    </div>
+
+                                </td>
+
+
+
+                                <td class="answercell">
+                                    <div class="post-text" itemprop="text">
+                                        <p>This solution works if you're using chrome (can't verify other browsers) and if the text is located in the same DOM Element:</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="pln">window</span><span class="pun">.</span><span class="pln">getSelection</span><span class="pun">().</span><span class="pln">anchorNode</span><span class="pun">.</span><span class="pln">textContent</span><span class="pun">.</span><span class="pln">substring</span><span class="pun">(</span><span class="pln">
+  window</span><span class="pun">.</span><span class="pln">getSelection</span><span class="pun">().</span><span class="pln">extentOffset</span><span class="pun">,</span><span class="pln"> 
+  window</span><span class="pun">.</span><span class="pln">getSelection</span><span class="pun">().</span><span class="pln">anchorOffset</span><span class="pun">)</span></code></pre>
+                                    </div>
+                                    <table class="fw">
+                                        <tbody>
+                                            <tr>
+                                                <td class="vt">
+                                                    <div class="post-menu"><a href="/a/9794040" title="short permalink to this answer" class="short-link" id="link-post-9794040">share</a><span class="lsep">|</span><a href="/posts/9794040/edit" class="suggest-edit-post" title="">improve this answer</a></div>
+                                                </td>
+                                                <td align="right" class="post-signature">
+                                                    <div class="user-info user-hover">
+                                                        <div class="user-action-time">
+                                                            <a href="/posts/9794040/revisions" title="show all edits to this post">edited <span title="2012-03-21 07:37:47Z" class="relativetime">Mar 21 '12 at 7:37</span></a>
+                                                        </div>
+                                                        <div class="user-gravatar32">
+                                                            <a href="/users/644450/oers"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7944642e7b6ccba80911e4b3dade89e4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+                                                        </div>
+                                                        <div class="user-details">
+                                                            <a href="/users/644450/oers">oers</a>
+                                                            <div class="-flair">
+                                                                <span class="reputation-score" title="reputation score 12005" dir="ltr">12k</span><span title="8 gold badges"><span class="badge1"></span><span class="badgecount">8</span></span><span title="43 silver badges"><span class="badge2"></span><span class="badgecount">43</span></span><span title="58 bronze badges"><span class="badge3"></span><span class="badgecount">58</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+
+
+                                                <td align="right" class="post-signature">
+
+
+                                                    <div class="user-info ">
+                                                        <div class="user-action-time">
+                                                            answered <span title="2012-03-20 20:02:13Z" class="relativetime">Mar 20 '12 at 20:02</span>
+                                                        </div>
+                                                        <div class="user-gravatar32">
+                                                            <a href="/users/1281855/andrew-kennedy"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/678dda6104f290d4083ccd457f03dc08?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+                                                        </div>
+                                                        <div class="user-details">
+                                                            <a href="/users/1281855/andrew-kennedy">Andrew Kennedy</a>
+                                                            <div class="-flair">
+                                                                <span class="reputation-score" title="reputation score " dir="ltr">51</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="votecell"></td>
+                                <td>
+                                    <div id="comments-9794040" class="comments  dno">
+                                        <table>
+                                            <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                                                <tr><td></td><td></td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div id="comments-link-9794040" data-rep="50" data-anon="true">
+
+                                        <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+                                        <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="question-status">
+                    <h2>
+                        <b>protected</b> by <a href="/users/707111/ryan-ohara">Ryan O'Hara</a><span class="mod-flair" title="moderator">♦</span> <span dir="ltr"><span title="2013-06-27 14:53:21Z" class="relativetime">Jun 27 '13 at 14:53</span></span>
+                    </h2>
+                    <p>
+                        Thank you for your interest in this question.
+                        Because it has attracted low-quality or spam answers that had to be removed, posting an answer now requires 10 <a href="/help/whats-reputation">reputation</a> on this site.
+                        <br><br>
+                        Would you like to answer one of these <a href="/unanswered?fromProtectedNotice=true">unanswered questions</a> instead?
+                    </p>
+                </div>
+
+
+
+
+
+                <h2 class="bottom-notice" data-loc="1">
+                    Not the answer you're looking for?							Browse other questions tagged <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a> <a href="/questions/tagged/jquery" class="post-tag" title="show questions tagged 'jquery'" rel="tag">jquery</a> <a href="/questions/tagged/textselection" class="post-tag" title="show questions tagged 'textselection'" rel="tag">textselection</a>  or <a href="/questions/ask">ask your own question</a>.
+                </h2>
+            </div>
+        </div>
+        <div id="sidebar" class="show-votes">
+            <div class="module question-stats">
+                <table id="qinfo">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="label-key">asked</p>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <p class="label-key" title="2011-03-21 14:33:58Z"><b>4 years ago</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="label-key">viewed</p>
+                            </td>
+
+                            <td style="padding-left: 10px">
+                                <p class="label-key">
+                                    <b>86483 times</b>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="label-key">active</p>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <p class="label-key"><b><a href="?lastactivity" class="lastactivity-link" title="2015-10-23 09:46:41Z">3 months ago</a></b></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk931238413", [5, 17, 2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk931238413">
+                <div id="SE20-ad-container" style="height: 250px;">
+                    <style>
+                        #launched-ad {
+                            width: 300px;
+                            height: 250px;
+                            overflow: hidden;
+                            background: url(//sstatic.net/stackexchange/Img/launched-ads/unix.png?v=2) no-repeat bottom center;
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
+
+                        #launched-ad-link {
+                            display: block;
+                            width: 300px;
+                            height: 250px;
+                            line-height: 1.2;
+                            color: #293A5D !important;
+                            font-family: Georgia,"Times New Roman",serif;
+                            font-size: 22px;
+                            line-height: 28px;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+                        #launched-ad-inner {
+                            padding: 0px 25px 40px 25px;
+                            text-align: center;
+                        }
+                    </style>
+                    <a id="launched-ad-link" href="http://engine.adzerk.net/r?e=eyJhdiI6NDE0LCJhdCI6MTcsImJ0IjowLCJjbSI6OTkzLCJjaCI6MTE3OCwiY2siOnt9LCJjciI6MTI0OTEzOSwiZGkiOiJmNzhjM2ViNDNhNGQ0Njk4YjYzNWFjNjM3ZDIzZmY0ZCIsImRtIjoxLCJmYyI6MTMzNzQ0MSwiZmwiOjI4NDEsImlwIjoiMTM1LjAuMTc1LjIzOSIsImt3IjoiamF2YXNjcmlwdCxqcXVlcnksdGV4dHNlbGVjdGlvbiIsIm53IjoyMiwicGMiOjAsImVjIjowLCJwciI6MTYwNCwicnQiOjEsInN0Ijo4Mjc3LCJ1ayI6InVlMS01YTAzMjQxM2I3NDg0NGJhYjFjYWE0NTAyZmUyNTMzMSIsInpuIjo0NSwidHMiOjE0NTM5MTU3MDk1NjQsImJmIjp0cnVlLCJwbiI6ImFkemVyazkzMTIzODQxMyIsInVyIjpudWxsfQ&amp;s=GWFJuS3vQM3I6OWC1daG4bZsH58&amp;url=http%3A%2F%2Funix.stackexchange.com%2Fquestions%2F257598%2Fhow-does-a-segmentation-fault-work-under-the-hood%3Futm_medium%3Dad%26utm_source%3Dhttp-stackoverflow-com-questions-11931401-php-session-for-multiple-users-at-on%26utm_campaign%3Dunix.stackexchange.com-promo%26utm_content%3D257598">
+                        <div id="launched-ad">
+                            <div id="launched-ad-inner">How does a Segmentation Fault work under-the-hood?</div>
+                        </div>
+                    </a>
+                </div>
+                <script type="text/javascript">window._launchedAdUrl = "http://engine.adzerk.net/r?e=eyJhdiI6NDE0LCJhdCI6MTcsImJ0IjowLCJjbSI6OTkzLCJjaCI6MTE3OCwiY2siOnt9LCJjciI6MTI0OTEzOSwiZGkiOiJmNzhjM2ViNDNhNGQ0Njk4YjYzNWFjNjM3ZDIzZmY0ZCIsImRtIjoxLCJmYyI6MTMzNzQ0MSwiZmwiOjI4NDEsImlwIjoiMTM1LjAuMTc1LjIzOSIsImt3IjoiamF2YXNjcmlwdCxqcXVlcnksdGV4dHNlbGVjdGlvbiIsIm53IjoyMiwicGMiOjAsImVjIjowLCJwciI6MTYwNCwicnQiOjEsInN0Ijo4Mjc3LCJ1ayI6InVlMS01YTAzMjQxM2I3NDg0NGJhYjFjYWE0NTAyZmUyNTMzMSIsInpuIjo0NSwidHMiOjE0NTM5MTU3MDk1NjQsImJmIjp0cnVlLCJwbiI6ImFkemVyazkzMTIzODQxMyIsInVyIjpudWxsfQ&s=GWFJuS3vQM3I6OWC1daG4bZsH58";</script>
+                <script type="text/javascript" src="//stackexchange.com/ads/launched-question/js?id=SE20-ad-container"></script><div class="adzerk-vote-controls" style="display:none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input type="radio" value="12" name="downvoteReason">Uninteresting</label></li><li><label><input type="radio" value="13" name="downvoteReason">Misleading</label></li><li><label><input type="radio" value="14" name="downvoteReason">Offensive</label></li><li><label><input type="radio" value="15" name="downvoteReason">Repetitive</label></li><li><label><input type="radio" value="16" name="downvoteReason">Other</label></li></ul><a href="#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div><img height="0px" width="0px" border="0" style="position:absolute;" src="http://engine.adzerk.net/i.gif?e=eyJhdiI6NDE0LCJhdCI6MTcsImJ0IjowLCJjbSI6OTkzLCJjaCI6MTE3OCwiY2siOnt9LCJjciI6MTI0OTEzOSwiZGkiOiJmNzhjM2ViNDNhNGQ0Njk4YjYzNWFjNjM3ZDIzZmY0ZCIsImRtIjoxLCJmYyI6MTMzNzQ0MSwiZmwiOjI4NDEsImlwIjoiMTM1LjAuMTc1LjIzOSIsImt3IjoiamF2YXNjcmlwdCxqcXVlcnksdGV4dHNlbGVjdGlvbiIsIm53IjoyMiwicGMiOjAsImVjIjowLCJwciI6MTYwNCwicnQiOjEsInN0Ijo4Mjc3LCJ1ayI6InVlMS01YTAzMjQxM2I3NDg0NGJhYjFjYWE0NTAyZmUyNTMzMSIsInpuIjo0NSwidHMiOjE0NTM5MTU3MDk1NzMsImJmIjp0cnVlLCJwbiI6ImFkemVyazkzMTIzODQxMyJ9&amp;s=mJIW5LGvmvYdIK3emaLvYI1mQZU">
+            </div>
+            <div id="hireme" class=" tagthemedcsharp tag-themed csharp tagged"><a href="//stackoverflow.com/jobs/tag/c%23" target="_blank" data-tz="1" data-ti="2" class="top"><span>Want a <span class="header-tag">c#</span> job?</span></a><div class="middle"><ul class="jobs"><li><a data-at="0" data-tz="3" data-ti="190509" href="//stackoverflow.com/jobs/104582/senior-net-developer-responsetek" target="_blank" title="Senior .NET Developer at ResponseTek. Click to learn more.">Senior .NET Developer<br><div class="company">ResponseTek</div><div class="location" title="Vancouver, BC, Canada">Vancouver, BC, Canada</div><span class="post-tag highlight">c#</span><span class="post-tag">sql</span></a></li><li><a data-at="0" data-tz="3" data-ti="178693" href="//stackoverflow.com/jobs/92691/web-developer-at-scholantis-create-code-share-scholantis" target="_blank" title="Web Developer at Scholantis - Create, code, share your passion and enjoy life! at Scholantis. Click to learn more.">Web Developer at Scholantis - Create, code, share your passion and enjoy life!<br><div class="company">Scholantis</div><div class="location" title="Vancouver, BC, Canada">Vancouver, BC, Canada</div><span class="post-tag highlight">c#</span><span class="post-tag">html</span></a></li></ul></div><img class="impression" src="//clc.stackoverflow.com/i.gif?an=Y2NiaJjN6GavftmDAQSYmBkyA5hYORiYGNiZQHzdF0wMJyzP_89c-cqeFSzOKMfAyMACkmThARLMzECCdRcTw4us3s9TlV5iqmKHqRKTABvHJBfABdHCpOEGZCn_0Xl0PTCz4twZAA&amp;at=0&amp;pt=338" style="display:none;"></div>
+            <div style="margin-bottom: 10px;">
+
+
+                <style type="text/css">
+                    #newsletter-ad {
+                        width: 270px;
+                        height: 250px;
+                        overflow: hidden;
+                        background: url('//cdn.sstatic.net/stackoverflow/img/newsletter-ad.png?v=3');
+                        padding: 0 15px 0 15px;
+                    }
+
+                    #newsletter-ad-header {
+                        margin-top: 60px;
+                    }
+
+                    #newsletter-ad ul {
+                        margin: 1em 0 1em 1.5em;
+                    }
+
+                        #newsletter-ad ul li {
+                            margin-bottom: 5px;
+                        }
+
+                    #newsletter-signup-container {
+                        text-align: center;
+                    }
+
+                    #newsletter-preview-container {
+                        margin-top: 10px;
+                        text-align: center;
+                    }
+
+                    #newsletter-email-input {
+                        width: 200px;
+                    }
+                </style>
+
+
+                <div id="newsletter-ad">
+                    <p id="newsletter-ad-header">Get the <b>weekly newsletter!</b> In it, you'll get:</p>
+                    <ul>
+                        <li>The week's top questions and answers</li>
+                        <li>Important community announcements</li>
+                        <li>Questions that need answers</li>
+                    </ul>
+                    <div id="newsletter-signup-container"><input id="newsletter-signup" type="button" value="Sign up for the newsletter"></div>
+                    <p id="newsletter-preview-container">see an <a href="//stackexchange.com/newsletters/newsletter?site=stackoverflow.com" id="newsletter-preview">example newsletter</a></p>
+                </div>
+
+            </div>
+
+            <div class="module sidebar-linked">
+                <h4 id="h-linked">Linked</h4>
+                <div class="linked" data-tracker="lq=1">
+                    <div class="spacer">
+                        <a href="http://stackoverflow.com/q/985272?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted large">263</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/985272/selecting-text-in-an-element-akin-to-highlighting-with-your-mouse?lq=1" class="question-hyperlink">Selecting text in an element (akin to highlighting with your mouse)</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/5380521?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">28</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/5380521/why-do-people-use-jquery-for-basic-operations?lq=1" class="question-hyperlink">Why do people use jQuery for basic operations?</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/2582831?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">14</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/2582831/how-can-i-highlight-the-text-of-the-dom-range-object?lq=1" class="question-hyperlink">How can I highlight the text of the DOM Range object?</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/7380190?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">4</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/7380190/select-whole-word-with-getselection?lq=1" class="question-hyperlink">Select whole word with getSelection</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/16036745?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes  default">9</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/16036745/how-to-get-selected-text-from-a-text-area-in-jquery?lq=1" class="question-hyperlink">How to get selected text from a text area in jquery?</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/28331422?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">5</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/28331422/is-there-a-way-to-allow-users-to-copy-text-from-a-website-and-the-text-be-unfor?lq=1" class="question-hyperlink">Is there a way to allow users to copy text from a website, and the text be unformatted?</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/18337081?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">4</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/18337081/how-to-remove-h1-formatting-within-contenteditable-wysiwyg?lq=1" class="question-hyperlink">How to remove H1 formatting within ContentEditable (wysiwyg)</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/30599608?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">8</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/30599608/detect-hover-on-selected-text?lq=1" class="question-hyperlink">Detect hover on selected text</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/7497286?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes  default">1</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/7497286/highlight-selected-text-and-save-it?lq=1" class="question-hyperlink">Highlight selected text and save it</a>
+                    </div><div class="spacer">
+                        <a href="http://stackoverflow.com/q/11272586?lq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">1</div>
+                        </a>
+                        <a href="http://stackoverflow.com/questions/11272586/get-the-highlighted-text?lq=1" class="question-hyperlink">Get the highlighted text</a>
+                    </div>					<div class="spacer more">
+                        <a href="http://stackoverflow.com/questions/linked/5379120?lq=1">see more linked questions…</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module sidebar-related">
+                <h4 id="h-related">Related</h4>
+                <div class="related js-gps-related-questions" data-tracker="rq=1">
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/178325?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted extra-large">
+                                4199
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/178325/checking-if-an-element-is-hidden?rq=1" class="question-hyperlink">Checking if an element is hidden</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/503093?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted extra-large">
+                                4608
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/503093/how-can-i-make-a-redirect-page-using-jquery?rq=1" class="question-hyperlink">How can I make a redirect page using jQuery?</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/826782?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes extra-large">
+                                2756
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting?rq=1" class="question-hyperlink">CSS rule to disable text selection highlighting</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/985272?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted large">
+                                263
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/985272/selecting-text-in-an-element-akin-to-highlighting-with-your-mouse?rq=1" class="question-hyperlink">Selecting text in an element (akin to highlighting with your mouse)</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/1643227?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted extra-large">
+                                1205
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/1643227/get-selected-text-from-a-drop-down-list-select-box-using-jquery?rq=1" class="question-hyperlink">Get selected text from a drop-down list (select box) using jQuery</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/3427981?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">
+                                3
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/3427981/change-text-selection-highlight-with-js?rq=1" class="question-hyperlink">Change text selection highlight with JS</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/6975523?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">
+                                0
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/6975523/get-currently-selected-text-on-page?rq=1" class="question-hyperlink">Get currently selected text on page</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/11786401?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted default">
+                                3
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/11786401/maintain-text-selection-when-using-div-as-a-button?rq=1" class="question-hyperlink">Maintain Text Selection When Using DIV as a button</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/14974899?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes default">
+                                8
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/14974899/highlighting-selecting-text-on-element-with-javascript-jquery-for-mobile-web-a?rq=1" class="question-hyperlink">Highlighting/ Selecting text on element with Javascript/JQuery for mobile web (android, iOS, Windows Phone)</a>
+                    </div>
+                    <div class="spacer js-gps-track">
+                        <a href="http://stackoverflow.com/q/14994391?rq=1" title="Vote score (upvotes - downvotes)">
+                            <div class="answer-votes answered-accepted extra-large">
+                                4536
+                            </div>
+                        </a><a href="http://stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background?rq=1" class="question-hyperlink">“Thinking in AngularJS” if I have a jQuery background?</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="hot-network-questions" class="module">
+                <h4>
+                    <a href="//stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+                        Hot Network Questions
+                    </a>
+                </h4>
+                <ul>
+                    <li>
+                        <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/111611/explain-security-to-employer" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Explain Security to Employer
+                        </a>
+
+                    </li>
+                    <li>
+                        <div class="favicon favicon-dba" title="Database Administrators Stack Exchange"></div><a href="http://dba.stackexchange.com/questions/127492/restore-database-to-point-in-time-from-full-backup-only" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:182 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Restore database to point in time from full backup only
+                        </a>
+
+                    </li>
+                    <li>
+                        <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/257986/what-is-the-value-of-1" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            what is the value of ${#1}?
+                        </a>
+
+                    </li>
+                    <li>
+                        <div class="favicon favicon-space" title="Space Exploration Stack Exchange"></div><a href="http://space.stackexchange.com/questions/13729/can-a-miniature-saturn-v-get-to-the-moon-and-back" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:508 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Can a miniature Saturn V get to the moon and back?
+                        </a>
+
+                    </li>
+                    <li>
+                        <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/116498/in-hp-are-memories-reusable" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            In HP, are memories reusable?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1629263/sharing-a-pepperoni-pizza-with-your-worst-enemy" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Sharing a pepperoni pizza with your worst enemy
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-music" title="Music: Practice &amp; Theory Stack Exchange"></div><a href="http://music.stackexchange.com/questions/41388/did-baroque-composers-think-of-ritardando-on-their-compositions" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:240 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Did baroque composers think of ritardando on their compositions?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-programmers" title="Programmers Stack Exchange"></div><a href="http://programmers.stackexchange.com/questions/308245/should-we-avoid-language-features-that-c-has-but-java-doesnt-to-increase-main" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:131 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Should we avoid language features that C++ has but Java doesn't to increase maintainability?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/116508/did-saruman-know-about-the-ents" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Did Saruman know about the Ents?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/35036126/difference-between-a-b-and-a-a-b-in-python" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Difference between a -= b and a = a - b in Python
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/58574/in-the-usa-why-is-the-free-file-software-only-available-for-people-earning-less" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            In the USA, why is the Free File software only available for people earning less than $62k?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/79875/when-to-use-dont-pronoun" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            When to use don't + pronoun
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/289583/coloring-all-occurrences-of-some-specific-characters" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Coloring all occurrences of some specific characters
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/111748/how-can-changing-your-dns-protect-your-online-privacy" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            How can changing your DNS protect your online privacy?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-stats" title="Cross Validated"></div><a href="http://stats.stackexchange.com/questions/192716/distribution-of-differences-in-beta-distribution" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Distribution of differences in beta-distribution
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/25819/two-blindfolded-and-disoriented-near-the-great-wall-of-china" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Two Blindfolded and disoriented near the Great Wall of China
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/34400/how-wide-can-a-river-be" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            How wide can a river be
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/726240/how-do-i-remove-all-lines-in-a-file-that-are-less-than-6-characters" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            How do I remove all lines in a file that are less than 6 characters?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/69930/paint-starry-night-objectively-in-1kb-of-code" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Paint Starry Night, objectively, in 1kB of code
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/257598/how-does-a-segmentation-fault-work-under-the-hood" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            How does a Segmentation Fault work under-the-hood?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/111840/what-person-should-i-write-a-penetration-test-report-as" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            What person should I write a penetration test report as?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange"></div><a href="http://chemistry.stackexchange.com/questions/44314/what-is-an-entropic-trap" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:431 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            What is an entropic trap?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/61096/ok-to-leave-the-office-without-permission-to-work-from-home" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            OK to leave the office without permission to work from home?
+                        </a>
+
+                    </li>
+                    <li class="dno js-hidden">
+                        <div class="favicon favicon-skeptics" title="Skeptics Stack Exchange"></div><a href="http://skeptics.stackexchange.com/questions/31521/is-isis-made-by-the-usa" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })">
+                            Is ISIS made by the USA?
+                        </a>
+
+                    </li>
+                </ul>
+
+                <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="posts_hot_network.click({ item_type:3, location:11 })">
+                    more hot questions
+                </a>
+            </div>
+        </div>
+
+        <div id="feed-link">
+            <div id="feed-link-text">
+                <a href="/feeds/question/5379120" title="feed of this question and its answers">
+                    <span class="feed-icon"></span>question feed
+                </a>
+            </div>
+        </div>
+        <noscript>
+            &lt;div&gt;&lt;img src="/posts/5379120/ivc/83e5" class="dno" alt="" width="0" height="0"&gt;&lt;/div&gt;
+        </noscript><div style="display:none" id="prettify-lang">default</div>
+    </div>
+</body>
+</html>

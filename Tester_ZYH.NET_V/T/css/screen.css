@@ -1,0 +1,2368 @@
+﻿
+body {
+    font-family: Arial,Helvetica,sans-serif;
+}
+a {
+    color: #006790;
+    cursor: pointer;
+}
+.msReport-2 {
+    min-width: 731px;
+}
+.IE .msReport-2 {
+    min-width: 984px;
+    width: 99%;
+}
+.icon {
+    background-image: url("../assets/icon-sprite-global.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+.iconTheme {
+    background-image: url("../assets/icon-sprite-black.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+.bg {
+    background-image: url("../assets/bg-sprite-black.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+}
+.btnTextShadow {
+    text-shadow: 0.05em 0.05em 0.1em black;
+}
+.btnTheme {
+    background-color: #4dbce9;
+    border: 1px solid #fff;
+    border-radius: 0.2em;
+    color: #fff;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.btnTheme:hover {
+    text-decoration: none;
+}
+.msReport-2 .header {
+    background-color: #343434;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    padding: 1.25em 1.25em 0.5em;
+}
+.IE7 .preview .header {
+    width: 734px;
+}
+.companyLogo {
+    float: right;
+    text-align: right;
+}
+.agentLogo {
+    width: 120px;
+}
+.brandTop {
+    min-width: 320px;
+}
+.brandTop .column {
+    float: left;
+    width: 33%;
+}
+.IE7 .brandTop .column {
+    width: auto;
+}
+.brandTop ul {
+    list-style: outside none none;
+}
+.brandTop li a, #contentGrid .wizard .brandTop li a {
+    color: #fff;
+}
+.agentInfo {
+    min-width: 14em;
+    padding-right: 1.25em;
+}
+.agentInfo, .contactInfo {
+    float: left;
+    font-size: 120%;
+}
+.agentInfo li {
+    max-width: 16em;
+}
+.agentInfo li span {
+    font-size: 80%;
+}
+.preview .agentInfo li span {
+    font-size: 90%;
+}
+.preview .agentInfo .agentTel span, .preview .agentInfo .agentCel span {
+    font-size: 80%;
+}
+.preview .agentInfo {
+    padding-bottom: 0;
+    width: auto;
+}
+.companyCity {
+    font-size: 92%;
+    padding-bottom: 0.25em;
+}
+.agentInfo ul {
+    list-style: outside none none;
+}
+.contactInfo .agentWeb, #contentGrid .wizard .preview .agentWeb {
+    color: #71d5f4;
+    display: block;
+    padding-top: 0.3em;
+}
+#contentGrid .wizard .preview .agentWeb {
+    padding-top: 0;
+}
+.contactInfo .agentWeb span, .webLink span {
+    background-position: 0 -1138px;
+    display: inline-block;
+    margin-left: 0.25em;
+    padding-top: 8px;
+    width: 8px;
+}
+.webLink span {
+    background-position: 0 -1149px;
+}
+.IE .contactInfo .agentWeb span, .IE .webLink span {
+    height: 11px;
+    padding-top: 0;
+}
+.agentPhoto {
+    float: left;
+    height: 110px;
+    margin: 0 1em 0.25em 0;
+}
+.agentName {
+    font-size: 120%;
+    font-weight: bold;
+}
+.smLinks {
+    clear: both;
+    overflow: hidden;
+    padding-top: 0.3em;
+}
+.preview .smLinks {
+    padding-top: 0;
+}
+.IE7 .smLinks {
+    padding-top: 0;
+}
+.smLinks a {
+    display: block;
+    float: left;
+    margin: 0 0.6em 0 0;
+    padding: 1.2em 0;
+    width: 1.85em;
+}
+.preview .smLinks a {
+    margin: 0.6em 0.6em 0 0;
+}
+.smLinks a:hover {
+    text-decoration: none;
+}
+.smLinks .facebook {
+    background-position: 0 -36px;
+}
+.smLinks .twitter {
+    background-position: 0 -66px;
+}
+.smLinks .linkedin {
+    background-position: 0 -96px;
+}
+.smLinks .btnGradient {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 84%;
+    font-weight: bold;
+    line-height: 105%;
+    margin-left: 0.5em;
+    padding: 0.15em 0.5em 0.5em;
+    text-align: center;
+    width: 10em;
+}
+.agentInfo a {
+    color: #fff;
+}
+.agentCTA {
+    text-align: center;
+}
+.msReport-2 .agentCTA a, .msReport-2 .propertyCTA {
+    background-color: #69ad2b;
+    border: 2px solid #fff;
+    color: #fff !important;
+    display: block;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 180%;
+    padding: 0.1em 0.6em 0.03em;
+    text-align: center;
+}
+.details .propertyCTA {
+    border: medium none;
+    font-size: 120%;
+    padding: 0.25em 0.6em 0.25em 0.8em;
+}
+.agentCTA a:hover, .propertyCTA:hover {
+    text-decoration: none;
+}
+.agentCTA span {
+    background-position: 0 -126px;
+    display: block;
+    float: left;
+    padding: 0.6em;
+}
+.agentCTA .tagline {
+    font-style: italic;
+    padding: 0.5em 0;
+}
+.preview .agentCTA .tagline {
+    padding: 0.5em 0 0;
+}
+.agentCTA em {
+    display: block;
+    font-size: 110%;
+    padding: 0.75em 0;
+}
+.belowBrand {
+    clear: both;
+    font-size: 110%;
+}
+.belowBrand, #contentGrid .wizard .belowBrand, #contentGrid .wizard .belowBrand a {
+    color: #cacaca;
+}
+#contentGrid .wizard .belowBrand .disclaimer {
+    font-size: 80%;
+}
+.belowBrand p {
+    float: left;
+    margin: 0 0 0.25em;
+}
+.belowBrand span {
+    padding-right: 0.5em;
+}
+.belowBrand .msLogo {
+    background-position: 0 -1097px;
+    float: right;
+    padding: 0.8em 0;
+    width: 15.5em;
+}
+.preview .msLogo {
+    width: 14em;
+}
+.agentLegal {
+    font-size: 82.33%;
+}
+.disclaimer {
+    clear: both;
+}
+.IE7 .disclaimer {
+    padding-top: 0;
+}
+.footer {
+    padding: 1em;
+}
+.footer p {
+    margin: 0.5em 0;
+}
+.equalHousing {
+    background-position: 0 -409px;
+    float: left;
+    padding-top: 1.2em;
+    width: 1.7em;
+}
+.footer .mslLogo {
+    width: 30px;
+}
+.mainWrap {
+    background-color: #fff;
+    background-position: 100% 0;
+}
+.main {
+    background-color: #2a2a2a;
+    padding-top: 6px;
+}
+.msReport-2 h1, .msReport-2 h2 {
+    clear: both;
+    color: #000;
+}
+.msReport-2 h1 {
+    font-size: 180%;
+}
+.msReport-2 h2 {
+    font-size: 140%;
+}
+.msReport-2 h3 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #dedede;
+    border-color: #b2b2b2;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    font-size: 130%;
+    line-height: 1.8em;
+}
+.nav {
+    background-color: #dedede;
+    border-bottom: 1px solid #b2b2b2;
+    height: 3em;
+}
+.detailsNav {
+    border-bottom: medium none;
+}
+.nav .faqLink {
+    display: block;
+    float: right;
+    font-size: 120%;
+}
+.nav .faqLink em {
+    color: #fff;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 0.2em;
+    padding: 0.05em 0.4em 0.05em 0.3em;
+}
+.nav ul {
+    list-style: outside none none;
+}
+.nav ul li {
+    border-right: 1px solid #b2b2b2;
+    float: left;
+    font-size: 140%;
+    font-weight: bold;
+}
+.nav li a:hover {
+    background-color: #e9e9e9;
+    text-decoration: none;
+}
+.nav a {
+    color: #666;
+    display: block;
+    padding: 0.5em 0.7em;
+}
+.IE7 .nav a {
+}
+.tabs .this {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 6px solid #006790;
+    color: #006790;
+    margin: -6px 0 -1px;
+}
+.tabs .this:hover {
+    background-color: #fff;
+}
+.trends {
+    margin: auto;
+    width: 90%;
+}
+.trends h1, .trends h2 {
+    padding: 0.6em 0 0.8em;
+    text-align: center;
+}
+.trends h2 {
+    padding: 1em 0 0.5em;
+}
+.trends h3 {
+    display: block;
+    padding: 0.12em 0;
+    text-align: center;
+}
+.trends .expired-report {
+    margin: auto;
+    max-width: 520px;
+    min-height: 20em;
+    padding: 2em 0;
+}
+.trends .expired-report h1 {
+    text-align: left;
+}
+.trends .expired-report p {
+    font-size: 120%;
+}
+.trends .targetZip {
+    font-size: 122.2%;
+}
+.panel {
+    float: left;
+    margin-left: 1.2em;
+    width: 23.9%;
+}
+.avgDays {
+    margin-left: 0;
+}
+.panelInner {
+    border: 1px solid #b2b2b2;
+    display: block;
+    padding: 0.4em 0;
+    text-align: center;
+}
+.panelInner p {
+    font-size: 120%;
+    margin: 0.25em 0;
+}
+.panelInner p a {
+    font-weight: bold;
+}
+.msReport-2 .trendNumber {
+    color: #fff;
+    display: block;
+    font-size: 230%;
+    height: 2.5em;
+    line-height: 240%;
+    margin: auto;
+    padding: 0.6em 0 0.15em;
+    text-align: center;
+    width: 3.7em;
+}
+.msReport-2 .trendNumber:hover {
+    text-decoration: none;
+}
+.avgDays .trendNumber {
+    background-position: 6px 7px;
+}
+.sellingVsAsking .trendNumber {
+    background-position: 0 -85px;
+    width: 4.25em;
+}
+.avgSelling .trendNumber {
+    background-position: 0 -180px;
+    width: 7em;
+}
+.numHomes .trendNumber {
+    background-position: 0 -268px;
+    width: 6.9em;
+}
+.actionViewChart {
+    background-position: 0 -1062px;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 2px;
+    text-indent: 1.5em;
+    width: 10.5em;
+}
+.communityReport .actionViewChart {
+    font-size: 90%;
+    line-height: 1.5em;
+    text-indent: 1.75em;
+    width: auto;
+}
+.trends .ctaSmall .button {
+    color: #fff;
+    padding: 0.25em 0.5em;
+}
+.trends .ctaSmall .button:hover {
+    text-decoration: none;
+}
+.trends .ctaSmall .phone {
+    color: #336e0f;
+    font-size: 120%;
+}
+.grid {
+    clear: both;
+    padding: 0.5em 1em 0;
+}
+.grid h3 {
+    font-size: 140%;
+    padding: 0.15em 0 0.12em 0.85em;
+}
+.gridContent {
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    overflow: hidden;
+    padding: 1em 0 1em 1.5%;
+}
+.dataTables_wrapper {
+    float: left;
+}
+.listings {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #b2b2b2;
+    float: left;
+    height: 38em;
+    overflow: hidden;
+    position: relative;
+    width: 40%;
+}
+.IE7 .listings {
+    height: 37.5em;
+}
+.listings table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+.listings th {
+    cursor: pointer;
+    font-size: 110%;
+    font-weight: normal;
+    padding: 0.2em 0.2em 0.2em 0.5em;
+    text-align: left;
+    white-space: nowrap;
+}
+.listings th:hover {
+    text-decoration: underline;
+}
+.sortUp, .mapFilter .filterClose {
+    background-position: 100% -158px;
+    display: inline;
+    padding-right: 1em;
+}
+.sortDown, .mapFilter .filterOpen {
+    background-position: 100% -183px;
+    display: inline;
+    padding-right: 1em;
+}
+.listings .thumb {
+    height: 4.6em;
+    min-width: 5.5em;
+}
+.listings .thumb img {
+    width: 5.5em;
+}
+.listings td .address {
+    font-weight: bold;
+}
+.listings td {
+    border-bottom: 1px solid #fff;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 0.2em 0 0.2em 0.5em;
+    vertical-align: top;
+}
+.listings td span {
+    display: block;
+    font-weight: normal;
+}
+.listings tr:hover, .listings tr.thisRow {
+    cursor: pointer;
+}
+.listings td.noActivity {
+    height: 355px;
+    text-align: center;
+    vertical-align: middle;
+}
+.type {
+    background: #90aa3c none repeat scroll 0 0;
+    color: #fff;
+    float: right;
+    font-size: 90.88%;
+    font-weight: normal;
+    line-height: 186%;
+    margin-top: 1em;
+    position: relative;
+    width: 7em;
+}
+.IE7 .type {
+    line-height: 190%;
+}
+.pointer {
+    border: 9px solid transparent;
+    position: absolute;
+    z-index: 1;
+}
+.pointerLeft {
+    border-right-color: #90aa3c;
+    left: -18px;
+    top: 0;
+}
+.pointerLeft .pointerInner {
+    border-right-color: #90aa3c;
+    left: -10px;
+    top: -9px;
+}
+.ForSale .title {
+    background: #90aa3c none repeat scroll 0 0 !important;
+}
+.ForSale .status {
+    color: #90aa3c !important;
+}
+.sold, .Sold .title {
+    background: #d20000 none repeat scroll 0 0 !important;
+}
+.Sold .status {
+    color: #d20000 !important;
+}
+.sold .pointerLeft {
+    border-right-color: #d20000;
+}
+.newListing, .NewListing .title {
+    background: #648daf none repeat scroll 0 0 !important;
+}
+.NewListing .status {
+    color: #648daf !important;
+}
+.newListing .pointerLeft {
+    border-right-color: #648daf;
+}
+.pending, .Pending .title {
+    background: #ff8822 none repeat scroll 0 0 !important;
+}
+.Pending .status {
+    color: #ff8822 !important;
+}
+.pending .pointerLeft {
+    border-right-color: #ff8822;
+}
+.expired, .Expired .title {
+    background: #9944dd none repeat scroll 0 0 !important;
+}
+.Expired .status {
+    color: #9944dd !important;
+}
+.expired .pointerLeft {
+    border-right-color: #9944dd;
+}
+.listings td .onMarket {
+    font-weight: bold;
+}
+td.pagingRow {
+    padding: 0;
+}
+td.pagingRow span {
+    display: inline-block;
+}
+.paging {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #dedede;
+    background-image: url("../assets/bg-shadow.png");
+    background-position: center bottom;
+    border-color: #b2b2b2;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0 0;
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.IE8 #SchoolGrid .paging {
+    bottom: -46px;
+}
+.paging ul {
+    text-align: center;
+}
+.paging ul li {
+    display: inline;
+    font-size: 100%;
+    line-height: 2em;
+    list-style: outside none none;
+    margin: 0;
+    width: auto;
+}
+.paging .this {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: -moz-use-text-color #b2b2b2;
+    border-image: none;
+    border-style: none solid;
+    border-width: medium 1px;
+    font-weight: bold;
+    padding: 0.1em 0.65em;
+}
+.paging a {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 2em;
+    padding: 0.1em 0.25em;
+}
+.paging .previous, .paging .next {
+    background-image: url("../assets/icon-sprite-global.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+}
+.paging .previous {
+    background-position: 0 -207px;
+    margin-right: 0.5em;
+    padding-left: 10px;
+}
+.paging .next {
+    background-position: -42px -207px;
+    margin-left: 0.5em;
+    padding: 0;
+    text-align: left;
+    width: 3em;
+}
+.IE7 .paging .previous {
+    background-position: 0 -206px;
+}
+.IE7 .paging .next {
+    background-position: -42px -206px;
+}
+.paging .button_disabled {
+    opacity: 0.4;
+}
+.paging .button_disabled:hover {
+    cursor: default;
+    text-decoration: none;
+}
+.mapWrap {
+    float: left;
+    margin: 0 0 0 1.5%;
+    overflow: hidden;
+    width: 50%;
+}
+.IE7 .mapWrap, .IE8 .mapWrap {
+    width: 56%;
+}
+.mapFilter {
+    font-size: 110%;
+    overflow: hidden;
+    padding: 0.125em 0 0.5em;
+    position: relative;
+}
+.mapFilter span {
+    font-weight: bold;
+    padding-right: 0.5em;
+}
+.mapFilter .extraInfo {
+    font-weight: normal;
+}
+.mapFilter label {
+    float: left;
+    margin-right: 0.25em;
+    min-width: 10em;
+}
+.IE7 .mapFilter input {
+    margin: 0;
+}
+.mapFilter em {
+    display: inline;
+    padding: 0.5em 0.8em;
+}
+.IE7 .mapFilter em {
+    display: inline;
+    padding-top: 0;
+}
+.filterText {
+    float: left;
+    line-height: 170%;
+}
+.mapFilter .showMore {
+    display: block;
+    line-height: 150%;
+    padding: 0 0.95em 0 0.125em;
+    position: absolute;
+    right: 0;
+}
+em.legendSold {
+    background-position: 0 -284px;
+}
+em.legendNew {
+    background-position: 0 -305px;
+}
+em.legendSale {
+    background-position: 0 -325px;
+}
+em.legendPending {
+    background-position: 0 -1291px;
+}
+em.legendExpired {
+    background-position: 0 -1312px;
+}
+.mapFilter .filterRow {
+    clear: both;
+    margin: 0.25em 0 0 3.6em;
+    overflow: hidden;
+}
+.map {
+    border: 1px solid #b2b2b2;
+    height: 310px;
+    position: relative;
+}
+.schoolReport .map {
+    border-left: medium none;
+    border-right: medium none;
+}
+.iconMap {
+    background-image: url("../assets/icon-sprite-global.png");
+    background-position: 0 -900px;
+    background-repeat: no-repeat;
+}
+.iconMap div {
+    font-size: 10px !important;
+    letter-spacing: -1px;
+}
+.communityReport .iconMap div, .schoolReport .iconMap div {
+    text-indent: -999px;
+}
+.mapWrap .pinSold {
+    background-position: 0 -972px;
+}
+.mapWrap .pinNewListing {
+    background-position: 0 -935px;
+}
+.mapWrap .pinForSale {
+    background-position: 0 -900px;
+}
+.mapWrap .pinPending {
+    background-position: 0 -1215px;
+}
+.mapWrap .pinExpired {
+    background-position: 0 -1254px;
+}
+.markerLabel {
+    background-color: transparent;
+    color: #fff;
+    font-size: 70%;
+    font-weight: bold;
+    text-align: center;
+    width: 15px;
+}
+.mapInfo {
+    padding: 0.5em 0.8em 0.5em 0;
+}
+.legendTarget {
+    background-position: 0 -240px;
+    float: right;
+    padding: 1.1em 0.8em 1.1em 3em;
+}
+.map .infoBoxContainer {
+    z-index: 9999;
+}
+.popup, .editSchedule {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #b2b2b2;
+    box-shadow: 3px 3px 3px #ccc;
+    left: 25%;
+    padding: 0.5em;
+    position: absolute;
+    top: 25%;
+    width: 22em;
+}
+.popup .title {
+    background-color: #006790;
+    display: block;
+    overflow: hidden;
+    padding: 0.25em 0.15em;
+}
+.popup h4 {
+    color: #fff;
+    font-size: 120%;
+    line-height: 130%;
+    max-width: 18em;
+    padding-left: 0.25em;
+}
+.msReport .popup .pointerLeftCenter {
+    top: 32%;
+}
+.popup .close {
+    background-position: 0 -376px;
+    color: #fff;
+    float: right;
+    margin-left: 0.25em;
+    padding-top: 1.7em;
+    width: 1.7em;
+}
+.popup .close:hover {
+    background-position: -29px -376px;
+}
+.popup .dataRow {
+    background-color: #ebeff2;
+    font-size: 110%;
+    overflow: hidden;
+    padding: 0.15em;
+}
+.popup .dataRow .status {
+    float: right;
+    font-size: 83.33%;
+    font-style: italic;
+    font-weight: normal;
+}
+.popup .photo img {
+    border: 0 none;
+    float: left;
+    height: 48px;
+    padding: 0.125em 0.5em 0.125em 0.125em;
+}
+.popup p {
+    font-size: 110%;
+    margin: 0 0 0.25em;
+}
+.popup .dataRow th {
+    font-weight: normal;
+    padding-right: 0.5em;
+    text-align: left;
+    vertical-align: top;
+}
+.popup .dataNowrap {
+    display: block;
+    max-width: 11em;
+    overflow: hidden;
+}
+.popup .dataWrap {
+    display: block;
+    max-width: 11em;
+}
+.popup .pointer, .popup .pointerInner {
+    border: 9px solid transparent;
+    position: absolute;
+}
+.popup .pointer {
+    z-index: 1;
+}
+.popup .pointerLeftCenter {
+    border-right-color: #b2b2b2;
+    left: -30px;
+    top: 32%;
+}
+.schoolReport .popup .pointerLeftCenter {
+    top: 40%;
+}
+.popup .pointerInner {
+    z-index: 2;
+}
+.IE .popup .pointerInner {
+    height: 0;
+}
+.popup .pointerLeftCenter .pointerInner {
+    border-right-color: #fff;
+    left: -14px;
+    top: -15px;
+}
+.popup .pointerBottomCenter {
+    border-top-color: #b2b2b2;
+    bottom: -30px;
+    left: 45%;
+}
+.popup .pointerBottomCenter .pointerInner {
+    border-top-color: #fff;
+    bottom: -14px;
+    left: -15px;
+}
+.popup .pointerBottomRight {
+    border-top-color: #b2b2b2;
+    bottom: -18px;
+    right: 19%;
+}
+.popup .pointerBottomRight .pointerInner {
+    border-top-color: #fff;
+    bottom: -7px;
+    left: -9px;
+}
+.popup .pointerTopRight {
+    border-bottom-color: #b2b2b2;
+    right: 16%;
+    top: -18px;
+}
+.popup .pointerTopRight .pointerInner {
+    border-bottom-color: #fff;
+    left: -9px;
+    top: -7px;
+}
+.msReport .popup .price {
+    font-size: 120%;
+    font-weight: bold;
+}
+.msReport .popup .location {
+    font-size: 90%;
+    font-style: italic;
+    padding-left: 1.5em;
+}
+.popup .viewDetails {
+    font-size: 110%;
+    margin-right: 0.5em;
+}
+.popup .price {
+    font-size: 120%;
+    font-weight: bold;
+}
+.popup.seller .pointerBottomRight {
+    right: 23%;
+}
+.popup .location {
+    font-size: 90%;
+    font-style: italic;
+    text-align: right;
+}
+.msReport-2 .schedule {
+    background-color: #343434;
+    color: #fff;
+    font-size: 120%;
+    margin-top: 0.5em;
+    overflow: hidden;
+    padding: 0.5em 0.85em;
+}
+.msReport-2 .schedule .btnTheme {
+    color: #fff;
+    display: inline-block;
+    margin-left: 0.5em;
+    padding: 0.2em 0.4em;
+}
+.msReport-2 .schedule .selectReport {
+    float: right;
+}
+.msReport-2 .schedule select {
+    font-size: 100%;
+}
+.ctaGradient {
+    background-color: #69ad2b;
+    background-image: -moz-linear-gradient(center top , #69ad2b, #336e0f);
+    border-radius: 0.3em;
+}
+.ctaGradient:hover {
+    background-color: #336e0f;
+    background-image: -moz-linear-gradient(center bottom , #69ad2b, #336e0f);
+}
+.btnGradient {
+    background-color: #4dbce9;
+    background-image: -moz-linear-gradient(center top , #4dbce9, #006790);
+    border-radius: 0.3em;
+}
+.btnGradient:hover, .default-theme em.btnGradient:hover {
+    background-color: #006790;
+    background-image: -moz-linear-gradient(center bottom , #4dbce9, #006790);
+}
+.IE7 .btnGradient, .IE7 .ctaGradient {
+}
+.communityReport .trends {
+    width: 95%;
+}
+.communityReport .trends h3 {
+    display: block;
+    margin-right: 0.025em;
+    padding: 0.12em 0.5em;
+    text-align: left;
+}
+.communityReport .trends h3 a {
+    display: inline-block;
+    margin-left: 0.5em;
+    padding: 0.2em;
+}
+.communityReport .backDisabled {
+    background-position: 0 -440px;
+}
+.communityReport .panel {
+    margin-left: 0;
+    width: 100%;
+}
+.communityReport .panelInner {
+    background-color: #dedede;
+    font-size: 120%;
+    margin-right: 0.025em;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+}
+.communityReport .panel .column {
+    float: left;
+    min-height: 166px;
+    padding: 0.8em 0.2em 0.4em 0.5em;
+}
+.communityReport .panel .column:first-child {
+    background-color: #fff;
+    border-right: 1px solid #999;
+    width: 60%;
+}
+.communityReport .panel .area {
+    font-size: 133.33%;
+    font-weight: bold;
+    min-width: 45%;
+    padding-bottom: 0.3em;
+}
+.communityReport .panel .target {
+    background-position: -132px -240px;
+    float: left;
+    height: 1.5em;
+    margin-top: 0;
+    width: 1.5em;
+}
+.communityReport .panel .column:first-child {
+    width: 65%;
+}
+.communityReport .panel .column ul {
+    float: left;
+    margin-left: 0.5em;
+    width: 14em;
+}
+.communityReport .panel .column ul.trendList {
+    margin-left: 5em;
+}
+.communityReport .panel .column .summaryList {
+    float: left;
+    font-size: 110%;
+    font-weight: normal;
+    padding-left: 3em;
+    width: 12.5em;
+}
+.communityReport .panel .column .trendList {
+    list-style: outside none none;
+    width: 13em;
+}
+.trendList li {
+    font-size: 90%;
+    margin-left: 0.5em;
+    padding: 0 0 0.5em 3.5em;
+}
+.trendList span {
+    display: block;
+    font-size: 166.66%;
+}
+.communityReport .panel .state {
+    width: 31%;
+}
+.communityReport .panel .state .area {
+    float: none;
+}
+.communityReport .panel .state table {
+    width: 100%;
+}
+.overviewPrice {
+    background-position: 0 -357px;
+}
+.overviewPop {
+    background-position: 0 -407px;
+}
+.overviewNumber {
+    background-position: 0 -461px;
+}
+.communityReport .panel table {
+    border-collapse: collapse;
+    float: left;
+    margin-left: 0.5em;
+}
+.communityReport .panel td {
+    border-bottom: 1px dotted #b2b2b2;
+    font-size: 116.66%;
+}
+.communityReport .panel th {
+    border-bottom: 1px dotted #b2b2b2;
+    font-size: 91.66%;
+    font-weight: normal;
+    padding-right: 0.25em;
+    text-align: left;
+    width: 14.5em;
+}
+.communityReport .smallChart {
+    float: right;
+    margin-right: 1em;
+    min-width: 170px;
+}
+.communityReport .smallChart span {
+    display: block;
+    font-size: 91.66%;
+}
+.communityReport .smallChart .extraInfo {
+    display: inline;
+}
+.communityReport .chartTitle {
+    font-style: italic;
+    text-align: center;
+}
+.communityReport .smallChart img {
+    border: 0 none;
+    height: 130px;
+    margin-bottom: 0.25em;
+}
+.communityReport .employment .column:first-child, .communityReport .crime .column:first-child {
+    width: 100%;
+}
+.communityReport .employment table, .communityReport .crime table {
+    margin: 0 0.5em 0 0;
+}
+.communityReport .topRow th {
+    font-weight: bold;
+}
+.communityReport .employment th {
+    padding-right: 1.5em;
+    width: auto;
+}
+.communityReport .employment .smallChart {
+    margin-right: 1em;
+}
+.communityReport .climate td img {
+    height: 120px;
+}
+.communityReport .nestedData {
+    text-indent: 1em;
+}
+.communityReport .crime .panelInner {
+    background-color: #fff;
+}
+.communityReport .crime .column:first-child {
+    border-right: 0 none;
+}
+.communityReport .tableTitle {
+    font-size: 100%;
+    font-weight: bold;
+}
+.communityReport .employment .column:first-child, .communityReport .crime .column:first-child {
+    width: 100%;
+}
+.communityReport .state table {
+    width: 100%;
+}
+.communityReport .employment table, .communityReport .crime table {
+    width: 30%;
+}
+.communityReport .tableTitle {
+    clear: left;
+    margin-top: -2em;
+    text-align: center;
+}
+.communityReport .amenities {
+    width: 50%;
+}
+.communityReport .mapWrap {
+    width: 47%;
+}
+#slides {
+    margin: auto;
+    position: relative;
+    width: 880px;
+}
+.communityReport .trends .menuLink {
+    background-position: 0 -630px;
+    padding-top: 0.65em;
+    width: 0.9em;
+}
+.communityReport .panelNav {
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    overflow: hidden;
+    padding: 0;
+}
+.menu {
+    margin-left: 0.5em;
+    padding: 0.4em;
+}
+.communityReport .panelNav li {
+    font-size: 120%;
+    list-style: outside none none;
+}
+.communityReport .panelNav li a {
+    color: #000;
+    display: block;
+    padding: 0.25em 0.25em 0.25em 0.5em;
+    text-decoration: none;
+}
+.communityReport .panelNav li:hover {
+    background-color: #baced6;
+}
+#SummarySlider {
+    width: 1760px;
+}
+#slides {
+    min-width: 660px;
+    width: 80%;
+}
+.slides_container {
+    display: block;
+    min-width: 660px;
+    overflow: hidden;
+    z-index: 99;
+}
+.slides_container .panel {
+    display: block;
+    height: 211px;
+    min-width: 660px;
+}
+#slides .next, #slides .prev {
+    background-image: url("../assets/icon-sprite-global.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 60px;
+    width: 40px;
+}
+#slides .next {
+    background-position: -150px -524px;
+    right: -50px;
+    top: 70px;
+}
+#slides .prev {
+    background-position: 0 -524px;
+    left: -40px;
+    top: 70px;
+}
+.communityReport .gridContent {
+    font-size: 120%;
+}
+.communityReport .gridContent p {
+    margin: 0 0 0.5em;
+}
+.amenities {
+    float: left;
+    height: 330px;
+    width: 440px;
+}
+.amenities table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.amenities table td {
+    border: 1px solid #b2b2b2;
+    height: 2em;
+    padding: 0.25em;
+    width: 50%;
+}
+.amenityLink {
+    display: block;
+    padding: 0 0 0.33em;
+}
+.communityReport .iconMap {
+    background-image: url("../assets/icon-sprite-global.png");
+    background-position: 0 -749px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+    height: 19px;
+    width: 18px;
+}
+.communityReport .airports {
+    background-position: 0 -660px;
+}
+.communityReport .museums {
+    background-position: -30px -660px;
+}
+.communityReport .movie {
+    background-position: -150px -720px;
+}
+.communityReport .grocers, .communityReport .food {
+    background-position: -150px -690px;
+}
+.communityReport .beer {
+    background-position: -181px -660px;
+}
+.communityReport .department {
+    background-position: -120px -720px;
+}
+.communityReport .pharmacies {
+    background-position: -60px -749px;
+}
+.communityReport .police, .communityReport .sheriff {
+    background-position: -30px -720px;
+}
+.communityReport .fire {
+    background-position: -210px -720px;
+}
+.communityReport .post {
+    background-position: -30px -749px;
+}
+.communityReport .libraries {
+    background-position: -210px -690px;
+}
+.communityReport .hospitals, .communityReport .clinics {
+    background-position: -181px -690px;
+}
+.communityReport .banks, .communityReport .savings, .communityReport .commercial {
+    background-position: -90px -660px;
+}
+.communityReport .worship {
+    background-position: -180px -720px;
+}
+.communityReport .golf {
+    background-position: -90px -690px;
+}
+.communityReport .health {
+    background-position: -60px -690px;
+}
+.communityReport .cafes {
+    background-position: 0 -690px;
+}
+.communityReport .bars {
+    background-position: -150px -660px;
+}
+.communityReport .restaurants {
+    background-position: -60px -720px;
+}
+.schoolReport .trends {
+    font-size: 120%;
+    padding: 0;
+    width: 100%;
+}
+.schoolReport .trends h4 {
+    color: #595959;
+    font-size: 110%;
+    padding-bottom: 0.5em;
+}
+.schoolReport .trends .Grades h4 {
+    float: left;
+    width: 5em;
+}
+.schoolReport .trends em {
+    font-style: normal;
+    font-weight: bold;
+}
+.schoolReport .largeCount {
+    display: block;
+    float: left;
+    padding: 0 0.5em 0.25em 1em;
+}
+.schoolReport .totalSchools {
+    background-position: 0 -510px;
+    color: #fff;
+    font-size: 230%;
+    padding: 2.2em 0 0.35em;
+    text-align: center;
+    width: 3em;
+}
+.schoolReport .largeCount label {
+    display: block;
+    text-align: center;
+}
+.schoolReport .largePublic {
+    background-position: 0 -1170px;
+}
+.schoolReport .largePrivate {
+    background-position: -108px -1170px;
+}
+.schoolReport .largeOther {
+    background-position: -215px -1170px;
+}
+.schoolReport .trends .column {
+    background-color: #e5f0f9;
+    border-radius: 0.3em;
+    float: left;
+    margin-right: 1%;
+    min-height: 12em;
+    padding: 0.5em;
+}
+.schoolReport .trends .RadiusSelector {
+    min-width: 18em;
+    width: 17%;
+}
+.schoolReport .trends .RadiusSelector ul {
+    float: left;
+}
+.schoolReport .trends .RadiusSelector li input {
+    margin-right: 0.5em;
+}
+.schoolReport .trends .TypeOfSchool {
+    min-width: 8.7em;
+    width: 12%;
+}
+.schoolReport .trendList li {
+    font-size: 100%;
+    margin: 0.25em 0 0;
+    padding: 0.25em;
+}
+.IE .schoolReport .RadiusSelector li {
+    padding: 0;
+}
+.schoolReport .TypeOfSchool .trendList li {
+    margin-top: 0;
+    padding: 0.5em;
+}
+.IE .schoolReport .TypeOfSchool .trendList li {
+    margin-top: 0;
+}
+.schoolReport .trends .columnWide {
+    min-width: 26.5em;
+    width: 60%;
+}
+.IE .schoolReport .trends .columnWide {
+    width: 58%;
+}
+.schoolReport .trends .column table {
+    border: 0 none;
+    padding: 0;
+}
+.schoolReport .trends .column table td {
+    padding: 0.25em 1em 0.25em 0.25em;
+    white-space: nowrap;
+}
+.schoolReport .trends ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.schoolReport .trends li {
+    padding: 0.25em;
+}
+.schoolReport .trends .RadiusSelector {
+    float: left;
+}
+.schoolReport .trends .RadiusSelector .largeCount {
+    float: left;
+    margin-left: 0.5em;
+}
+.schoolReport .trends .ctaSmall {
+    margin-bottom: 1em;
+}
+.schoolReport .TypeOfSchool li {
+    clear: both;
+}
+.schoolReport .trends .icon {
+    display: block;
+    float: left;
+    font-size: 100%;
+    padding-top: 28px;
+    width: 28px;
+}
+.IE .schoolReport .trends .icon {
+    height: 28px;
+    padding-top: 0;
+}
+.schoolReport .listings {
+    min-height: 42.5em;
+}
+.schoolReport .listings th {
+    padding: 0.5em 0.25em 0.5em 0.5em;
+}
+.schoolReport .listings td {
+    font-weight: normal;
+    padding: 0.5em 0.25em 0.5em 0.5em;
+}
+.schoolReport .listings td.pagingRow {
+    padding: 0;
+}
+.schoolReport .listings .schoolName {
+    font-weight: bold;
+}
+.schoolReport .mapWrap {
+    border: 1px solid #b2b2b2;
+}
+.schoolReport .mapFilter {
+    padding: 0.25em 0 0.25em 0.25em;
+}
+.schoolReport .mapFilter .icon, .schoolReport .mapFilter input {
+    float: left;
+}
+.schoolReport .mapFilter p {
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.25em 0.5em 0 0;
+}
+.schoolReport .mapFilter span {
+    font-weight: normal;
+    margin-right: 0.75em;
+    padding: 0 0 0.35em 1.75em;
+}
+.IE7 .schoolReport .mapFilter input {
+    margin-top: -0.25em;
+}
+.schoolReport .mapInfo {
+    font-size: 120%;
+    padding: 0.5em;
+}
+.schoolReport .mapInfo li {
+    float: left;
+    margin-bottom: 0.5em;
+}
+.schoolReport .mapInfo p {
+    clear: both;
+}
+.schoolReport .mapInfo span {
+    font-size: 166.66%;
+}
+.schoolReport .public {
+    background-position: 0 -778px;
+}
+.schoolReport .private {
+    background-position: 0 -818px;
+}
+.schoolReport .otherSchools {
+    background-position: 0 -853px;
+}
+.schoolReport .mapFilter .public {
+    background-position: 0 -780px;
+}
+.schoolReport .mapFilter .private {
+    background-position: 0 -821px;
+}
+.schoolReport .mapFilter .otherSchools {
+    background-position: 0 -856px;
+}
+.schoolReport .mapPublic {
+    background-position: 0 -780px;
+}
+.schoolReport .mapPrivate {
+    background-position: 0 -821px;
+}
+.schoolReport .mapOther {
+    background-position: 0 -856px;
+}
+.rightSelect {
+    float: right;
+}
+.schoolDetails .nav {
+    height: 2.25em;
+}
+.schoolDetails .nav ul li {
+    font-size: 100%;
+}
+.schoolDetails .tabs .this {
+    border-top: 3px solid #fff;
+    margin: -3px 0 -1px;
+}
+.schoolDetails .detailsRow {
+    clear: both;
+    margin: 0.5em 0;
+    max-height: 640px;
+    min-height: 480px;
+    overflow: auto;
+}
+.schoolDetails h4 {
+    border-top: 2px solid #fff;
+    color: #fff;
+    font-size: 90%;
+    padding: 0.25em 0.5em;
+    text-transform: uppercase;
+}
+.schoolDetails h5 {
+    font-size: 120%;
+    text-align: center;
+}
+.schoolDetails .column {
+    background-color: #f7f7f7;
+    float: left;
+    width: 49.4%;
+}
+.IE7 .schoolDetails .column {
+    width: 48.3%;
+}
+.schoolDetails .column:first-child {
+    margin-right: 0.65em;
+}
+.schoolDetails .columnWide {
+    width: auto;
+}
+.schoolDetails .detailsChart img {
+    width: 660px;
+}
+.schoolDetails .detailsChart .noData, .schoolDetails .subjects .noData {
+    margin: auto;
+    width: 180px;
+}
+.schoolDetails .detailsChart .noData img {
+    width: 180px;
+}
+.schoolDetails .detailsTable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.IE7 .schoolDetails table.districtSchools {
+    width: 97.75%;
+}
+.schoolDetails .detailsTable p, .schoolDetails .detailsChart p {
+    margin: 0 0 0.25em;
+    padding: 0.25em;
+}
+.schoolDetails .detailsTable th, .schoolDetails .detailsTable td {
+    border-bottom: 1px solid #fff;
+    font-weight: normal;
+    padding: 0.25em;
+    text-align: left;
+}
+.schoolDetails .detailsTable th {
+    width: 12em;
+}
+.schoolDetails .detailsTable .districtSchools th {
+    width: auto;
+}
+.schoolDetails .detailsTable td {
+    font-weight: bold;
+}
+.schoolDetails .detailsTable .districtSchools td {
+    font-weight: normal;
+}
+.schoolDetails .stats {
+    overflow: hidden;
+    padding: 0.5em;
+}
+.schoolDetails .stats .trendList {
+    float: left;
+    width: 49%;
+}
+.schoolDetails .stats .trendList li {
+    margin-left: 0.25em;
+    min-height: 3.5em;
+    padding: 0 0 0.85em 4.5em;
+}
+.teachStaffCount {
+    background-position: 0 -634px;
+}
+.studentCount {
+    background-position: 2px -694px;
+}
+.classroomsCount {
+    background-position: 0 -779px;
+}
+.schoolsCount {
+    background-position: 2px -923px;
+}
+.studentTeacherCount {
+    background-position: 2px -850px;
+}
+.schoolDetails .nestedTable {
+    clear: both;
+}
+.schoolDetails .nestedTable table, .schoolDetails .detailsTable table.plainTable {
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+.schoolDetails .nestedTable td {
+    background: #fff none repeat scroll 0 0;
+    padding: 2px;
+}
+.schoolDetails .nestedTable span {
+    display: block;
+    float: left;
+    font-weight: normal;
+    width: 9em;
+}
+.schoolDetails .nestedTable h4 {
+    border-top: medium none;
+}
+.schoolDetails .detailsMain .chart {
+    background-color: #f9fafb;
+}
+.schoolDetails .subjects table th {
+    width: 50%;
+}
+.details, .largeChart, .emailMe {
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    box-shadow: 3px 3px 3px #a0a0a0;
+}
+.details {
+    font-size: 120%;
+    overflow: auto;
+    padding: 0.5em;
+    width: 750px;
+}
+.largeChart .title, .details .title, .emailMe .title {
+    background-color: #006790;
+    color: #fff;
+    line-height: 140%;
+    min-height: 1.5em;
+    padding: 0.25em;
+}
+.movable {
+    cursor: move;
+}
+.largeChart .title, .emailMe .title, .details .title {
+    font-size: 140%;
+    font-weight: bold;
+}
+.largeChart .title {
+    padding-right: 0;
+}
+.close {
+    background-position: 0 -376px;
+    color: #fff;
+    float: right;
+    padding-top: 1.5em;
+    width: 1em;
+}
+.close:hover {
+    background-position: -29px -376px;
+}
+.largeChart .close, .emailMe .close {
+    width: 1.15em;
+}
+.summary {
+    float: left;
+    overflow: hidden;
+    padding: 0.65em 0 0.65em 0.65em;
+    width: 35em;
+}
+.summary .column {
+    float: left;
+    width: 49%;
+}
+.summary .column:first-child {
+    padding-right: 0.5em;
+    width: 49%;
+}
+.summary h2 {
+    color: #006790;
+    font-size: 180%;
+}
+.summary .dom {
+    font-size: 120%;
+    font-weight: bold;
+}
+.propertyCTA {
+    border: 0 none;
+    font-size: 120%;
+    margin: 0.5em 0;
+    padding: 0.25em;
+}
+.details .photo {
+    display: block;
+    float: left;
+    margin: 0.45em 0;
+    min-height: 180px;
+    overflow: hidden;
+    width: 320px;
+}
+.details .photo img {
+    width: 320px;
+}
+.details .type {
+    float: right;
+    font-weight: bold;
+    line-height: 205%;
+    margin-bottom: 4px;
+    margin-top: auto;
+    text-transform: uppercase;
+    width: 6.5em;
+}
+.details .type.newListing {
+    width: 6.65em;
+}
+.details .pointerLeft {
+    left: -22px;
+}
+.details .pointer {
+    border-width: 11px;
+}
+.details div.sidebar {
+    background-color: #dde1e5;
+    border-radius: 0.3em;
+    clear: both;
+    font-size: 94%;
+    margin: 1em 0;
+    padding: 0.5em 0.5em 0.25em;
+}
+.details div.sidebar span {
+    display: block;
+    font-size: 120%;
+    font-weight: bold;
+}
+.details div.sidebar p {
+    margin: 0 0 0.5em;
+}
+.description {
+    clear: both;
+}
+.features {
+    clear: both;
+}
+.features table {
+    float: left;
+    padding-right: 0.5em;
+    width: 49%;
+}
+.features table td {
+    padding: 0.15em;
+}
+.features h4 {
+    border-bottom: 1px dotted #999;
+    display: block;
+    font-size: 100%;
+    padding: 0.25em 0;
+}
+.broker {
+    clear: both;
+    overflow: hidden;
+    padding: 0.5em 0 0.05em;
+}
+.broker h4 {
+    border-bottom: 1px dotted #999;
+    border-width: 0 0 1px;
+    display: block;
+    margin-bottom: 0.25em;
+    padding: 0.5em 1.5em 0.25em 0;
+}
+.broker h4 span {
+    font-size: 100%;
+    font-weight: normal;
+    padding-left: 0.5em;
+}
+.details .disclaimer, .details .copyright {
+    font-size: 83.33%;
+    padding: 1em 0 0.5em;
+}
+.details .disclaimer {
+    clear: both;
+}
+.largeChart {
+    background-color: #fff;
+    font-size: 120%;
+    max-width: 680px;
+    overflow: auto;
+    padding: 0.5em;
+}
+.IE7 .largeChart {
+    width: 680px;
+}
+.largeChart .chartTitle {
+    padding: 1em;
+}
+.chartWrap {
+    min-height: 442px;
+    width: 680px;
+}
+.chartDetails {
+    background-color: #dde1e5;
+    border: 1px solid #999;
+    margin-top: 0.5em;
+    overflow: hidden;
+}
+.chartDetails .detailsNav {
+    background-color: #dde1e5;
+    color: #006790;
+    font-size: 123.33%;
+    font-weight: bold;
+    height: 2.55em;
+    line-height: 153.33%;
+}
+.chartDetails .detailsNav a:hover {
+    text-decoration: none;
+}
+.chartDetails .detailsNav li {
+    float: left;
+    list-style: outside none none;
+}
+.chartDetails .detailsNav li a {
+    border-right: 1px solid #999;
+}
+.chartDetails .detailsNav li a.sel {
+    border-bottom: medium none;
+    border-left: medium none;
+}
+.chartDetails .detailsNav li:first-child a.sel {
+    border-left: medium none;
+}
+.chartDetails .nestedGrid {
+    padding: 1em 0.5em 0.5em;
+}
+.chartDetails .target {
+    background-position: -132px -240px;
+    display: inline-block;
+    height: 2.5em;
+    margin-top: 0.25em;
+    vertical-align: middle;
+    width: 2em;
+}
+.chartDetails table {
+    width: 100%;
+}
+.chartDetails th {
+    border-bottom: 1px solid #999;
+    text-align: left;
+}
+.chartDetails th.colL {
+    border-bottom: 1px dotted #999;
+    padding-right: 1em;
+    text-align: right;
+    width: 7em;
+}
+.chartDetails td, .chartDetails dt, .chartDetails dd {
+    border-bottom: 1px dotted #999;
+    padding: 0.25em;
+}
+.chartDetails dl {
+    display: table;
+    width: 100%;
+}
+.chartDetails dt {
+    float: left;
+    font-weight: bold;
+    padding: 0.25em 0;
+    width: 30%;
+}
+.chartDetails dd {
+    float: left;
+    padding-left: 0.25em;
+    text-align: left;
+    width: 18%;
+}
+.chartDetails .small {
+    font-size: 83.33%;
+    margin: 0 0 0.5em;
+    padding: 1em 0.5em;
+}
+.chartDetails p {
+    line-height: 140%;
+}
+.largeChart .errorMsg {
+    min-height: 100px;
+    padding: 2em;
+    width: auto;
+}
+.largeChart .errorMsg p {
+    font-size: 120%;
+    margin: 1.5em 0;
+}
+.largeChart .errorMsg input {
+    padding: 0 0.5em;
+}
+.emailMe {
+    padding: 0.75em;
+    width: 350px;
+}
+.emailMe .formRow {
+    background-color: #dde1e5;
+    font-size: 120%;
+    margin-bottom: 1px;
+    overflow: hidden;
+    padding: 0.5em 0.25em;
+}
+.emailMe label {
+    float: left;
+    width: 6em;
+}
+.emailMe input {
+    width: 19.5em;
+}
+.emailMe textarea {
+    font-family: Arial,Helvetica,sans-serif;
+    width: 20em;
+}
+.emailMe .checkBox {
+    padding-left: 6em;
+}
+.emailMe .checkBox input {
+    float: left;
+    width: 1.5em;
+}
+.emailMe .checkBox label {
+    float: left;
+    width: auto;
+}
+.emailMe .buttonRow {
+    font-size: 120%;
+    overflow: hidden;
+    padding: 0.75em 0.5em 0.5em 6em;
+}
+.emailMe .buttonRow a {
+    display: block;
+    float: left;
+    padding: 0.25em 1.5em;
+}
+.emailMe .buttonRow .cancelLink {
+    line-height: 200%;
+    padding-left: 0.5em;
+}
+#Popup_EmailMe .title {
+    background-color: #006790;
+    color: #fff;
+    font-size: 14px;
+    line-height: 140%;
+    min-height: 1.5em;
+    padding: 0.25em;
+}
+#Popup_EmailMe .title img {
+    margin: -3px -3px 0 0;
+}
+.wizard-wrap .emailMe input, .wizard-wrap .emailMe textarea {
+    width: 80%;
+}
+.wizard-wrap .emailMe label {
+    display: block;
+    float: left;
+    font-weight: normal;
+    padding-left: 4px;
+    width: 5em;
+}
+.wizard-wrap .emailMe .checkBox {
+    padding-left: 5em;
+}
+.wizard-wrap .emailMe .checkBox input {
+    float: left;
+    width: 1.5em;
+}
+.wizard-wrap .emailMe .checkBox label {
+    float: left;
+    padding-left: 0;
+    width: auto;
+}
+.wizard-wrap .emailMe .buttonRow {
+    overflow: hidden;
+    padding: 0 0.5em 0.5em 6em;
+}
+.wizard-wrap .emailMe .buttonRow a {
+    display: block;
+    float: left;
+    padding: 0.25em 1.5em;
+}
+.wizard-wrap .emailMe .buttonRow .cancelLink {
+    line-height: 200%;
+    padding-left: 0.5em;
+}
+.emailMe .btn-primary {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+.emailMe .btn-primary:hover, .emailMe .btn-primary:focus, .emailMe .btn-primary:active, .emailMe .btn-primary.active {
+    background-color: #47a447;
+    border-color: #398439;
+    color: #ffffff;
+}
+.editSchedule {
+    background-color: #fff;
+    width: 28em;
+}
+.editSchedule p {
+    padding-top: 0.5em;
+}
+.editSchedule .buttonRow {
+    margin: auto;
+    overflow: hidden;
+    padding-top: 1em;
+    width: 9em;
+}
+.editSchedule .buttonRow a {
+    display: block;
+    float: left;
+    line-height: 150%;
+    padding: 0.25em 0;
+}
+.editSchedule .buttonRow .btnTheme {
+    margin-right: 0.5em;
+    padding: 0.25em 1em;
+}
+.iconMap img {
+    display: none;
+}
+.contentFmlsDisclaimer {
+    border: 1px solid;
+    font-size: 8pt;
+    margin: 0.5em auto auto;
+    padding: 2px;
+    text-align: center;
+    width: 550px;
+}
+.errorMsg {
+    color: #a81212;
+    font-size: 110%;
+    font-weight: bold;
+    padding-left: 6.8em;
+}
+@media only screen and (min-device-width: 320px) {
+.msReport-2 {
+}
+.brandTop {
+    width: 74%;
+}
+.agentInfo li {
+    max-width: 19em;
+    white-space: normal;
+}
+.agentCTA em {
+    font-size: 100%;
+}
+h1 {
+    font-size: 160%;
+}
+.listings {
+    width: 47%;
+}
+.listings .thumb {
+    height: 4.6em;
+    min-width: 4.5em;
+    overflow: hidden;
+}
+.listings .thumb img {
+    width: 4.5em;
+}
+.mapFilter label, #FilterOptions label {
+    min-width: 7em;
+    padding-right: 0.25em;
+}
+.mapWrap {
+    margin-left: 0.8em;
+    width: 50%;
+}
+.extraInfo {
+    display: none;
+    font-weight: normal;
+}
+.mapInfo p {
+    width: 70%;
+}
+.schoolReport .mapInfo p {
+    width: 100%;
+}
+.trends {
+    padding: 1%;
+    width: 98%;
+}
+.schoolReport .trends .columnWide {
+    width: 40%;
+}
+.panel {
+    margin-left: 1.4%;
+}
+.avgDays {
+    margin-left: 0;
+}
+.details {
+    width: 680px;
+}
+.details .photo, .details .photo img {
+    width: 250px;
+}
+#slides .prev {
+    left: -30px;
+    top: 80px;
+}
+#slides .next, #slides .prev {
+    width: 26px;
+}
+#slides .next {
+    background-position: -156px -524px;
+    right: -31px;
+    top: 70px;
+}
+.communityReport .panel table {
+    width: 50%;
+}
+.communityReport .panel th {
+    font-size: 87%;
+}
+.communityReport .panel td {
+    font-size: 112%;
+}
+.communityReport .state table {
+    width: 100%;
+}
+.communityReport .employment table, .communityReport .crime table {
+    margin-left: 0.5em;
+    width: 33%;
+}
+.communityReport #Overview .area {
+    padding-bottom: 0.5em;
+    width: 55%;
+}
+.communityReport .panel .column .summaryList {
+    width: 12.5em;
+}
+.communityReport .panel .column .trendList {
+    width: 13em;
+}
+.communityReport .smallChart img {
+    height: 100px;
+}
+.communityReport .smallChart .extraInfo {
+    display: none;
+}
+.schoolReport .mapFilter p {
+    padding: 0 0.5em 0 0;
+}
+}
+@media screen and (min-width: 970px) {
+.msReport-2 {
+}
+.brandTop {
+    width: auto;
+}
+.agentInfo li {
+    max-width: 38em;
+}
+.contactInfo li {
+    max-width: 12em;
+}
+.agentCTA em {
+    font-size: 110%;
+}
+h1 {
+    font-size: 180%;
+}
+.gridContent {
+    padding: 1em 0 1em 1%;
+}
+.listings .thumb, .listings .thumb img {
+    width: 5.25em;
+}
+.listings td span.viewTools {
+    display: block;
+}
+.mapWrap {
+    float: left;
+    margin: 0 0 0 1.5%;
+    width: 50%;
+}
+.IE7 .mapWrap, .IE8 .mapWrap {
+    width: 56%;
+}
+.extraInfo {
+    display: inline;
+    font-weight: normal;
+}
+.mapFilter span {
+    display: inline;
+}
+.mapFilter label, #FilterOptions label {
+    min-width: 9.25em;
+    padding-right: 0.25em;
+}
+.trends {
+    width: 90%;
+}
+.schoolReport .trends .columnWide {
+    width: 58%;
+}
+.panel {
+    margin-left: 1%;
+}
+#slides .next, #slides .prev {
+    height: 60px;
+    top: 60px;
+    width: 40px;
+}
+#slides .next {
+    background-position: -150px -524px;
+    right: -50px;
+    top: 70px;
+}
+#slides .prev {
+    background-position: 0 -524px;
+    left: -40px;
+    top: 70px;
+}
+.communityReport .smallChart img {
+    height: 130px;
+}
+.communityReport .amenities {
+    width: 47%;
+}
+.communityReport .panel table {
+    width: 45%;
+}
+.communityReport .panel th {
+    font-size: 91.66%;
+}
+.communityReport .panel td {
+    font-size: 116.66%;
+}
+.communityReport .panel .column .summaryList {
+    width: 14em;
+}
+.communityReport .employment table, .communityReport .crime table {
+    width: 28%;
+}
+.communityReport .smallChart .extraInfo {
+    display: inline;
+}
+.schoolReport .mapFilter p {
+    float: left;
+    padding: 0.25em 0.5em 0 0;
+}
+}
+@media screen and (min-width: 1424px) {
+.agentInfo li, .contactInfo li {
+    max-width: 38em;
+}
+.listings .thumb, .listings .thumb img {
+    width: 6.25em;
+}
+.schoolReport .trends .columnWide {
+    width: 65%;
+}
+.mapFilter label, #FilterOptions label {
+    min-width: 11em;
+}
+}

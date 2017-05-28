@@ -603,28 +603,6 @@
     <Compile Include="Test_V\Window_Test.aspx.designer.cs">
       <DependentUpon>Window_Test.aspx</DependentUpon>
     </Compile>
-    <Compile Include="T\beat_Angular.aspx.cs">
-      <DependentUpon>beat_Angular.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="T\beat_Angular.aspx.designer.cs">
-      <DependentUpon>beat_Angular.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="T\bindMultipleFunctions.aspx.cs">
-      <DependentUpon>bindMultipleFunctions.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="T\bindMultipleFunctions.aspx.designer.cs">
-      <DependentUpon>bindMultipleFunctions.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="T\Closure.aspx.cs">
-      <DependentUpon>Closure.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="T\Closure.aspx.designer.cs">
-      <DependentUpon>Closure.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="T\Closure.cs" />
     <Compile Include="T\fileDownload.aspx.cs">
       <DependentUpon>fileDownload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -652,34 +630,6 @@
     </Compile>
     <Compile Include="T\JsRegularExpression.aspx.designer.cs">
       <DependentUpon>JsRegularExpression.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="T\Js_Inherit.aspx.cs">
-      <DependentUpon>Js_Inherit.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="T\Js_Inherit.aspx.designer.cs">
-      <DependentUpon>Js_Inherit.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="T\js_test.aspx.cs">
-      <DependentUpon>js_test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="T\js_test.aspx.designer.cs">
-      <DependentUpon>js_test.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="T\js_test1.aspx.cs">
-      <DependentUpon>js_test1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="T\js_test1.aspx.designer.cs">
-      <DependentUpon>js_test1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="T\OopJs.aspx.cs">
-      <DependentUpon>OopJs.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="T\OopJs.aspx.designer.cs">
-      <DependentUpon>OopJs.aspx</DependentUpon>
     </Compile>
     <Compile Include="T\UrlEncoding.aspx.cs">
       <DependentUpon>UrlEncoding.aspx</DependentUpon>

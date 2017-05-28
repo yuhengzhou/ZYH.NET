@@ -22,7 +22,7 @@
             color: #18308e;
             line-height: 150%;
             margin-left: 20px;
-        }
+	}
 
         .feed {
             margin-left: 30px;
@@ -71,7 +71,7 @@
                 16. Compiler error check.<br />
                 17. Directly call static page method (equivalent to call web service).<br />
             </div>
-        </div>
+    </div>
     </form>
 </body>
 </html>

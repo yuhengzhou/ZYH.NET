@@ -1,1 +1,178 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" ?>
+
+<rdf>
+
+  <channel>
+
+    <title>
+
+      <![CDATA[XML Configuration for  steps]]>
+
+    </title>
+
+
+
+    <description>
+
+      <![CDATA[ This Document is used to configure each step of speaking program ]]>
+
+    </description>
+
+    <language>enus</language>
+
+    <items>
+
+      <item id="001">
+
+        <timeconfig email="calmchessplayer@gmail.com">
+
+          <cstep1 id="0"> -1 </cstep1>
+
+          <cstep2 id="1">1</cstep2>
+
+          <cstep3 id="2">10</cstep3>
+
+          <cstep4 id="3">1</cstep4>
+
+          <prep id="4">60</prep>
+
+          <response id="5">45</response>
+
+        </timeconfig>
+
+      </item>
+
+
+
+      <item id="002">
+
+        <contentconfig email="calmchessplayer@gmail.com">
+
+          <stage_1 id="6"> -1 </stage_1>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+
+          <stage_2 id="7"> 3 </stage_2>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+
+          <stage_3 id="8"> 6 </stage_3>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+
+          <stage_4 id="9"> 3 </stage_4>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+
+        </contentconfig>
+
+      </item>
+
+
+
+
+      <item id="003">
+
+
+
+        <step1 email="calmchessplayer@gmail.com">
+
+          <text1 id="10">-1</text1>
+
+          <image1 id="11">-1</image1>
+
+          <audio1 id="12">-1</audio1>
+
+          <vidswf1 id="13">-1</vidswf1>
+
+
+
+        </step1>
+
+      </item>
+
+
+
+
+
+      <item id="004">
+
+
+
+        <step2 email="calmchessplayer@gmail.com">
+
+          <text2 id="14">
+            <![CDATA[For this task, you will be asked to read some instructions and then make an announcement. You will have 1 minute to read the instructions. You will have 60 seconds to prepare and 45 seconds to speak.]]>
+
+          </text2>
+
+          <image2 id="15">-1</image2>
+
+          <audio2 id="16">http://laureate.act360.com/WebFiles/UserUploadMedia/Laureate/leveltests2011/A1/A1SET1SQ1.mp3</audio2>
+
+          <vidswf2 id="17">-1</vidswf2>
+
+
+
+        </step2>
+
+      </item>
+
+      <item id="005">
+
+
+
+        <step3 email="calmchessplayer@gmail.com">
+
+          <text3 id="18">
+            <![CDATA[As you know, we have been interviewing over the last two weeks for the position of Senior Corporate Sales Executive. We have decided to hire Simon Parks for the position. Simon was the outstanding candidate during the recruitment process and he will undoubtedly bring a wealth of knowledge, skill and experience to the company. He will be joining us on Monday morning, so I would like you to make the announcement to the team immediately.
+
+I'll fill you in a bit more on his background. Simon has more than 15 years experience in sales. Like many top salespeople, he started at the bottom selling shoes in a department store before moving from retail into corporate sales. Simon has a proven track record. In his most recent position with a major health insurance provider, Simon was twice awarded Salesperson of the Year, and he had the best sales record in the company for the last three years. In his new role, Simon will be focusing mainly on corporate clients but we hope his experience will also help improve sales practices with our individual customers. Please ensure you give Simon an enthusiastic welcome as we really need to get the team excited about his arrival.]]>
+
+          </text3>
+
+          <image3 id="19">-1</image3>
+
+          <audio3 id="20">-1</audio3>
+
+          <vidswf3 id="21">-1</vidswf3>
+
+
+
+        </step3>
+
+      </item>
+
+      <item id="006">
+
+
+
+        <step4 email="calmchessplayer@gmail.com">
+
+          <text4 id="22">
+            <![CDATA[<B>Question:</B> Announce the hiring of Simon Parks to the sales team. Provide information on his background and skills and encourage the team to give him a warm welcome.
+
+
+As you know, we have been interviewing over the last two weeks for the position of Senior Corporate Sales Executive. We have decided to hire Simon Parks for the position. Simon was the outstanding candidate during the recruitment process and he will undoubtedly bring a wealth of knowledge, skill and experience to the company. He will be joining us on Monday morning, so I would like you to make the announcement to the team immediately.
+
+I'll fill you in a bit more on his background. Simon has more than 15 years experience in sales. Like many top salespeople, he started at the bottom selling shoes in a department store before moving from retail into corporate sales. Simon has a proven track record. In his most recent position with a major health insurance provider, Simon was twice awarded Salesperson of the Year, and he had the best sales record in the company for the last three years. In his new role, Simon will be focusing mainly on corporate clients but we hope his experience will also help improve sales practices with our individual customers. Please ensure you give Simon an enthusiastic welcome as we really need to get the team excited about his arrival.]]>
+
+          </text4>
+
+          <image4 id="23">-1</image4>
+
+          <audio4 id="24">http://laureate.act360.com/WebFiles/UserUploadMedia/Laureate/leveltests2011/A1/A1SET1SQ1.mp3</audio4>
+
+          <vidswf4 id="25">-1</vidswf4>
+
+
+
+        </step4>
+
+      </item>
+
+
+
+
+
+    </items>
+
+  </channel>
+
+</rdf>

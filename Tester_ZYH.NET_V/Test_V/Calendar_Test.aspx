@@ -17,7 +17,7 @@
         <br />
         <br />
         <cc1:Calendar ID="Calendar1" runat="server" 
-            ondatechanged="Calendar1_DateChanged" Theme="Blitzer" Value="2013-03-29" />
+            ondatechanged="Calendar1_DateChanged" Theme="PepperGrinder" Value="2013-03-29" />
     
         <br />
         <br />

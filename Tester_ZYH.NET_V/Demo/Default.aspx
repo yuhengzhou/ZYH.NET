@@ -22,7 +22,7 @@
             color: #18308e;
             line-height: 150%;
             margin-left: 20px;
-        }
+	}
 
         .feed {
             margin-left: 30px;
@@ -35,10 +35,10 @@
             <h2>ZYH.NET_V UI Framework Introduction</h2>
             <div class="txt">
                 <div class="firstRow">
-                    This is a powerful UI framework capable to build large scale single page web application with unique advantages. It provides following capabilities.
+                    This is a powerful UI framework capable to build large scale single page web application with unique OOP UI generation advantages. Enable to build fancy Ajax page quickly. It includes a client side javascript library and a server side C# control library and provides following capabilities.
                 </div>
-                1. Works in all major browsers and mobile device.<br />
-                2. Support large scale single page web application development.<br />
+                1. Works in all major browsers and mobile devices.<br />
+                2. Support large scale single page web application development.plication development.<br />
                 <div class="feed">
                     a. 
                     One or multiple UI objects can be loaded in one AJAX call. Multiple page areas can be rendered / updated in one ajax call. Capable render and update any part(s) of an UI object.<br />
@@ -71,7 +71,7 @@
                 16. Compiler error check.<br />
                 17. Directly call static page method (equivalent to call web service).<br />
             </div>
-        </div>
+    </div>
     </form>
 </body>
 </html>

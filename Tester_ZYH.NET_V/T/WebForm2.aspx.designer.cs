@@ -7,12 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tester_ZYH.NET_V.T
-{
+namespace Tester_ZYH.NET_V.T {
     
     
-    public partial class WebForm1
-    {
+    public partial class WebForm2 {
         
         /// <summary>
         /// form1 control.
@@ -22,5 +20,14 @@ namespace Tester_ZYH.NET_V.T
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
+        /// RadioButtonList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
     }
 }

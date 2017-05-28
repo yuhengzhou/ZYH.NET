@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" ?>
+
+<rdf>
+
+  <channel>
+
+    <title>
+
+      <![CDATA[XML Configuration for  steps]]>
+
+    </title>
+
+
+
+    <description>
+
+      <![CDATA[ This Document is used to configure each step of speaking program ]]>
+
+    </description>
+
+    <language>enus</language>
+
+    <items>
+
+      <item id="001">
+
+        <timeconfig email="calmchessplayer@gmail.com">
+
+          <cstep1 id="0">1</cstep1>
+
+          <cstep2 id="1">70 </cstep2>
+          <!-- 60 to read, 10s to allow for audio to play -->
+
+          <cstep3 id="2">1</cstep3>
+
+          <cstep4 id="3">1</cstep4>
+
+          <prep id="4">30</prep>
+
+          <response id="5">60</response>
+
+        </timeconfig>
+
+      </item>
+
+
+
+      <item id="002">
+
+        <contentconfig email="calmchessplayer@gmail.com">
+
+          <stage_1 id="6"> 3 </stage_1>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+
+          <stage_2 id="7"> 3 </stage_2>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+
+          <stage_3 id="8">4</stage_3>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+
+          <stage_4 id="9"> 3 </stage_4>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+
+        </contentconfig>
+
+      </item>
+
+
+
+
+      <item id="003">
+
+
+
+        <step1 email="calmchessplayer@gmail.com">
+
+          <text1 id="10"><![CDATA[In this question you will read a short passage and then hear a talk on the same topic. You will then answer a question based on information from both the reading passage and the talk. After you hear the question, you will have 30 seconds to prepare your response and 60 seconds to speak.]]></text1>
+
+          <image1 id="11">-1</image1>
+
+          <audio1 id="12">http://localhost:49381/WebFiles/UserUploadMedia/C1ACT1SQ4A.flv</audio1>
+
+          <vidswf1 id="13">-1</vidswf1>
+
+
+
+        </step1>
+
+      </item>
+
+
+
+
+
+      <item id="004">
+
+
+
+        <step2 email="calmchessplayer@gmail.com">
+
+          <text2 id="14"><![CDATA[Advanced space imaging technology is providing astronomers with an unprecedented opportunity to discover new stars and planets. We now know there are many star systems with planets that are similar in size to our own, which naturally raises the possibility that at least some of these planets harbor life. However, in the view of most astronomers, this possibility remains remote, because life as we know it requires water. To date, no planet has been found to have water.]]></text2>
+
+          <image2 id="15">-1</image2>
+
+          <audio2 id="16">http://localhost:49381/WebFiles/UserUploadMedia/C1ACT1SQ4B.flv</audio2>
+          <!-- You have one minute to read the following passage. Take notes on the main points. Begin reading now. -->
+          <vidswf2 id="17">-1</vidswf2>
+
+
+
+        </step2>
+
+      </item>
+
+      <item id="005">
+
+
+
+        <step3 email="calmchessplayer@gmail.com">
+
+          <text3 id="18">-1</text3>
+
+          <image3 id="19">http://laureate.act360.com/WebFiles/UserUploadImg/C1Academic/C1ACT1SQ4I1.jpg</image3>
+
+          <audio3 id="20">http://localhost:49381/WebFiles/UserUploadMedia/C1ACT1SQ4C.flv</audio3>
+
+          <vidswf3 id="21">-1</vidswf3>
+
+
+
+        </step3>
+
+      </item>
+
+      <item id="006">
+
+
+
+        <step4 email="calmchessplayer@gmail.com">
+
+          <text4 id="22"><![CDATA[Explain how the professor's description of technological advances in astronomy supports points raised in the reading.]]></text4>
+
+          <image4 id="23">-1</image4>
+
+          <audio4 id="24">http://localhost:49381/WebFiles/UserUploadMedia/C1ACT1SQ4D.flv</audio4>
+
+          <vidswf4 id="25">-1</vidswf4>
+
+
+
+        </step4>
+
+      </item>
+
+
+
+
+
+    </items>
+
+  </channel>
+
+</rdf>

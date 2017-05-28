@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" ?>
+<rdf>
+  <channel>
+    <title>
+      <![CDATA[XML Configuration for  steps]]>
+    </title>
+    <description>
+      <![CDATA[ This Document is used to configure each step of speaking program ]]>
+    </description>
+    <language>enus</language>
+    <items>
+      <item id="001">
+        <timeconfig email="">
+          <cstep1 id="0"> -1 </cstep1>
+          <cstep2 id="1"> -1 </cstep2>
+          <cstep3 id="2">1</cstep3>
+          <cstep4 id="3">1</cstep4>
+          <prep id="4">7</prep>
+          <response id="5">60</response>
+        </timeconfig>
+      </item>
+      <item id="002">
+        <contentconfig email="">
+          <stage_1 id="6"> -1 </stage_1>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+          <stage_2 id="7"> -1 </stage_2>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+          <stage_3 id="8"> 3 </stage_3>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+          <stage_4 id="9"> 2 </stage_4>
+          <!-- < load video= 0 >///////< load swf= 1 >///////<image=2>///////<audio=3>///////<image+audio=4>///////<audio+swf=5>///////<none=6>-->
+        </contentconfig>
+      </item>
+      <item id="003">
+        <step1 email="">
+          <text1 id="10">-1</text1>
+          <image1 id="11">-1</image1>
+          <audio1 id="12">-1</audio1>
+          <vidswf1 id="13">-1</vidswf1>
+        </step1>
+      </item>
+      <item id="004">
+        <step2 email="">
+          <text2 id="14">-1</text2>
+          <image2 id="15">-1</image2>
+          <audio2 id="16">-1</audio2>
+          <vidswf2 id="17">-1</vidswf2>
+        </step2>
+      </item>
+      <item id="005">
+        <step3 email="">
+          <text3 id="18">
+            <![CDATA[Describe the image on your screen. Give as many details about the image as you can. You will have 30 seconds to prepare your answer. Then you will have 60 seconds to talk about the image.]]>
+          </text3>
+          <image3 id="19">-1</image3>
+          <audio3 id="20">http://localhost:49381/Template_V/Question_Speaking_Grading/1.mp3</audio3>
+          <vidswf3 id="21">-1</vidswf3>
+        </step3>
+      </item>
+      <item id="006">
+        <step4 email="">
+          <text4 id="22">-1</text4>
+          <image4 id="23">http://laureatecloud.act360.com/WebFiles/UserUploadImg/Laureate/SWREV/A1NFTEST3REVSQ1.jpg</image4>
+          <audio4 id="24">-1</audio4>
+          <vidswf4 id="25">-1</vidswf4>
+        </step4>
+      </item>
+    </items>
+  </channel>
+</rdf>

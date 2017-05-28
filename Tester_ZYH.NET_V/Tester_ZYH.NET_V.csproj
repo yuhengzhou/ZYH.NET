@@ -162,15 +162,22 @@
     <Content Include="T\css\screen.css" />
     <Content Include="T\fileDownload.aspx" />
     <Content Include="ProtType\GoogleChart.aspx" />
+    <Content Include="T\Html5_Speaking\4981.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="T\Html5_Speaking\Q3.xml" />
     <Content Include="T\HTMLPage1.htm" />
     <Content Include="T\HtmlPage1.html" />
     <Content Include="T\JavaScript.js" />
     <Content Include="T\JavaScript1.js" />
     <Content Include="T\JavaScript2.js" />
     <Content Include="T\JavaScript3.js" />
+    <Content Include="T\JavaScript4.js" />
+    <Content Include="T\Javascript_test.aspx" />
     <Content Include="T\JquerySlider.aspx" />
     <Content Include="T\JsRegularExpression.aspx" />
     <Content Include="T\css\Theme.css" />
+    <Content Include="T\linq_tst.aspx" />
     <Content Include="T\MSRT_2016Apr26.js" />
     <Content Include="T\OopJs.aspx" />
     <Content Include="T\TextSelected.html" />
@@ -597,6 +604,13 @@
     <Compile Include="ProtType\GoogleChart.aspx.designer.cs">
       <DependentUpon>GoogleChart.aspx</DependentUpon>
     </Compile>
+    <Compile Include="T\Javascript_test.aspx.cs">
+      <DependentUpon>Javascript_test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T\Javascript_test.aspx.designer.cs">
+      <DependentUpon>Javascript_test.aspx</DependentUpon>
+    </Compile>
     <Compile Include="T\JquerySlider.aspx.cs">
       <DependentUpon>JquerySlider.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -610,6 +624,13 @@
     </Compile>
     <Compile Include="T\JsRegularExpression.aspx.designer.cs">
       <DependentUpon>JsRegularExpression.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="T\linq_tst.aspx.cs">
+      <DependentUpon>linq_tst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T\linq_tst.aspx.designer.cs">
+      <DependentUpon>linq_tst.aspx</DependentUpon>
     </Compile>
     <Compile Include="T\OopJs.aspx.cs">
       <DependentUpon>OopJs.aspx</DependentUpon>

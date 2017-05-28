@@ -12,6 +12,14 @@
             width: 429px;
         }
     </style>
+    <script type="text/javascript">
+        var a1;
+        var a2 = 3;
+        var b=a1+a2;
+
+
+        document.writeln(b);
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">

@@ -141,6 +141,8 @@
     <Content Include="Scripts\jquery-3.0.0.min.js" />
     <Content Include="Scripts\jquery-3.0.0.slim.js" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.js" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\require.js" />
     <Content Include="Test_V\ASCX\HistoryTab1.ascx" />
     <Content Include="Test_V\ASCX\HistoryTab2.ascx" />
     <Content Include="Test_V\ASCX\HistoryTab3.ascx" />
@@ -170,6 +172,9 @@
     <Content Include="Test_V\WebForm2.aspx" />
     <Content Include="Test_V\Window_Test.aspx" />
     <Content Include="T\2016-Jun8.js" />
+    <Content Include="T\AMD.aspx" />
+    <Content Include="T\AMD1.js" />
+    <Content Include="T\AMD2.js" />
     <Content Include="T\beat_Angular.aspx" />
     <Content Include="T\bindMultipleFunctions.aspx" />
     <Content Include="T\Closure.aspx" />
@@ -199,6 +204,7 @@
     <Content Include="T\Js_Inherit.aspx" />
     <Content Include="T\js_test.aspx" />
     <Content Include="T\js_test1.aspx" />
+    <Content Include="T\js_test2.aspx" />
     <Content Include="T\MSRT_2016Jun28.js" />
     <Content Include="T\MSRT_2016Apr26.js" />
     <Content Include="T\OopJs.aspx" />
@@ -608,6 +614,13 @@
     <Compile Include="Test_V\Window_Test.aspx.designer.cs">
       <DependentUpon>Window_Test.aspx</DependentUpon>
     </Compile>
+    <Compile Include="T\AMD.aspx.cs">
+      <DependentUpon>AMD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T\AMD.aspx.designer.cs">
+      <DependentUpon>AMD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="T\fileDownload.aspx.cs">
       <DependentUpon>fileDownload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -642,6 +655,13 @@
     </Compile>
     <Compile Include="T\JsRegularExpression.aspx.designer.cs">
       <DependentUpon>JsRegularExpression.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="T\js_test2.aspx.cs">
+      <DependentUpon>js_test2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T\js_test2.aspx.designer.cs">
+      <DependentUpon>js_test2.aspx</DependentUpon>
     </Compile>
     <Compile Include="T\OopJs.aspx.cs">
       <DependentUpon>OopJs.aspx</DependentUpon>

@@ -182,6 +182,7 @@
     <Content Include="T\css\quickSteup.css" />
     <Content Include="T\css\report-base.css" />
     <Content Include="T\css\screen.css" />
+    <Content Include="T\css_test.aspx" />
     <Content Include="T\fileDownload.aspx" />
     <Content Include="ProtType\GoogleChart.aspx" />
     <Content Include="T\Html5_Speaking\4981.xml">
@@ -619,6 +620,13 @@
     </Compile>
     <Compile Include="T\AMD.aspx.designer.cs">
       <DependentUpon>AMD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="T\css_test.aspx.cs">
+      <DependentUpon>css_test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T\css_test.aspx.designer.cs">
+      <DependentUpon>css_test.aspx</DependentUpon>
     </Compile>
     <Compile Include="T\fileDownload.aspx.cs">
       <DependentUpon>fileDownload.aspx</DependentUpon>
